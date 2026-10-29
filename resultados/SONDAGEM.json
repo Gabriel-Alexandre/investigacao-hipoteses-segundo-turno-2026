@@ -1,0 +1,176 @@
+{
+ "secoes_t2": 499248,
+ "secoes_t2_brasil": 497897,
+ "situacao": {
+  "Totalizada": 482644,
+  "Recebida": 16563,
+  "Nao instalada": 41
+ },
+ "H01_encerramento": {
+  "cortes_hora_de_brasilia": {
+   "17h00": {
+    "ate": {
+     "secoes": 556,
+     "lula_pct_nominais": 69.73,
+     "margem_lula": 53270,
+     "comparecimento": 140507,
+     "votos_depois_17h_pelo_log": 0
+    },
+    "depois": {
+     "secoes": 497341,
+     "lula_pct_nominais": 51.76,
+     "margem_lula": 4348264,
+     "comparecimento": 127714124,
+     "votos_depois_17h_pelo_log": 34393
+    }
+   },
+   "17h01": {
+    "ate": {
+     "secoes": 129491,
+     "lula_pct_nominais": 49.11,
+     "margem_lula": -563327,
+     "comparecimento": 32576717,
+     "votos_depois_17h_pelo_log": 358
+    },
+    "depois": {
+     "secoes": 368406,
+     "lula_pct_nominais": 52.69,
+     "margem_lula": 4964861,
+     "comparecimento": 95277914,
+     "votos_depois_17h_pelo_log": 34035
+    }
+   },
+   "17h05": {
+    "ate": {
+     "secoes": 440867,
+     "lula_pct_nominais": 51.17,
+     "margem_lula": 2555377,
+     "comparecimento": 112430367,
+     "votos_depois_17h_pelo_log": 20350
+    },
+    "depois": {
+     "secoes": 57030,
+     "lula_pct_nominais": 56.2,
+     "margem_lula": 1846157,
+     "comparecimento": 15424264,
+     "votos_depois_17h_pelo_log": 14043
+    }
+   },
+   "17h15": {
+    "ate": {
+     "secoes": 488810,
+     "lula_pct_nominais": 51.7,
+     "margem_lula": 4111532,
+     "comparecimento": 125254032,
+     "votos_depois_17h_pelo_log": 28678
+    },
+    "depois": {
+     "secoes": 9087,
+     "lula_pct_nominais": 55.78,
+     "margem_lula": 290002,
+     "comparecimento": 2600599,
+     "votos_depois_17h_pelo_log": 5715
+    }
+   },
+   "17h30": {
+    "ate": {
+     "secoes": 490283,
+     "lula_pct_nominais": 51.72,
+     "margem_lula": 4173551,
+     "comparecimento": 125643961,
+     "votos_depois_17h_pelo_log": 29160
+    },
+    "depois": {
+     "secoes": 7614,
+     "lula_pct_nominais": 55.35,
+     "margem_lula": 227983,
+     "comparecimento": 2210670,
+     "votos_depois_17h_pelo_log": 5233
+    }
+   },
+   "19h00": {
+    "ate": {
+     "secoes": 491561,
+     "lula_pct_nominais": 51.73,
+     "margem_lula": 4216067,
+     "comparecimento": 125998381,
+     "votos_depois_17h_pelo_log": 29838
+    },
+    "depois": {
+     "secoes": 6336,
+     "lula_pct_nominais": 55.18,
+     "margem_lula": 185467,
+     "comparecimento": 1856250,
+     "votos_depois_17h_pelo_log": 4555
+    }
+   }
+  },
+  "votos_depois_17h_pelo_log_brasil": 34393,
+  "votos_depois_17h_pelo_log_com_exterior": 34810,
+  "votos_depois_19h_pelo_log": 13,
+  "secoes_sem_log": 2
+ },
+ "H04_liberacao": {
+  "biometrica": 111838843,
+  "manual_mesario": 8615564,
+  "manual_sem_digital": 7242863,
+  "manuais_depois_17h": 5472
+ },
+ "H02_unanimidade": {
+  "secoes_mais_de_90_lula": 6802,
+  "secoes_mais_de_90_flavio": 368,
+  "secoes_zero_flavio": 106,
+  "votos_lula_nelas": 14860,
+  "zero_flavio_por_uf": {
+   "am": 30,
+   "ma": 20,
+   "pa": 16,
+   "rr": 8,
+   "to": 7,
+   "mt": 5,
+   "ba": 4,
+   "ac": 3,
+   "mg": 2,
+   "ce": 2,
+   "rs": 2,
+   "es": 1,
+   "ms": 1,
+   "pb": 1,
+   "pr": 1,
+   "pi": 1,
+   "pe": 1,
+   "ro": 1
+  },
+  "zero_flavio_casadas_no_1t": 60,
+  "zero_flavio_com_flavio_no_1t": 56,
+  "votos_flavio_no_1t_nessas": 118,
+  "secoes_zero_lula": 4,
+  "2022_t2_zero_bolsonaro": 141,
+  "2022_t2_zero_lula": 2
+ },
+ "H05_ja_votou": {
+  "avisos": 113315,
+  "secoes_com_aviso": 73044
+ },
+ "H06_repetidos": {
+  "pares_que_se_repetem": 41133,
+  "secoes_nesses_pares": 489030,
+  "pares_repetidos_com_os_dois_acima_de_300": 0
+ },
+ "H07_perdeu_voto": {
+  "ufs_onde_flavio_caiu": {
+   "ac": -15092,
+   "am": -1519,
+   "ap": -13604,
+   "ma": -9069,
+   "rr": -11647,
+   "to": -1405
+  },
+  "ufs_onde_lula_caiu": {},
+  "secoes_flavio_caiu": 82155,
+  "secoes_lula_caiu": 9575
+ },
+ "H17_contingencia": {
+  "secoes_com_urna_trocada_no_log": 1996
+ }
+}

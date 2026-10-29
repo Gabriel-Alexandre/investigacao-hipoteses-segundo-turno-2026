@@ -1,0 +1,134 @@
+{
+ "comentarios_e_respostas": 1484,
+ "por_video": {
+  "19": 93,
+  "08": 1019,
+  "16": 372
+ },
+ "so_vistos_pelo_zernio": 78,
+ "sem_tema": 588,
+ "por_tema": {
+  "fraude_generica": {
+   "total": 320,
+   "08": 186,
+   "16": 118,
+   "19": 16
+  },
+  "pedido_analise": {
+   "total": 195,
+   "08": 109,
+   "16": 59,
+   "19": 27
+  },
+  "mesario": {
+   "total": 177,
+   "08": 148,
+   "16": 21,
+   "19": 8
+  },
+  "codigo_software": {
+   "total": 140,
+   "08": 66,
+   "16": 68,
+   "19": 6
+  },
+  "judiciario": {
+   "total": 130,
+   "08": 66,
+   "16": 54,
+   "19": 10
+  },
+  "horario_prorrogacao": {
+   "total": 127,
+   "08": 90,
+   "16": 28,
+   "19": 9
+  },
+  "biometria": {
+   "total": 112,
+   "08": 86,
+   "16": 24,
+   "19": 2
+  },
+  "voto_impresso_auditoria": {
+   "total": 87,
+   "08": 38,
+   "16": 42,
+   "19": 7
+  },
+  "nordeste_regiao": {
+   "total": 56,
+   "08": 39,
+   "16": 13,
+   "19": 4
+  },
+  "cadastro_fantasma": {
+   "total": 50,
+   "08": 39,
+   "16": 10,
+   "19": 1
+  },
+  "boletim_de_urna": {
+   "total": 44,
+   "08": 14,
+   "16": 23,
+   "19": 7
+  },
+  "compra_de_voto": {
+   "total": 43,
+   "08": 32,
+   "16": 9,
+   "19": 2
+  },
+  "curva_apuracao": {
+   "total": 42,
+   "08": 19,
+   "16": 21,
+   "19": 2
+  },
+  "unanimidade": {
+   "total": 41,
+   "08": 15,
+   "16": 15,
+   "19": 11
+  },
+  "abstencao_comparecimento": {
+   "total": 38,
+   "08": 25,
+   "16": 9,
+   "19": 4
+  },
+  "estrangeiro_venezuela": {
+   "total": 24,
+   "08": 8,
+   "16": 16
+  },
+  "votou_e_sumiu": {
+   "total": 20,
+   "08": 15,
+   "16": 3,
+   "19": 2
+  },
+  "pesquisas": {
+   "total": 20,
+   "08": 12,
+   "16": 6,
+   "19": 2
+  },
+  "relatorio_pericial": {
+   "total": 15,
+   "08": 8,
+   "16": 5,
+   "19": 2
+  },
+  "mortos": {
+   "total": 12,
+   "08": 8,
+   "16": 4
+  },
+  "urna_trocada": {
+   "total": 1,
+   "08": 1
+  }
+ }
+}

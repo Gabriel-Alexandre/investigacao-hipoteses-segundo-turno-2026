@@ -1,0 +1,23 @@
+{
+ "origem": "github.com/Gabriel-Alexandre/investigacao-segundo-turno-2026 (dados/derivados/)",
+ "commit_origem": "d706893c2080393a994dd4ecb5a28f3463474240",
+ "copiado_em": "2026-10-29T15:01:01-03:00",
+ "arquivos": {
+  "s2022_t1.parquet": {
+   "bytes": 4564293,
+   "sha256": "e76970d9bd93d7ec6e331f3ff8a724774adcbf4892b6f8fa14f10fa241bc8a18"
+  },
+  "s2022_t2.parquet": {
+   "bytes": 3465900,
+   "sha256": "f7bda6c7237d6e6e37fb40214ff7452c36816f0a409193488c408c6147979990"
+  },
+  "t1_secoes.parquet": {
+   "bytes": 6132430,
+   "sha256": "ee8ba08c8e48975a5b0025f15eb871e731e794f5f066a20e0de65eea6d6af0f8"
+  },
+  "t2_secoes.parquet": {
+   "bytes": 13035932,
+   "sha256": "6da34ba9791e1f06ab12fa5e4b7f62ea882178e2e1600e99a8e7ab3ec2fd80e4"
+  }
+ }
+}

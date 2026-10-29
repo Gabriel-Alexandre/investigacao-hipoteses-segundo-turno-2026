@@ -1,0 +1,15 @@
+# brutos pesados e com dado de pessoa: fora do git
+dados/brutos/t2/
+dados/brutos/t1/
+dados/brutos/*.sqlite*
+dados/brutos/comentarios/
+dados/brutos/relatorio-pericial/*.pdf
+dados/derivados/candidatos.json
+dados/derivados/comentarios_temas.jsonl
+dados/derivados/prints_indice.json
+dados/derivados/prints_lista.json
+dados/chave-local.txt
+tmp/
+__pycache__/
+.pytest_cache/
+dados/brutos/relatorio-pericial/x-chequei-brasil-*/

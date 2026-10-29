@@ -1,0 +1,8 @@
+---
+description: Fundamentos do projeto das hipóteses do público sobre o 2º turno de 2026
+alwaysApply: true
+---
+- Duas visões (legítimo e fraude) com o mesmo rigor; espelho em todo teste; controle pelo mesmo local de votação sempre que der.
+- Régua de cinco vereditos; teto do pior caso; o que fecharia; quem deveria responder.
+- Número só de script, de arquivo com sha256. Cópia de outro projeto vai para dados/copias/ com o hash; nunca escrever no repositório de outro projeto.
+- Sem dado de pessoa no git (comentaristas, mesários, eleitores). Sem "fraude" como conclusão geral, sem julgar intenção, sem recomendação de voto. Português, sem travessão.
