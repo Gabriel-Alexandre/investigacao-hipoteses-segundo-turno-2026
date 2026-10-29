@@ -273,7 +273,26 @@ def g11_vereditos():
     salvar(f, "g11_os_vereditos")
 
 
+def g12_a_noite():
+    import pandas as pd
+    c = pd.read_csv(RAIZ / "resultados/tabelas/h17_curva_nacional.csv", parse_dates=["quando"])
+    h = R["H17"]
+    f = fig("A noite da apuração, versão por versão",
+            f"Total de votos de cada candidato nas {h['versoes_nacionais']} versões nacionais gravadas ao vivo")
+    ax = f.add_axes([0.09, 0.17, 0.85, 0.6])
+    ax.plot(c.quando, c.lula / 1e6, lw=4, color=LULA, label="Lula")
+    ax.plot(c.quando, c.flavio / 1e6, lw=4, color=FLAVIO, label="Flávio")
+    ax.set_ylabel("milhões de votos")
+    ax.xaxis.set_major_formatter(__import__("matplotlib.dates", fromlist=["DateFormatter"]).DateFormatter("%Hh%M"))
+    ax.legend(frameon=False, loc="upper left")
+    quedas = h["vezes_que_o_total_do_flavio_caiu"] + h["vezes_que_o_total_do_lula_caiu"]
+    ax.text(0.98, 0.06, f"vezes que um total caiu de uma versão pra outra: {quedas}", transform=ax.transAxes,
+            ha="right", fontsize=18, color=TEXTO, weight="bold")
+    rodape(f, "TSE, resultados divulgados na noite de 25/10/2026 (cópia com sha256 no projeto)")
+    salvar(f, "g12_a_noite")
+
+
 if __name__ == "__main__":
-    for g in (g01_fuso, g02_17h, g03_unanimidade, g04_benford, g05_repetidos, g06_modelo, g07_centenarios, g08_manual_por_hora, g09_estados, g10_renda, g11_vereditos):
+    for g in (g01_fuso, g02_17h, g03_unanimidade, g04_benford, g05_repetidos, g06_modelo, g07_centenarios, g08_manual_por_hora, g09_estados, g10_renda, g11_vereditos, g12_a_noite):
         g()
     print("ok", len(list(OUT.glob("*.png"))))

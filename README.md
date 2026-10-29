@@ -19,7 +19,7 @@ Das 21 hipóteses testadas, 17 não mostraram a marca que a fraude deixaria no d
 | [`docs/COMENTARIOS.md`](docs/COMENTARIOS.md) | como os comentários foram lidos e quanto cada tema pesa |
 | [`docs/PEDIDOS_LAI.md`](docs/PEDIDOS_LAI.md) | os pedidos que fechariam o que o dado público não fecha (redigidos, não protocolados) |
 | [`docs/pesquisa/`](docs/pesquisa/) | a origem do relatório pericial e as teorias da internet, com fonte |
-| [`resultados/RESUMO.json`](resultados/RESUMO.json) e [`resultados/figuras/`](resultados/figuras/) | todos os números e os 11 gráficos |
+| [`resultados/RESUMO.json`](resultados/RESUMO.json) e [`resultados/figuras/`](resultados/figuras/) | todos os números e os 12 gráficos |
 | [`docs/REPLICAR.md`](docs/REPLICAR.md) | como refazer tudo, comando por comando |
 
 Todo número sai de script (`ferramentas/`), de arquivo com sha256. Análise feita pelo Claude, a pedido do autor do canal.

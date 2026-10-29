@@ -20,3 +20,11 @@
 - **O que mudou:** a tabela inteira está em `docs/REVISAO_ADVERSARIAL.md`. O principal: o fuso do oeste do Amazonas (556 seções relidas), a separação entre o fato e o veredito, H14, H15, H18 e H23 com espelho e régua novos, H21 como não testado, os tetos refeitos e a soma do pior caso de todos os caminhos ainda abertos.
 - **Validação:** 16 de 16.
 - **Contagem final:** 7 desmentidas, 10 não sustentadas, 4 compatíveis com as duas, 2 não testadas.
+
+## Validação final · 29/10/2026, noite
+
+- **Pedido:** uma última validação de tudo, antes de ele ajustar o roteiro.
+- **Pipeline do zero:** da derivação ao relatório, com o mesmo `RESUMO.json`, as mesmas tabelas e os mesmos 11 gráficos, byte a byte; validação 16 de 16; testes e linguagem ok.
+- **Acrescentado:** `resultados/tabelas/h17_curva_nacional.csv` e o gráfico `g12_a_noite.png` (as 346 versões nacionais da noite; nenhum total caiu), sem mudar nenhum número do `RESUMO.json`.
+- **Comentários depois da coleta:** 56 novos nos 3 vídeos, nenhuma hipótese nova (`docs/COMENTARIOS.md`, último bloco).
+- **Correções de texto:** a amostra de logs tem 13.221 seções (`REPLICAR`, `DADOS_LOCAIS`, `FONTES_DE_DADOS`); 79 prints de comentário, não 80.

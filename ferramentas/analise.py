@@ -484,6 +484,7 @@ def h17(out):
     v["cai_flavio"] = v.groupby("uf").flavio.diff() < 0
     v["cai_lula"] = v.groupby("uf").lula.diff() < 0
     nac = v[v.uf == "br"].reset_index(drop=True)
+    nac[["quando", "pst", "lula", "flavio"]].to_csv(T / "h17_curva_nacional.csv", index=False)
     ult = v.groupby("uf").tail(1).set_index("uf")
     soma_ufs = ult.drop(index="br")[["lula", "flavio"]].sum()
     incompletas = sorted(ult[(ult.index != "br") & (ult.pst < 100)].index.tolist())

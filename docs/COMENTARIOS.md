@@ -56,4 +56,8 @@ A contagem por palavra-chave subestima temas escritos de muitos jeitos (os morto
 
 ## Os prints
 
-Os prints dos comentários usados no vídeo (80, separados por hipótese, com a foto de perfil borrada quando é foto) moram no repositório de documentação do canal, na pasta do vídeo 20, gerados por `ferramentas/capturar_comentarios.py`. Aqui não entra nome nem imagem de ninguém.
+Os prints dos comentários usados no vídeo (79, separados por hipótese, com a foto de perfil borrada quando é foto) moram no repositório de documentação do canal, na pasta do vídeo 20, gerados por `ferramentas/capturar_comentarios.py`. Aqui não entra nome nem imagem de ninguém.
+
+## Depois da coleta (29/out, noite)
+
+Na validação final, os 3 vídeos foram lidos de novo: chegaram 56 comentários e respostas novos (23 no vídeo dos mesários, 30 no das urnas, 3 no das pesquisas). Nenhum traz hipótese que não esteja nas 23. Eles caem na sala-cofre e na apuração (H17), no programa que troca o voto (H18), nos mesários (H15 e H16), no boletim de papel (H11) e nas 106 seções (H07). Uma objeção de método aparece: comparar eleições que usam o mesmo sistema não ajudaria. A comparação com 2018 e 2022 diz se o padrão é novo, e não se o sistema é íntegro; isso fica no critério dos arquivos, que pesa menos justamente por isso, e o que fecha é o teste de integridade maior e a lista de quem votou (`docs/PEDIDOS_LAI.md`).
