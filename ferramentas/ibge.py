@@ -25,6 +25,7 @@ GRUPOS = {
     "12_a_15": [6569, 6570, 6571, 6572],          # 12 a 15 anos (para a população de 16 anos ou mais em 2022)
     "86_a_95": list(range(6639, 6649)),          # 86 a 95 anos
     "96_ou_mais": [6649, 6650, 6651, 6652, 6653],  # 96, 97, 98, 99, 100 ou mais
+    "100_ou_mais": [6653],
 }
 
 
@@ -79,10 +80,10 @@ def main():
     df["pop_12_ou_mais"] = df.total - df.menos_de_12
     df["pop_86_ou_mais"] = df["86_a_95"] + df["96_ou_mais"]
     df["pop_16_ou_mais"] = df.pop_12_ou_mais - df["12_a_15"]
-    df = df.rename(columns={"total": "pop_total", "96_ou_mais": "pop_96_ou_mais"})[
-        ["cod_ibge", "municipio", "pop_total", "pop_16_ou_mais", "pop_12_ou_mais", "pop_86_ou_mais", "pop_96_ou_mais"]]
+    df = df.rename(columns={"total": "pop_total", "96_ou_mais": "pop_96_ou_mais", "100_ou_mais": "pop_100_ou_mais"})[
+        ["cod_ibge", "municipio", "pop_total", "pop_16_ou_mais", "pop_12_ou_mais", "pop_86_ou_mais", "pop_96_ou_mais", "pop_100_ou_mais"]]
     df.to_csv(RAIZ / "dados/derivados/ibge_municipio.csv", index=False)
-    print(df[["pop_total", "pop_16_ou_mais", "pop_12_ou_mais", "pop_86_ou_mais", "pop_96_ou_mais"]].sum().to_dict())
+    print(df[["pop_total", "pop_16_ou_mais", "pop_12_ou_mais", "pop_86_ou_mais", "pop_96_ou_mais", "pop_100_ou_mais"]].sum().to_dict())
 
 
 if __name__ == "__main__":

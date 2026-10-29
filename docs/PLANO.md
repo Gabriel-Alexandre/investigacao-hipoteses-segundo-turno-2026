@@ -1,5 +1,7 @@
 # Plano: as hipóteses do público sobre o 2º turno de 2026 (vídeo longo 20)
 
+> **Documento da rodada 0 (o plano antes dos testes).** Os vereditos, os números finais e o que mudou com a revisão estão no `RELATORIO.md` e no `docs/REVISAO_ADVERSARIAL.md`; onde este arquivo divergir deles, eles ganham.
+
 **Rodada 0, 29/out/2026.** Terceira parte da série **Investigação Aberta** sobre o 2º turno. A parte das pesquisas e do resultado é o projeto `pesquisas-e-resultado-segundo-turno-2026` (vídeo 19, publicado primeiro); a parte das urnas é `investigacao-segundo-turno-2026` (vídeo 16). Esta parte pega **o que o público levantou e as duas partes não testaram**, uma hipótese por vez, cada uma pelas duas visões.
 
 ## 1. O pedido, nas palavras dele
@@ -11,7 +13,7 @@
 
 ## 2. O método (o mesmo dos vídeos 16 e 17)
 
-1. **Duas visões com o mesmo rigor**, cada uma dada como verdadeira por vez: o resultado foi legítimo; houve fraude. Para cada hipótese, o que cada visão espera ver no dado (`docs/HIPOTESES.md`).
+1. **Duas visões com o mesmo rigor**, cada uma dada como verdadeira por vez: a do resultado legítimo e a da fraude. Para cada hipótese, o que cada visão espera ver no dado (`docs/HIPOTESES.md`).
 2. **Três papéis de IA**, como no vídeo 17: uma defende o resultado legítimo, uma defende a fraude, e uma terceira confere as duas (método, conta e linguagem). As duas defesas ficam publicadas (`docs/REVISAO_ADVERSARIAL.md`).
 3. **Régua de cinco vereditos por hipótese** (skill `planejamento-investigativo`): confirmado, indício forte, compatível com as duas, não sustentado, desmentido. Toda hipótese fecha com o **teto do pior caso** contra os 4.430.191 votos de diferença, **o que fecharia** de vez (documento e órgão) e **quem deveria responder**.
 4. **Os critérios e pesos do vídeo 16** (emenda 4, decisão dele): comportamento dos votos pesa mais, raridade em seguida, arquivos das urnas menos (bater é o esperado nas duas visões). Cada hipótese é encaixada num dos três.

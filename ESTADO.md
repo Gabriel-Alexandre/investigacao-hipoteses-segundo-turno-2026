@@ -1,26 +1,30 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 29/10/2026.
+**Atualizado em:** 29/10/2026, rodada 2.
 
 ## Em uma frase
 
-Rodada 0 feita: comentários dos vídeos 8, 16 e 19 lidos (1.484), relatório pericial rastreado (sem autor; circula como 7 imagens), teorias da internet levantadas com fonte, 23 hipóteses escritas com teste e controle, e a sondagem com as tabelas por seção copiadas do projeto do vídeo 16. **Nenhum teste com regra rodou ainda.**
+Rodadas 0 a 2 feitas: o levantamento (1.484 comentários, o relatório pericial, as teorias da internet), a coleta (TSE, IBGE, logs de uma amostra de 13.221 seções), um teste por hipótese, a validação por outro caminho (16 de 16), a revisão por três leitores e o relatório com 11 gráficos. Contagem: 7 desmentidas, 10 não sustentadas, 4 compatíveis com as duas visões, 2 não testadas.
 
-## O que falta, na ordem
+## O que fica para uma próxima rodada (se o autor pedir)
 
-1. A decisão do autor: rodadas ou pré-registro (`docs/PLANO.md` §3) e quais hipóteses entram no vídeo (§6).
-2. Coleta: o log, o BU e o RDV de cada seção do 2º turno (de novo, ~85 GB), o log do 1º turno, o BWeb (o arquivo usado pelo relatório), local de votação, eleitorado e comparecimento por idade, IBGE, Anatel, Bolsa Família, a curva da noite.
-3. Reconciliar as tabelas copiadas com o total proclamado (faltam 445 votos do Lula e 353 do Flávio nas tabelas).
-4. Um script por hipótese, validação independente, revisão adversarial, relatório e gráficos.
+| O quê | Para |
+|---|---|
+| Verificar a assinatura digital de cada boletim | H11 e H17 |
+| O pagamento do Bolsa Família por município (Portal da Transparência) | H21 |
+| A cobertura de celular e 5G por município (Anatel) | H22 |
+| O comparecimento por idade do 2º turno, quando o TSE publicar | H13 |
+| Os logs de todas as seções (hoje é uma amostra) | H15, H16 |
+| Protocolar os pedidos por LAI (`docs/PEDIDOS_LAI.md`) | H03, H10, H13, H15, H16 |
 
 ## Onde está cada coisa
 
 | Peça | Onde |
 |---|---|
-| Hipóteses | `docs/HIPOTESES.md` |
-| Plano | `docs/PLANO.md` |
+| Resultado | `RESUMO_SIMPLES.md`, `RELATORIO.md`, `docs/LEITURA_DA_IA.md` |
+| Revisão | `docs/REVISAO_ADVERSARIAL.md` e `docs/revisao/` |
+| Hipóteses e plano (rodada 0) | `docs/HIPOTESES.md`, `docs/PLANO.md` |
 | Rodadas | `docs/RODADAS.md` |
+| Números e gráficos | `resultados/RESUMO.json`, `resultados/VALIDACAO.json`, `resultados/figuras/` |
 | Pesquisa na internet | `docs/pesquisa/` |
-| Números da sondagem | `resultados/SONDAGEM.json`, `resultados/COMENTARIOS_TEMAS.json` |
-| Cópias de outros projetos | `dados/copias/`, hash em `dados/MANIFESTO_COPIAS.json` |
-| O relatório pericial (as imagens) | `dados/brutos/relatorio-pericial/` |
+| Fontes, replicação, dados locais | `docs/FONTES_DE_DADOS.md`, `docs/REPLICAR.md`, `docs/DADOS_LOCAIS.md` |

@@ -85,10 +85,17 @@
    "passou": true
   },
   {
-   "checagem": "votos depois das 17h nas 12 mil seções sorteadas (log lido de novo × tabela do vídeo 16)",
+   "checagem": "votos depois das 17h nas seções sorteadas fora do oeste do AM (log lido de novo × tabela do vídeo 16)",
    "obtido": 804,
    "esperado": 804,
    "fonte_do_esperado": "tabela do vídeo 16",
+   "passou": true
+  },
+  {
+   "checagem": "votos depois das 17h no oeste do AM (fuso tirado do próprio log)",
+   "obtido": 31,
+   "esperado": 31,
+   "fonte_do_esperado": "RESUMO.json (fuso pela abertura no boletim)",
    "passou": true
   },
   {
@@ -106,6 +113,6 @@
    "passou": true
   }
  ],
- "passaram": 15,
- "total": 15
+ "passaram": 16,
+ "total": 16
 }

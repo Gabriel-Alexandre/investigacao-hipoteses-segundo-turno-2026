@@ -71,7 +71,7 @@ def g02_17h():
     h = R["H02"]
     f = fig("Quantos votos vieram depois das 17h", "Contados no log de cada urna. O relatório chamou de prorrogação o voto do dia inteiro")
     ax = f.add_axes([0.08, 0.17, 0.86, 0.6])
-    vals = [h["comparecimento_do_dia_inteiro_nelas"], h["votos_depois_17h_brasil_log"], 4430191]
+    vals = [h["comparecimento_do_dia_inteiro_nelas"], h["votos_depois_17h_brasil_log"] + R["H02_oeste_do_amazonas"]["votos_depois_17h_brasilia"], 4430191]
     rot = ["\"mais de 2,5 milhões\" do relatório:\no dia inteiro das urnas que fecharam tarde", "votos com hora depois das 17h\nno Brasil inteiro", "diferença entre\nLula e Flávio"]
     cores = [BASE, LULA, "#333333"]
     ax.bar(range(3), vals, color=cores, width=0.6)
@@ -93,13 +93,14 @@ def g03_unanimidade():
     dr = [h4["2018_acima_90_bolsonaro"], h4["2022_acima_90_bolsonaro"], h4["acima_90_flavio"]]
     x = range(3)
     ax.bar([i - 0.2 for i in x], pt, width=0.4, color=LULA, label="candidato do PT")
-    ax.bar([i + 0.2 for i in x], dr, width=0.4, color=FLAVIO, label="candidato do PL")
+    ax.bar([i + 0.2 for i in x], dr, width=0.4, color=FLAVIO, label="candidato da direita (PSL em 2018, PL depois)")
     for i in x:
         ax.text(i - 0.2, pt[i] * 1.02, n(pt[i]), ha="center", fontsize=16)
         ax.text(i + 0.2, dr[i] * 1.02, n(dr[i]), ha="center", fontsize=16)
     ax.set_xticks(list(x), anos)
     ax.set_title("mais de 90% dos votos", fontsize=20, color=BASE)
-    ax.legend(frameon=False, fontsize=16)
+    ax.legend(frameon=False, fontsize=13, loc="upper right")
+    ax.set_ylim(0, max(pt) * 1.35)
     ax.set_yticks([])
     ax2 = f.add_axes([0.56, 0.17, 0.4, 0.58])
     z = [h7["2018_secoes_zero_bolsonaro"], h7["2022_secoes_zero_bolsonaro"], h7["secoes"]]
@@ -107,7 +108,8 @@ def g03_unanimidade():
     for i in x:
         ax2.text(i, z[i] * 1.02, n(z[i]), ha="center", fontsize=20, weight="bold")
     ax2.set_xticks(list(x), anos)
-    ax2.set_title("zero voto para o candidato do PL", fontsize=20, color=BASE)
+    ax2.set_title("zero voto para o candidato da direita", fontsize=20, color=BASE)
+    ax2.set_ylim(0, max(z) * 1.18)
     ax2.set_yticks([])
     rodape(f, "TSE, votação por seção do 2º turno de 2018, 2022 e 2026")
     salvar(f, "g03_unanimidade_no_tempo")
@@ -140,7 +142,7 @@ def g05_repetidos():
     ax.set_xticks(range(3), ["2026, o que aconteceu", "2026, o que o acaso daria\n(média de 20 sorteios)", "2022, o que aconteceu"])
     ax.set_ylim(0, max(vals) * 1.15)
     ax.set_yticks([])
-    rodape(f, "TSE, boletim de urna de cada seção; sorteio pelo voto de cada seção no 1º turno")
+    rodape(f, "TSE, boletim de cada seção; sorteio pelo 1º turno de cada seção")
     salvar(f, "g05_placares_repetidos")
 
 
@@ -162,10 +164,10 @@ def g06_modelo():
 
 def g07_centenarios():
     h = R["H13"]
-    c = h["comparecimento_100_ou_mais"]
-    f = fig("Há mortos no cadastro, mas eles quase não votam", "Eleitores com 100 anos ou mais e quem pode ter essa idade")
+    f = fig("Registros de mortos no cadastro quase não votam", "Eleitores com 100 anos ou mais e quem pode ter essa idade")
     ax = f.add_axes([0.07, 0.17, 0.44, 0.58])
     vals = [h["eleitores_100_ou_mais_2026"], h["populacao_96_ou_mais_censo_2022"]]
+    c = h["comparecimento_por_idade"]["100 ou mais"]
     ax.bar([0, 1], vals, color=[BASE, "#333333"], width=0.55)
     for i, v in enumerate(vals):
         ax.text(i, v * 1.02, n(v), ha="center", fontsize=24, weight="bold")
@@ -193,6 +195,7 @@ def g08_manual_por_hora():
         hs = [k for k in sorted(h[t]) if 8 <= int(k) <= 16]
         ax.plot([int(k) for k in hs], [h[t][k] for k in hs], marker="o", lw=4, color=cor, label=nome)
     ax.set_ylim(0, 20)
+    ax.set_yticks(range(0, 21, 5), [f"{v}%" for v in range(0, 21, 5)])
     ax.set_xticks(range(8, 17), [f"{k}h" for k in range(8, 17)])
     ax.set_ylabel("% dos votos")
     ax.legend(frameon=False)
@@ -222,17 +225,27 @@ def g09_estados():
 
 def g10_renda():
     q = R["H21"]["ganho_lula_pontos_por_quintil_de_renda"]
-    f = fig("O Lula cresceu mais onde a renda é maior", "Ganho do Lula do 1º para o 2º turno, por faixa de renda do município")
-    ax = f.add_axes([0.08, 0.17, 0.86, 0.6])
+    f = fig("A renda não decide a pergunta do benefício", "Por faixa de renda do município: o ganho em pontos e a parte do saldo que foi para o Lula")
+    s_ = R["H21"]["parte_do_saldo_que_foi_para_o_lula_pct_por_quintil"]
+    ax2 = f.add_axes([0.56, 0.17, 0.4, 0.58])
+    ax2.bar(range(5), [s_[k] for k in q], color="#9B3A2A", width=0.6)
+    for i, k in enumerate(q):
+        ax2.text(i, s_[k] + 2, f"{str(s_[k]).replace('.', ',')}%", ha="center", fontsize=18, weight="bold")
+    ax2.set_xticks(range(5), ["20% mais\npobres", "2º", "3º", "4º", "20% mais\nricos"], fontsize=16)
+    ax2.set_yticks([])
+    ax2.set_ylim(0, 125)
+    ax2.set_title("parte do saldo para o Lula", fontsize=20, color=BASE)
+    ax = f.add_axes([0.07, 0.17, 0.42, 0.58])
+    ax.set_title("ganho em pontos", fontsize=20, color=BASE)
     ks = list(q)
     ax.bar(range(5), [q[k] for k in ks], color=LULA, width=0.6)
     for i, k in enumerate(ks):
-        ax.text(i, q[k] + 0.15, f"{str(q[k]).replace('.', ',')} pontos", ha="center", fontsize=21, weight="bold")
-    ax.set_xticks(range(5), ["20% mais\npobres", "2º", "3º", "4º", "20% mais\nricos"])
+        ax.text(i, q[k] + 0.15, f"{str(q[k]).replace('.', ',')}", ha="center", fontsize=18, weight="bold")
+    ax.set_xticks(range(5), ["20% mais\npobres", "2º", "3º", "4º", "20% mais\nricos"], fontsize=16)
     ax.set_ylim(0, max(q.values()) * 1.25)
     ax.set_yticks([])
     rodape(f, "TSE, resultado por município; IBGE, Censo 2022 (renda domiciliar por pessoa)")
-    salvar(f, "g10_ganho_por_renda")
+    salvar(f, "g10_renda_e_saldo")
 
 
 CURTO = {"H01": "Flávio venceu até as 17h", "H02": "2,5 milhões depois do horário", "H03": "8,6 milhões sem biometria", "H04": "6.899 seções acima de 90%",
@@ -246,11 +259,11 @@ CURTO = {"H01": "Flávio venceu até as 17h", "H02": "2,5 milhões depois do hor
 def g11_vereditos():
     import re
     texto = (RAIZ / "RELATORIO.md").read_text(encoding="utf-8")
-    linhas = re.findall(r"^\| (H\d\d) \| (.+?) \| (\w+) \| \*\*(.+?)\*\* \|", texto, re.M)
+    linhas = [(a, b, d) for a, b, _, d in re.findall(r"^\| (H\d\d) \| (.+?) \| (.+?) \| \*\*(.+?)\*\* \|", texto, re.M)]
     cores = {"Desmentido": "#2E7D32", "Não sustentado": "#7CB342", "Compatível com as duas": "#F9A825", "Não testado nesta rodada": "#9E9E9E"}
     f = plt.figure(figsize=(16, 9), dpi=120, facecolor=FUNDO)
     f.text(0.05, 0.95, "As 23 hipóteses, uma a uma", fontsize=32, weight="bold", va="top")
-    for i, (h, t, _, v) in enumerate(linhas):
+    for i, (h, t, v) in enumerate(linhas):
         col, lin = i // 12, i % 12
         x, y = 0.04 + col * 0.49, 0.84 - lin * 0.064
         curto = CURTO.get(h, t)

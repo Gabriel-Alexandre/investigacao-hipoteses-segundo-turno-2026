@@ -9,6 +9,8 @@ A amostra (semente 2026, gravada em dados/derivados/amostra_secoes.csv):
   zero      as 106 seções sem voto do Flávio (H07)
   conting   300 seções sorteadas entre as que tiveram urna de contingência no log (H10)
   javotou   as 300 seções com mais avisos "eleitor já votou" (H15)
+  am_oeste  as 556 seções do oeste do Amazonas, 2 horas atrás de Brasília (abriram às 6h no relógio delas): o projeto
+            do vídeo 16 contou os votos delas depois das 17h com 1 hora de fuso, e esta coleta reconta (rodada 2)
 O coletor (hipoteses/coleta.py) é o do vídeo 16, copiado com a origem anotada; um coletor só, teto adaptativo.
 
 Uso: python ferramentas/amostra_logs.py [--teto 60]
@@ -37,7 +39,8 @@ def montar_amostra():
     partes = [br.sample(12000, random_state=2026)[k].assign(grupo="sorteio"),
               br[(br.bu_flavio == 0) & (br.bu_lula > 0)][k].assign(grupo="zero"),
               br[br.log_contingencia.fillna(0).astype(int) > 0].sample(300, random_state=2026)[k].assign(grupo="conting"),
-              br.sort_values("log_ja_votou", ascending=False).head(300)[k].assign(grupo="javotou")]
+              br.sort_values("log_ja_votou", ascending=False).head(300)[k].assign(grupo="javotou"),
+              br[(br.uf == "am") & (pd.to_datetime(br.abertura, errors="coerce").dt.hour == 6)][k].assign(grupo="am_oeste")]
     a = pd.concat(partes).groupby(k, as_index=False).agg(grupo=("grupo", lambda s: "+".join(sorted(set(s)))))
     a.to_csv(RAIZ / "dados/derivados/amostra_secoes.csv", index=False)
     return a

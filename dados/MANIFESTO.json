@@ -92,5 +92,11 @@
   "last_modified_servidor": "Mon, 26 Oct 2026 17:42:32 GMT",
   "baixado_em": "2026-10-29T16:32:50-03:00",
   "sha256": "c928321f63f2d095706fca73d4607c048d2ada23bda6876455d6911aaf1bc9c1"
+ },
+ "ibge_100_ou_mais": {
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5BN3%5B<uf>%5D%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6653%5D",
+  "arquivo": "dados/brutos/ibge/censo2022_9514_100_ou_mais.json",
+  "bytes": 751883,
+  "sha256": "2228a1ec802494956fabbf6d77d6a905aea53b9410a0f401c342de8ac6676bb4"
  }
 }

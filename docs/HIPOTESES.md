@@ -1,5 +1,7 @@
 # As hipóteses do público sobre o 2º turno de 2026
 
+> **Documento da rodada 0 (o plano antes dos testes).** Os vereditos, os números finais e o que mudou com a revisão estão no `RELATORIO.md` e no `docs/REVISAO_ADVERSARIAL.md`; onde este arquivo divergir deles, eles ganham.
+
 **Rodada 0, 29/out/2026.** De onde vieram: (1) os 1.484 comentários e respostas dos vídeos 8 (mesários), 16 (as urnas do 2º turno) e 19 (as pesquisas e o resultado), lidos um a um depois de uma primeira passada por palavra-chave (`ferramentas/temas_comentarios.py`, contagem em `resultados/COMENTARIOS_TEMAS.json`); (2) o "Relatório Pericial Independente" divulgado em 28/10 (`docs/pesquisa/RELATORIO_PERICIAL_ORIGEM_E_ALEGACOES.md`); (3) o que circula na internet e na imprensa (`docs/pesquisa/TEORIAS_NA_INTERNET.md`). A sondagem (o que o dado por seção já mostra, sem regra e sem veredito) está em `resultados/SONDAGEM.json`, gerado por `ferramentas/sondagem.py`.
 
 **Como ler cada hipótese.** A alegação vem na versão mais forte que ela admite. Para cada uma: o que a visão do **resultado legítimo** espera ver no dado, o que a visão da **fraude** espera ver, o teste que separa as duas, o controle e o espelho (o mesmo teste para o outro lado), o **teto do pior caso** (o máximo que ela poderia ter movido contra a diferença de 4.430.191 votos) e o que fecharia de vez. Nenhum número da sondagem é veredito; o veredito sai na rodada de execução, com as regras do `docs/PLANO.md`.

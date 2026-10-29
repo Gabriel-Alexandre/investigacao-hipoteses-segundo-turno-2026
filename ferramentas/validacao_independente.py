@@ -48,10 +48,13 @@ def contar_17h_nos_logs():
         z = zipfile.ZipFile(io.BytesIO(corpo))
         txt = z.read([n for n in z.namelist() if n.endswith(".dat")][0]).decode("latin-1")
         n = 0
-        for ln in txt.splitlines():
-            if ln.startswith("25/10/2026") and "O voto do eleitor foi computado" in ln:
-                h = int(ln[11:13]) + FUSO.get(uf, 0)
-                if h >= 17:
+        linhas = [ln for ln in txt.splitlines() if ln.startswith("25/10/2026")]
+        # o fuso sai do próprio log: a votação abre às 8h de Brasília, então a hora local do 1º voto diz quantas horas atrás
+        votos = [int(ln[11:13]) for ln in linhas if "O voto do eleitor foi computado" in ln]
+        off = 8 - min(votos) if votos and min(votos) in (6, 7) else 0
+        for ln in linhas:
+            if "O voto do eleitor foi computado" in ln:
+                if int(ln[11:13]) + off >= 17:
                     n += 1
         out[(uf, mun, zona, secao)] = n
     return out
@@ -92,12 +95,15 @@ def main():
     # logs: contagem independente de votos depois das 17h, nas seções sorteadas, contra a tabela do vídeo 16
     n17 = contar_17h_nos_logs()
     amostra = pd.read_csv(RAIZ / "dados/derivados/amostra_secoes.csv", dtype=str)
-    sorteio = amostra[amostra.grupo.str.contains("sorteio")]
+    sorteio = amostra[amostra.grupo.str.contains("sorteio") & ~amostra.grupo.str.contains("am_oeste")]
+    oeste = amostra[amostra.grupo.str.contains("am_oeste")]
     tab = pd.read_parquet(RAIZ / "dados/copias/t2_secoes.parquet")
     tab = tab.merge(sorteio[["uf", "municipio", "zona", "secao"]], on=["uf", "municipio", "zona", "secao"])
     soma_tab = int(tab.log_votos_depois_17h.fillna(0).sum())
     soma_ind = int(sum(n17.get(tuple(x), 0) for x in sorteio[["uf", "municipio", "zona", "secao"]].itertuples(index=False)))
-    conferir("votos depois das 17h nas 12 mil seções sorteadas (log lido de novo × tabela do vídeo 16)", soma_ind, soma_tab, "tabela do vídeo 16")
+    conferir("votos depois das 17h nas seções sorteadas fora do oeste do AM (log lido de novo × tabela do vídeo 16)", soma_ind, soma_tab, "tabela do vídeo 16")
+    soma_oeste = int(sum(n17.get(tuple(x), 0) for x in oeste[["uf", "municipio", "zona", "secao"]].itertuples(index=False)))
+    conferir("votos depois das 17h no oeste do AM (fuso tirado do próprio log)", soma_oeste, r["H02_oeste_do_amazonas"]["votos_depois_17h_brasilia"], "RESUMO.json (fuso pela abertura no boletim)")
 
     # eleitorado e Censo
     z = zipfile.ZipFile(B / "tse/perfil_eleitorado_2026.zip")
