@@ -1,0 +1,779 @@
+{
+ "reconciliacao": {
+  "detalhe_tse_nominais_2t": 124082273,
+  "detalhe_tse_comparecimento_2t": 128236074,
+  "tabelas_por_secao_nominais_2t": 124081475,
+  "tabelas_por_secao_comparecimento_2t": 128235243,
+  "secoes_com_boletim_fora_da_urna": 86,
+  "comparecimento_delas": 4660,
+  "nominais_delas": 4508
+ },
+ "secoes_brasil_instaladas": 497897,
+ "lula_tabelas": 64056078,
+ "flavio_tabelas": 59654544,
+ "lula_com_exterior": 64255787,
+ "flavio_com_exterior": 59825688,
+ "H01": {
+  "reproducao_do_relatorio": {
+   "ate_17h00": {
+    "secoes": 150771,
+    "flavio_pct": 52.39,
+    "frente_flavio": 1747639
+   },
+   "depois": {
+    "secoes": 348436,
+    "frente_lula": 6177738
+   },
+   "relatorio_diz": {
+    "flavio_pct": 52.39,
+    "frente_flavio": "quase 1,8 milhão",
+    "frente_lula_depois": "mais de 6,1 milhões",
+    "secoes_depois": 348398
+   },
+   "secoes_dos_estados_com_fuso_no_grupo_ate_17h": 32026,
+   "secoes_desses_estados": 32037,
+   "flavio_pct_nessas": 59.72,
+   "frente_flavio_nessas": 1443513,
+   "votos_com_hora_depois_17h_no_grupo_depois": 31357
+  },
+  "cortes": {
+   "ate_17h00min59": {
+    "ate": {
+     "secoes": 126058,
+     "flavio_pct": 50.92,
+     "margem_lula": -564877,
+     "comparecimento": 31709482,
+     "votos_depois_17h_log": 328
+    },
+    "depois": {
+     "secoes": 371839,
+     "flavio_pct": 47.33,
+     "margem_lula": 4966411,
+     "comparecimento": 96145149,
+     "votos_depois_17h_log": 34065
+    }
+   },
+   "ate_17h05": {
+    "ate": {
+     "secoes": 440509,
+     "flavio_pct": 48.83,
+     "margem_lula": 2543419,
+     "comparecimento": 112337937,
+     "votos_depois_17h_log": 20306
+    },
+    "depois": {
+     "secoes": 57388,
+     "flavio_pct": 43.8,
+     "margem_lula": 1858115,
+     "comparecimento": 15516694,
+     "votos_depois_17h_log": 14087
+    }
+   },
+   "ate_17h15": {
+    "ate": {
+     "secoes": 488800,
+     "flavio_pct": 48.3,
+     "margem_lula": 4111089,
+     "comparecimento": 125251518,
+     "votos_depois_17h_log": 28677
+    },
+    "depois": {
+     "secoes": 9097,
+     "flavio_pct": 44.21,
+     "margem_lula": 290445,
+     "comparecimento": 2603113,
+     "votos_depois_17h_log": 5716
+    }
+   },
+   "ate_17h00min59_hora_local_sem_fuso": {
+    "ate": {
+     "secoes": 150742,
+     "flavio_pct": 52.4,
+     "margem_lula": -1748468,
+     "comparecimento": 37621884,
+     "votos_depois_17h_log": 3453
+    },
+    "depois": {
+     "secoes": 347155,
+     "flavio_pct": 46.47,
+     "margem_lula": 6150002,
+     "comparecimento": 90232747,
+     "votos_depois_17h_log": 30940
+    }
+   }
+  },
+  "faixas_do_capitulo_2": {
+   "projeto": {
+    "17h01_a_17h15": {
+     "secoes": 362991,
+     "comparecimento": 93608094,
+     "lula_pct": 52.59,
+     "votos_depois_17h_log": 28402
+    },
+    "17h16_a_18h59": {
+     "secoes": 2496,
+     "comparecimento": 675796,
+     "lula_pct": 57.14,
+     "votos_depois_17h_log": 1094
+    },
+    "19h00_ou_depois": {
+     "secoes": 6352,
+     "comparecimento": 1861259,
+     "lula_pct": 55.18,
+     "votos_depois_17h_log": 4569
+    }
+   },
+   "relatorio": {
+    "17h01_a_17h15": {
+     "secoes": 339593,
+     "comparecimento": 88071750,
+     "lula_pct": 53.46
+    },
+    "17h16_a_18h59": {
+     "secoes": 2472,
+     "comparecimento": 674799,
+     "lula_pct": 57.16
+    },
+    "19h00_ou_depois": {
+     "secoes": 6333,
+     "comparecimento": 1856306
+    }
+   }
+  },
+  "dentro_do_local_lula_2t": {
+   "locais": 1506,
+   "diferenca_pontos": -1.251,
+   "locais_com_mais_lula_no_grupo": 50.5
+  },
+  "dentro_do_local_ganho_do_1t_para_2t": {
+   "locais": 1506,
+   "diferenca_pontos": -0.145,
+   "locais_com_mais_lula_no_grupo": 46.5
+  },
+  "espelho_municipios_do_flavio": {
+   "secoes_fechadas_depois_17h15": 1318,
+   "flavio_pct_nelas": 56.67,
+   "dentro_do_local_lula_2t": {
+    "locais": 425,
+    "diferenca_pontos": -0.59,
+    "locais_com_mais_lula_no_grupo": 50.1
+   }
+  }
+ },
+ "H02": {
+  "secoes_fechadas_a_partir_de_17h16": 8848,
+  "comparecimento_do_dia_inteiro_nelas": 2537055,
+  "votos_com_hora_depois_17h_nelas_pelo_log": 5663,
+  "votos_depois_17h_brasil_log": 34393,
+  "votos_depois_19h_brasil_log": 13,
+  "votos_depois_17h_por_uf": {
+   "sp": 8860,
+   "ba": 4190,
+   "rj": 4150,
+   "mg": 2253,
+   "pe": 1730,
+   "pa": 1308,
+   "ce": 1074,
+   "df": 980
+  },
+  "teto_pct_da_margem": 0.78
+ },
+ "H03": {
+  "liberacao_pelo_mesario_log_2t": 8615564,
+  "dos_quais_sem_digital_cadastrada": 7242863,
+  "parte_do_comparecimento_pct": 6.75,
+  "manuais_depois_17h": 5472,
+  "amostra_secoes": 11864,
+  "amostra_parte_manual_1t_pct": 12.29,
+  "amostra_parte_manual_2t_pct": 12.5,
+  "correlacao_no_mesmo_municipio": {
+   "parte_manual_2t_x_lula_2t": [
+    0.006,
+    0.0087
+   ],
+   "placebo_parte_manual_1t_x_lula_1t": [
+    0.03,
+    0.0466
+   ],
+   "variacao_manual_x_variacao_lula": [
+    -0.009,
+    -0.0094
+   ]
+  },
+  "2022_segundo_terceiros": "Jornal Razão: 10.011.347 (8,06%) em 2022, pela mesma conta do BU; não recalculado aqui"
+ },
+ "H04": {
+  "acima_90_lula": 6802,
+  "acima_90_flavio": 368,
+  "2022_acima_90_lula": 9424,
+  "2022_acima_90_bolsonaro": 199,
+  "lula_acima_90_ja_acima_80_no_1t_2026_pct": 99.6,
+  "lula_acima_90_ja_acima_80_em_2022_pct": 99.6,
+  "flavio_acima_90_ja_acima_80_em_2022_pct": 96.8,
+  "lula_acima_90_casadas_em_2022": 5935
+ },
+ "H07": {
+  "secoes": 106,
+  "votos_lula": 14860,
+  "por_uf": {
+   "am": 30,
+   "ma": 20,
+   "pa": 16,
+   "rr": 8,
+   "to": 7,
+   "mt": 5,
+   "ba": 4,
+   "ac": 3,
+   "mg": 2,
+   "ce": 2,
+   "rs": 2,
+   "es": 1,
+   "ms": 1,
+   "pb": 1,
+   "pr": 1,
+   "pi": 1,
+   "pe": 1,
+   "ro": 1
+  },
+  "municipios_com_mais": {
+   "rr-03107": 7,
+   "am-02836": 5,
+   "am-02054": 5,
+   "ma-09415": 4,
+   "to-95338": 3
+  },
+  "com_termo_indigena_ou_comunidade_no_nome_do_local": 46,
+  "flavio_no_1t_2026_nessas_votos": 118,
+  "com_algum_voto_do_flavio_no_1t": 56,
+  "com_zero_flavio_tambem_no_1t": 50,
+  "casadas_no_1t": 106,
+  "bolsonaro_2022_nessas_votos": 103,
+  "casadas_em_2022": 61,
+  "bolsonaro_2022_zero_nas_casadas": 23,
+  "bolsonaro_2018_nessas_votos": 55,
+  "casadas_em_2018": 47,
+  "2022_secoes_zero_bolsonaro": 141,
+  "2018_secoes_zero_bolsonaro": 328,
+  "2018_secoes_zero_haddad": 4,
+  "espelho_zero_lula": {
+   "secoes": 4,
+   "votos_flavio": 296,
+   "onde": [
+    "pa-04200: EMEF GETÚLIO VARGAS",
+    "pa-04499: EMEIF JOSÉ VALERIO RODRIGUES",
+    "rs-89028: ANTIGA ESCOLA SILVEIRA MARTINS",
+    "rs-85839: ESCOLA STO INÁCIO (ABRANTES)"
+   ]
+  },
+  "teto_votos": 118
+ },
+ "H05": {
+  "mad": {
+   "lula_2026": {
+    "mad_1o_digito": 0.0793,
+    "mad_2o_digito": 0.0103
+   },
+   "flavio_2026": {
+    "mad_1o_digito": 0.0749,
+    "mad_2o_digito": 0.0091
+   },
+   "lula_2022": {
+    "mad_1o_digito": 0.0805,
+    "mad_2o_digito": 0.0103
+   },
+   "bolsonaro_2022": {
+    "mad_1o_digito": 0.0711,
+    "mad_2o_digito": 0.0065
+   }
+  },
+  "regua_nigrini_1o_digito": "até 0,006 conformidade; 0,012 a 0,015 marginal; acima de 0,015 não conforme",
+  "nota": "o 1º dígito de votos por seção fica preso no tamanho da seção (200 a 400 eleitores); por isso o teste reprova os dois candidatos e os dois anos"
+ },
+ "H08": {
+  "placares_repetidos_2026": 41133,
+  "esperado_pelo_acaso_media": 41907,
+  "esperado_faixa": [
+   41840,
+   42002
+  ],
+  "placares_repetidos_2022": 43111,
+  "repetidos_com_os_dois_acima_de_300": 0
+ },
+ "H09": {
+  "por_modelo": {
+   "UE 2013": {
+    "secoes": 11434.0,
+    "lula_2t_pct": 53.94,
+    "ganho_lula_pontos": 6.56
+   },
+   "UE 2015": {
+    "secoes": 87213.0,
+    "lula_2t_pct": 51.96,
+    "ganho_lula_pontos": 6.6
+   },
+   "UE 2020": {
+    "secoes": 200504.0,
+    "lula_2t_pct": 51.53,
+    "ganho_lula_pontos": 6.46
+   },
+   "UE 2022": {
+    "secoes": 198744.0,
+    "lula_2t_pct": 51.83,
+    "ganho_lula_pontos": 6.58
+   }
+  },
+  "dentro_do_local_antiga_vs_nova_lula_2t": {
+   "locais": 933,
+   "diferenca_pontos": 0.551,
+   "locais_com_mais_lula_no_grupo": 46.6
+  },
+  "dentro_do_local_antiga_vs_nova_ganho": {
+   "locais": 933,
+   "diferenca_pontos": 0.131,
+   "locais_com_mais_lula_no_grupo": 52.9
+  },
+  "urna_trocou_de_modelo_entre_turnos": 1200
+ },
+ "H10": {
+  "secoes_com_contingencia_no_log": 1996,
+  "origem_do_voto_2t": {
+   "Urna Eletrônica": 497882,
+   "BU gerado por RED em urna de seção *** RED - Recuperador de dados": 13,
+   "BU gerado por RED em urna de contingência": 2
+  },
+  "dentro_do_local_lula_2t": {
+   "locais": 1727,
+   "diferenca_pontos": -0.019,
+   "locais_com_mais_lula_no_grupo": 50.0
+  },
+  "dentro_do_local_ganho": {
+   "locais": 1727,
+   "diferenca_pontos": -0.098,
+   "locais_com_mais_lula_no_grupo": 47.4
+  },
+  "lula_pct_nas_secoes_com_contingencia": 52.28,
+  "teto_votos_nominais_nessas_secoes": 502317
+ },
+ "H11": {
+  "teixeira_de_freitas": {
+   "secoes": 303,
+   "lula": 41361,
+   "flavio": 41454,
+   "aosfatos_publicou": {
+    "flavio": 41454,
+    "lula": 41361
+   }
+  },
+  "boletim_x_dados_abertos": {
+   "secoes_comparadas": 497897,
+   "comparecimento_diferente": 0,
+   "nominais_diferentes": 0
+  },
+  "assinatura_digital_do_bu": "não verificada nesta rodada (ver docs/PLANO.md); os logs da amostra registram 0 verificações de assinatura sem SUCESSO"
+ },
+ "H12": {
+  "secoes_1t": 499248,
+  "secoes_2t": 499248,
+  "so_no_1t": 0,
+  "so_no_2t": 0,
+  "nao_instaladas_2t": 41,
+  "mudaram_de_local": 431,
+  "variacao_comparecimento_mudaram_pontos": 0.85,
+  "variacao_comparecimento_demais_pontos": 1.71,
+  "lula_pct_nas_que_mudaram": 54.19
+ },
+ "H13": {
+  "eleitores_100_ou_mais_2026": 297977,
+  "populacao_96_ou_mais_censo_2022": 149424,
+  "eleitores_100_ou_mais_2022": 184330,
+  "municipios_com_mais_eleitores_100_que_pessoas_96_em_2022": 1068,
+  "comparecimento_100_ou_mais": {
+   "2022_t1": {
+    "aptos": 184113,
+    "comparecimento": 1663,
+    "taxa_pct": 0.9
+   },
+   "2022_t2": {
+    "aptos": 184113,
+    "comparecimento": 2078,
+    "taxa_pct": 1.13
+   },
+   "2026_t1": {
+    "aptos": 297977,
+    "comparecimento": 2141,
+    "taxa_pct": 0.72
+   }
+  },
+  "comparecimento_95_a_99": {
+   "2022_t1": {
+    "aptos": 465541,
+    "comparecimento": 7434,
+    "taxa_pct": 1.6
+   },
+   "2022_t2": {
+    "aptos": 465541,
+    "comparecimento": 9961,
+    "taxa_pct": 2.14
+   },
+   "2026_t1": {
+    "aptos": 337136,
+    "comparecimento": 14661,
+    "taxa_pct": 4.35
+   }
+  },
+  "comparecimento_2026_t2_por_idade": "o TSE ainda não publicou o 2º turno de 2026 nesse arquivo (29/10)"
+ },
+ "H14": {
+  "municipios": 5571,
+  "eleitorado_maior_que_pop_12_ou_mais_em_2022": 2898,
+  "comparecimento_2t_maior_que_pop_12_ou_mais_em_2022": 579,
+  "lula_venceu_nos_com_comparecimento_acima": 393,
+  "2022_comparecimento_2t_maior_que_pop_16_ou_mais": 596,
+  "2022_lula_venceu_nesses": 433,
+  "lula_venceu_nos_com_eleitorado_acima": 1900,
+  "flavio_venceu_nos_com_eleitorado_acima": 997,
+  "lula_2t_nos_com_eleitorado_acima": 13999933,
+  "flavio_2t_nos_com_eleitorado_acima": 8001673,
+  "corrente_lula_maior_que_populacao": [
+   {
+    "municipio": "PORTO DE PEDRAS (AL)",
+    "pop_total": 9295,
+    "lula_2t": 3303,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "ANTAS (BA)",
+    "pop_total": 14206,
+    "lula_2t": 5952,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "BARRA (BA)",
+    "pop_total": 51092,
+    "lula_2t": 23343,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "GUANAMBI (BA)",
+    "pop_total": 87817,
+    "lula_2t": 35676,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "NOVA SOURE (BA)",
+    "pop_total": 24236,
+    "lula_2t": 14293,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "XIQUE-XIQUE (BA)",
+    "pop_total": 44757,
+    "lula_2t": 20001,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "POÇO DAS ANTAS (RS)",
+    "pop_total": 2171,
+    "lula_2t": 412,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "JOAÇABA (SC)",
+    "pop_total": 30146,
+    "lula_2t": 4909,
+    "lula_maior_que_pop": false
+   },
+   {
+    "municipio": "NOSSA SENHORA DA GLÓRIA (SE)",
+    "pop_total": 41212,
+    "lula_2t": 19848,
+    "lula_maior_que_pop": false
+   }
+  ]
+ },
+ "H15": {
+  "avisos_ja_votou_2t_brasil": 113315,
+  "secoes_com_aviso_2t": 73044,
+  "amostra_avisos_por_mil_votos": {
+   "t1": 0.833,
+   "t2": 0.871
+  },
+  "amostra_aviso_seguido_de_liberacao_manual_em_5_min_pct": {
+   "t1": 12.7,
+   "t2": 17.5
+  },
+  "correlacao_no_mesmo_municipio_aviso_x_ganho_do_lula": -0.019
+ },
+ "H16": {
+  "parte_manual_por_hora_pct": {
+   "t1": {
+    "07": 9.3,
+    "08": 13.6,
+    "09": 13.2,
+    "10": 12.6,
+    "11": 11.8,
+    "12": 11.6,
+    "13": 11.7,
+    "14": 12.0,
+    "15": 12.2,
+    "16": 12.2,
+    "17": 12.0,
+    "18": 11.2,
+    "19": 12.7,
+    "20": 12.0
+   },
+   "t2": {
+    "07": 10.5,
+    "08": 13.0,
+    "09": 12.8,
+    "10": 12.4,
+    "11": 12.0,
+    "12": 12.0,
+    "13": 12.4,
+    "14": 12.7,
+    "15": 12.6,
+    "16": 12.3,
+    "17": 16.3,
+    "18": 2.5,
+    "19": 0.0
+   }
+  },
+  "maior_sequencia_mesmo_mesario": {
+   "t1": {
+    "mediana": 1.0,
+    "p99": 4.0,
+    "max": 13,
+    "secoes_com_10_ou_mais": 1
+   },
+   "t2": {
+    "mediana": 2.0,
+    "p99": 4.0,
+    "max": 7,
+    "secoes_com_10_ou_mais": 0
+   }
+  }
+ },
+ "H17": {
+  "versoes": 2554,
+  "versoes_nacionais": 346,
+  "vezes_que_o_total_do_flavio_caiu": 0,
+  "vezes_que_o_total_do_lula_caiu": 0,
+  "ultima_versao_nacional": {
+   "lula": 64256232,
+   "flavio": 59826041
+  },
+  "soma_das_ufs_e_exterior_na_ultima_versao": {
+   "lula": 64249830,
+   "flavio": 59822856
+  }
+ },
+ "H18": {
+  "secoes_flavio_abaixo_do_1t": 82155,
+  "votos_que_o_flavio_perdeu_nelas": 382939,
+  "dessas_com_comparecimento_em_queda": 53.5,
+  "secoes_lula_abaixo_do_1t": 9575,
+  "secoes_com_lula_zero_no_1t": 8,
+  "dessas_com_lula_acima_de_zero_no_2t": 4,
+  "secoes_com_flavio_zero_no_1t": 79,
+  "dessas_com_flavio_acima_de_zero_no_2t": 29,
+  "teste_de_integridade_2t": "TSE: 389 votos auditados sem divergência; TRE-SP: 33 urnas sem divergência (fontes em docs/pesquisa/TEORIAS_NA_INTERNET.md)"
+ },
+ "H19": {
+  "ufs_onde_o_flavio_caiu": {
+   "ac": {
+    "votos": -15092,
+    "variacao_comparecimento_pontos": -5.65
+   },
+   "am": {
+    "votos": -1519,
+    "variacao_comparecimento_pontos": -1.52
+   },
+   "ap": {
+    "votos": -13604,
+    "variacao_comparecimento_pontos": -8.08
+   },
+   "ma": {
+    "votos": -9069,
+    "variacao_comparecimento_pontos": -0.63
+   },
+   "rr": {
+    "votos": -11647,
+    "variacao_comparecimento_pontos": -6.02
+   },
+   "to": {
+    "votos": -1405,
+    "variacao_comparecimento_pontos": -0.88
+   }
+  },
+  "ufs_onde_o_lula_caiu": 0,
+  "comparecimento_caiu_em_quantas_dessas": 6,
+  "ufs_com_comparecimento_em_queda": [
+   "ac",
+   "am",
+   "ap",
+   "ma",
+   "pa",
+   "pi",
+   "ro",
+   "rr",
+   "to"
+  ]
+ },
+ "H20": {
+  "abstencao_por_regiao": {
+   "Centro-Oeste": {
+    "abst_1t_pct": 21.7,
+    "abst_2t_pct": 20.05
+   },
+   "Nordeste": {
+    "abst_1t_pct": 18.39,
+    "abst_2t_pct": 16.49
+   },
+   "Norte": {
+    "abst_1t_pct": 19.43,
+    "abst_2t_pct": 21.25
+   },
+   "Sudeste": {
+    "abst_1t_pct": 22.7,
+    "abst_2t_pct": 20.27
+   },
+   "Sul": {
+    "abst_1t_pct": 20.46,
+    "abst_2t_pct": 18.19
+   }
+  },
+  "cidades_da_falta_de_onibus": [
+   {
+    "municipio": "Salvador (BA)",
+    "abst_1t_pct": 20.14,
+    "abst_2t_pct": 15.77
+   },
+   {
+    "municipio": "Feira De Santana (BA)",
+    "abst_1t_pct": 17.21,
+    "abst_2t_pct": 12.97
+   },
+   {
+    "municipio": "Lauro De Freitas (BA)",
+    "abst_1t_pct": 22.91,
+    "abst_2t_pct": 17.27
+   },
+   {
+    "municipio": "Aracaju (SE)",
+    "abst_1t_pct": 16.58,
+    "abst_2t_pct": 14.47
+   }
+  ],
+  "capitais_mediana_variacao_abstencao_pontos": -2.01
+ },
+ "H21": {
+  "ganho_lula_pontos_por_quintil_de_renda": {
+   "1 (mais pobre)": 4.45,
+   "2": 5.22,
+   "3": 6.56,
+   "4": 6.95,
+   "5 (mais rico)": 7.27
+  },
+  "nota": "renda do Censo 2022 no lugar do Bolsa Família por município (o dado do benefício por município não entrou nesta rodada); o pedido de cassação por abuso de poder é processo no TSE, não teste de urna"
+ },
+ "H23": {
+  "casos": [
+   {
+    "municipio": "Joaçaba (SC)",
+    "flavio_1t": 12319,
+    "flavio_2t": 13162,
+    "lula_1t": 3863,
+    "lula_2t": 4909,
+    "outros_1t": 1366,
+    "brancos_nulos_1t": 475,
+    "brancos_nulos_2t": 408,
+    "comparecimento_1t": 18023,
+    "comparecimento_2t": 18479
+   },
+   {
+    "municipio": "Araruama (RJ)",
+    "flavio_1t": 53415,
+    "flavio_2t": 53426,
+    "lula_1t": 23451,
+    "lula_2t": 29032,
+    "outros_1t": 5331,
+    "brancos_nulos_1t": 3834,
+    "brancos_nulos_2t": 2749,
+    "comparecimento_1t": 86031,
+    "comparecimento_2t": 85207
+   },
+   {
+    "municipio": "Cabo Frio (RJ)",
+    "flavio_1t": 83213,
+    "flavio_2t": 83555,
+    "lula_1t": 39944,
+    "lula_2t": 49113,
+    "outros_1t": 8817,
+    "brancos_nulos_1t": 5378,
+    "brancos_nulos_2t": 4144,
+    "comparecimento_1t": 137352,
+    "comparecimento_2t": 136812
+   },
+   {
+    "municipio": "São Pedro Da Aldeia (RJ)",
+    "flavio_1t": 38306,
+    "flavio_2t": 38739,
+    "lula_1t": 14421,
+    "lula_2t": 18025,
+    "outros_1t": 3571,
+    "brancos_nulos_1t": 2205,
+    "brancos_nulos_2t": 1710,
+    "comparecimento_1t": 58503,
+    "comparecimento_2t": 58474
+   },
+   {
+    "municipio": "Saquarema (RJ)",
+    "flavio_1t": 44175,
+    "flavio_2t": 44444,
+    "lula_1t": 20288,
+    "lula_2t": 25684,
+    "outros_1t": 4184,
+    "brancos_nulos_1t": 3334,
+    "brancos_nulos_2t": 2315,
+    "comparecimento_1t": 71981,
+    "comparecimento_2t": 72443
+   },
+   {
+    "municipio": "Arraial Do Cabo (RJ)",
+    "flavio_1t": 15959,
+    "flavio_2t": 16122,
+    "lula_1t": 8652,
+    "lula_2t": 10102,
+    "outros_1t": 1824,
+    "brancos_nulos_1t": 917,
+    "brancos_nulos_2t": 678,
+    "comparecimento_1t": 27352,
+    "comparecimento_2t": 26902
+   },
+   {
+    "municipio": "Armação Dos Búzios (RJ)",
+    "flavio_1t": 17294,
+    "flavio_2t": 17368,
+    "lula_1t": 8225,
+    "lula_2t": 10206,
+    "outros_1t": 1817,
+    "brancos_nulos_1t": 834,
+    "brancos_nulos_2t": 697,
+    "comparecimento_1t": 28170,
+    "comparecimento_2t": 28271
+   },
+   {
+    "municipio": "Iguaba Grande (RJ)",
+    "flavio_1t": 15517,
+    "flavio_2t": 15701,
+    "lula_1t": 6773,
+    "lula_2t": 8216,
+    "outros_1t": 1583,
+    "brancos_nulos_1t": 862,
+    "brancos_nulos_2t": 693,
+    "comparecimento_1t": 24735,
+    "comparecimento_2t": 24610
+   }
+  ]
+ }
+}

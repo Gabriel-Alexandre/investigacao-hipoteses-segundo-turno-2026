@@ -18,6 +18,27 @@
   "t2_secoes.parquet": {
    "bytes": 13035932,
    "sha256": "6da34ba9791e1f06ab12fa5e4b7f62ea882178e2e1600e99a8e7ab3ec2fd80e4"
+  },
+  "presidente_municipio.csv": {
+   "bytes": 1029021,
+   "sha256": "3cd41623ffa021867cfe60e240e14cfd3489a1bc5b8ba92a954df364f9bb8116",
+   "origem": "github.com/Gabriel-Alexandre/pesquisas-e-resultado-segundo-turno-2026 (dados/derivados/)",
+   "commit_origem": "89174a10fccdfc18bf6ce3b1c378147d2b0d3ff0"
+  },
+  "renda_municipio_censo2022.csv": {
+   "bytes": 192838,
+   "sha256": "54f4733a2ab72228cff42a84fc77fec8040ec2ca61d8d6d3e9daf6bf95e7fe9d",
+   "origem": "github.com/Gabriel-Alexandre/pesquisas-e-resultado-segundo-turno-2026 (dados/derivados/)",
+   "commit_origem": "89174a10fccdfc18bf6ce3b1c378147d2b0d3ff0"
+  },
+  "noite/versoes-tse/": {
+   "arquivos": 2554,
+   "sha256_do_conjunto": "98b8d4b0aff799286371692257953ea8e1307d0bd5a570db7f3d25eeb08dfea8",
+   "origem": "github.com/Gabriel-Alexandre/investigacao-segundo-turno-2026 (dados/noite/versoes-tse/)"
+  },
+  "noite/MANIFESTO_AO_VIVO.jsonl": {
+   "bytes": 928132,
+   "sha256": "bb7e5cf1b1b66e3119afd74ca1c7193a73a2e031c9d6bc305c8ffb2a77c5bd52"
   }
  }
 }

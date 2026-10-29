@@ -1,0 +1,96 @@
+{
+ "local_votacao_2026": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/eleitorado_locais_votacao/eleitorado_local_votacao_2026.zip",
+  "arquivo": "dados/brutos/tse/eleitorado_local_votacao_2026.zip",
+  "bytes": 167493511,
+  "last_modified_servidor": "Sun, 25 Oct 2026 18:32:19 GMT",
+  "baixado_em": "2026-10-29T15:55:13-03:00",
+  "sha256": "771ecfe5086b65c38943df9f694831dc5b94e0addd563517cd139fbd97642981"
+ },
+ "perfil_eleitorado_2026": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2026.zip",
+  "arquivo": "dados/brutos/tse/perfil_eleitorado_2026.zip",
+  "bytes": 408490728,
+  "last_modified_servidor": "Fri, 17 Jul 2026 17:55:02 GMT",
+  "baixado_em": "2026-10-29T15:55:42-03:00",
+  "sha256": "0952e9d9577be19380b444bfcc6a9a99397005e8dc839de9d5ec49914d75648b"
+ },
+ "perfil_eleitorado_2022": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2022.zip",
+  "arquivo": "dados/brutos/tse/perfil_eleitorado_2022.zip",
+  "bytes": 76699889,
+  "last_modified_servidor": "Thu, 16 Jul 2026 12:49:49 GMT",
+  "baixado_em": "2026-10-29T15:55:49-03:00",
+  "sha256": "4bccad7e39ec13ea22a0ce4612d6147b4f06ee2c672cd5978112943951fb87e8"
+ },
+ "comparecimento_abstencao_2026": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_comparecimento_abstencao/perfil_comparecimento_abstencao_2026.zip",
+  "arquivo": "dados/brutos/tse/perfil_comparecimento_abstencao_2026.zip",
+  "bytes": 229213668,
+  "last_modified_servidor": "Wed, 21 Oct 2026 16:40:26 GMT",
+  "baixado_em": "2026-10-29T15:56:05-03:00",
+  "sha256": "abd1af8ff28a80b4e861edafd9f544a8f3f667e1c2e146911d083bf7cc34f023"
+ },
+ "comparecimento_abstencao_2022": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_comparecimento_abstencao/perfil_comparecimento_abstencao_2022.zip",
+  "arquivo": "dados/brutos/tse/perfil_comparecimento_abstencao_2022.zip",
+  "bytes": 200995304,
+  "last_modified_servidor": "Wed, 30 Apr 2025 04:01:59 GMT",
+  "baixado_em": "2026-10-29T15:56:26-03:00",
+  "sha256": "fb4e03d95a9e8f4981cbe32aeca9e77facf9e5f83e7b882f0f8c1610f350a7df"
+ },
+ "detalhe_votacao_secao_2026": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
+  "arquivo": "dados/brutos/tse/detalhe_votacao_secao_2026.zip",
+  "bytes": 234357769,
+  "last_modified_servidor": "Mon, 26 Oct 2026 15:35:35 GMT",
+  "baixado_em": "2026-10-29T15:56:54-03:00",
+  "sha256": "8ef9ce3a85cde260471faf7a83a9b4f5ccf3993fdda942aacaa658574344789c"
+ },
+ "votacao_secao_2018_BR": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2018_BR.zip",
+  "arquivo": "dados/brutos/tse/votacao_secao_2018_BR.zip",
+  "bytes": 250985147,
+  "last_modified_servidor": "Fri, 15 Aug 2025 14:15:53 GMT",
+  "baixado_em": "2026-10-29T15:57:26-03:00",
+  "sha256": "dde2250058a7efa3b7ee336520556905456cb75d7debf99ea4badfc4d598a48c"
+ },
+ "ibge_total": {
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5BN3%5B<uf>%5D%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B100362%5D",
+  "arquivo": "dados/brutos/ibge/censo2022_9514_total.json",
+  "bytes": 770858,
+  "sha256": "64f0cb734c8436e16c79aacc76f7278b05d9fa2079f8297333757576002939d3"
+ },
+ "ibge_menos_de_12": {
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5BN3%5B<uf>%5D%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B93070%2C93084%2C6567%2C6568%5D",
+  "arquivo": "dados/brutos/ibge/censo2022_9514_menos_de_12.json",
+  "bytes": 3042075,
+  "sha256": "e141da7641b745fa54cc868603b1f6bd384e113ca12085d4929e1f2ec731b76d"
+ },
+ "ibge_86_a_95": {
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5BN3%5B<uf>%5D%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6639%2C6640%2C6641%2C6642%2C6643%2C6644%2C6645%2C6646%2C6647%2C6648%5D",
+  "arquivo": "dados/brutos/ibge/censo2022_9514_86_a_95.json",
+  "bytes": 7513273,
+  "sha256": "012eb5cde497f0df31ea8b03738860a9acfa967503a96da43274ad9630aad628"
+ },
+ "ibge_96_ou_mais": {
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5BN3%5B<uf>%5D%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6649%2C6650%2C6651%2C6652%2C6653%5D",
+  "arquivo": "dados/brutos/ibge/censo2022_9514_96_ou_mais.json",
+  "bytes": 3747051,
+  "sha256": "c16c41cda5b3a2d146af311fcac5b0866aff98287660cef05f73e04d83c95b0d"
+ },
+ "ibge_12_a_15": {
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/2022/variaveis/93?localidades=N6%5BN3%5B<uf>%5D%5D&classificacao=2%5B6794%5D%7C286%5B113635%5D%7C287%5B6569%2C6570%2C6571%2C6572%5D",
+  "arquivo": "dados/brutos/ibge/censo2022_9514_12_a_15.json",
+  "bytes": 3034275,
+  "sha256": "3002f50d599479c0d0c72fd9d376e1d7ed996535e1d549dd28b19ad40d90858f"
+ },
+ "votacao_secao_2026_BR": {
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip",
+  "arquivo": "dados/brutos/tse/votacao_secao_2026_BR.zip",
+  "bytes": 241891087,
+  "last_modified_servidor": "Mon, 26 Oct 2026 17:42:32 GMT",
+  "baixado_em": "2026-10-29T16:32:50-03:00",
+  "sha256": "c928321f63f2d095706fca73d4607c048d2ada23bda6876455d6911aaf1bc9c1"
+ }
+}

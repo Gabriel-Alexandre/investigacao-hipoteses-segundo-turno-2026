@@ -1,0 +1,111 @@
+{
+ "checagens": [
+  {
+   "checagem": "Lula no 2º turno (votação por seção dos dados abertos)",
+   "obtido": 64256232,
+   "esperado": 64256232,
+   "fonte_do_esperado": "resultado proclamado pelo TSE",
+   "passou": true
+  },
+  {
+   "checagem": "Flávio no 2º turno (votação por seção dos dados abertos)",
+   "obtido": 59826041,
+   "esperado": 59826041,
+   "fonte_do_esperado": "resultado proclamado pelo TSE",
+   "passou": true
+  },
+  {
+   "checagem": "seções sem voto do Flávio",
+   "obtido": 106,
+   "esperado": 106,
+   "fonte_do_esperado": "RESUMO.json H07",
+   "passou": true
+  },
+  {
+   "checagem": "votos do Lula nessas seções",
+   "obtido": 14860,
+   "esperado": 14860,
+   "fonte_do_esperado": "RESUMO.json H07",
+   "passou": true
+  },
+  {
+   "checagem": "seções sem voto do Lula",
+   "obtido": 4,
+   "esperado": 4,
+   "fonte_do_esperado": "RESUMO.json H07",
+   "passou": true
+  },
+  {
+   "checagem": "votos do Flávio no 1º turno nessas seções",
+   "obtido": 118,
+   "esperado": 118,
+   "fonte_do_esperado": "RESUMO.json H07",
+   "passou": true
+  },
+  {
+   "checagem": "seções com mais de 90% para o Lula",
+   "obtido": 6802,
+   "esperado": 6802,
+   "fonte_do_esperado": "RESUMO.json H04",
+   "passou": true
+  },
+  {
+   "checagem": "seções com mais de 90% para o Flávio",
+   "obtido": 368,
+   "esperado": 368,
+   "fonte_do_esperado": "RESUMO.json H04",
+   "passou": true
+  },
+  {
+   "checagem": "placares repetidos (Lula, Flávio)",
+   "obtido": 41133,
+   "esperado": 41133,
+   "fonte_do_esperado": "RESUMO.json H08",
+   "passou": true
+  },
+  {
+   "checagem": "Teixeira de Freitas, Flávio",
+   "obtido": 41454,
+   "esperado": 41454,
+   "fonte_do_esperado": "Aos Fatos, 28/10",
+   "passou": true
+  },
+  {
+   "checagem": "Teixeira de Freitas, Lula",
+   "obtido": 41361,
+   "esperado": 41361,
+   "fonte_do_esperado": "Aos Fatos, 28/10",
+   "passou": true
+  },
+  {
+   "checagem": "Flávio nos 6 estados com fuso (%)",
+   "obtido": 59.72,
+   "esperado": 59.72,
+   "fonte_do_esperado": "RESUMO.json H01 (só as seções do grupo até 17h, que são quase todas)",
+   "passou": true
+  },
+  {
+   "checagem": "votos depois das 17h nas 12 mil seções sorteadas (log lido de novo × tabela do vídeo 16)",
+   "obtido": 804,
+   "esperado": 804,
+   "fonte_do_esperado": "tabela do vídeo 16",
+   "passou": true
+  },
+  {
+   "checagem": "eleitorado 2026",
+   "obtido": 158745463,
+   "esperado": 158745463,
+   "fonte_do_esperado": "TSE, eleitorado apto em 2026",
+   "passou": true
+  },
+  {
+   "checagem": "população do Censo 2022",
+   "obtido": 203080756,
+   "esperado": 203080756,
+   "fonte_do_esperado": "IBGE, Censo 2022",
+   "passou": true
+  }
+ ],
+ "passaram": 15,
+ "total": 15
+}

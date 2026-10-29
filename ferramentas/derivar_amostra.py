@@ -1,0 +1,100 @@
+"""Lê os logs da amostra (dados/brutos/t2/amostra.sqlite) e escreve uma linha por seção e por turno em
+dados/derivados/amostra_logs.parquet. O log de 2026 traz os dois turnos quando a urna é a mesma; o 1º turno só
+conta quando o dia 04/10 tem votos no log (urna trocada entre os turnos fica sem 1º turno).
+
+Colunas: chave da seção, grupo da amostra, turno, modelo da urna, versão do programa, verificações de assinatura
+que não deram SUCESSO, votos (total, digital, mesário, sem digital cadastrada, outra), votos depois das 17h e das
+19h, votos por hora (h06 a h20, hora local), liberações pelo mesário por hora, avisos "eleitor já votou", avisos
+seguidos de voto liberado pelo mesário em até 5 minutos, a maior sequência de votos seguidos liberados pelo mesmo
+mesário, e se houve contingência. Identificador de mesário vira HMAC com dados/chave-local.txt (fora do git).
+
+Uso: python ferramentas/derivar_amostra.py
+"""
+import collections
+import re
+import secrets
+import sqlite3
+import sys
+from pathlib import Path
+
+import pandas as pd
+
+RAIZ = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(RAIZ))
+from hipoteses.log import ler_jez, ler_log  # noqa: E402
+
+FUSO = {"ac": 2, "am": 1, "ro": 1, "rr": 1, "mt": 1, "ms": 1}
+RE_URL = re.compile(r"/dados/(\w\w)/(\d+)/(\d+)/(\d+)/")
+RE_MODELO = re.compile(r"Modelo de Urna: (UE\d{4})")
+RE_VERSAO = re.compile(r"Vers.o da aplica..o: ([\d.]+)")
+DIAS = {"t1": "04/10/2026", "t2": "25/10/2026"}
+
+
+def chave():
+    p = RAIZ / "dados/chave-local.txt"
+    if not p.exists():
+        p.write_text(secrets.token_hex(32))
+    return p.read_text().strip().encode()
+
+
+def maior_sequencia(eleitores):
+    melhor, atual, ant = 0, 0, None
+    for e in eleitores:
+        cod = e[3] if e[1] == "manual_mes" else None
+        if cod and cod == ant:
+            atual += 1
+        else:
+            atual = 1 if cod else 0
+        ant = cod
+        melhor = max(melhor, atual)
+    return melhor
+
+
+def linha(uf, mun, zona, secao, turno, linhas, k):
+    dia = DIAS[turno]
+    do_dia = [ln for ln in linhas if ln.startswith(dia)]
+    modelos = collections.Counter(m.group(1) for ln in do_dia for m in [RE_MODELO.search(ln)] if m)
+    versoes = collections.Counter(m.group(1) for ln in do_dia for m in [RE_VERSAO.search(ln)] if m)
+    falha_ass = sum(1 for ln in do_dia if "Verifica" in ln and "assinatura" in ln and "SUCESSO" not in ln)
+    lt = ler_log(linhas, k, dia=dia)
+    off = FUSO.get(uf, 0) * 3600
+    r = {"uf": uf, "municipio": mun, "zona": zona, "secao": secao, "turno": turno,
+         "modelo": modelos.most_common(1)[0][0] if modelos else None, "versao": versoes.most_common(1)[0][0] if versoes else None,
+         "assinatura_sem_sucesso": falha_ass, "contingencia": bool(lt.contingencia), "votos": len(lt.eleitores),
+         "encerrar_s_bsb": (lt.encerrar_s + off) if lt.encerrar_s is not None else None}
+    tipos = collections.Counter(e[1] for e in lt.eleitores)
+    for t in ("biometrica", "manual_mes", "manual_sem", "outra"):
+        r[t] = tipos.get(t, 0)
+    r["votos_depois_17h"] = sum(1 for e in lt.eleitores if e[0] + off >= 17 * 3600)
+    r["votos_depois_19h"] = sum(1 for e in lt.eleitores if e[0] + off >= 19 * 3600)
+    for h in range(6, 21):
+        r[f"h{h:02d}"] = sum(1 for e in lt.eleitores if (e[0] + off) // 3600 == h)
+        r[f"m{h:02d}"] = sum(1 for e in lt.eleitores if (e[0] + off) // 3600 == h and e[1] != "biometrica")
+    r["ja_votou"] = len(lt.ja_votou)
+    votos_mes = [e[0] for e in lt.eleitores if e[1] != "biometrica"]
+    r["ja_votou_seguido_de_manual"] = sum(1 for s in lt.ja_votou if any(0 <= v - s <= 300 for v in votos_mes))
+    r["maior_sequencia_mesmo_mesario"] = maior_sequencia(lt.eleitores)
+    return r
+
+
+def main():
+    con = sqlite3.connect(RAIZ / "dados/brutos/t2/amostra.sqlite")
+    amostra = pd.read_csv(RAIZ / "dados/derivados/amostra_secoes.csv", dtype=str)
+    grupo = {tuple(x[:4]): x[4] for x in amostra.itertuples(index=False)}
+    k = chave()
+    linhas_out = []
+    for url, corpo in con.execute("SELECT url, body FROM raw WHERE status=200 AND url LIKE '%-log.jez'"):
+        uf, mun, zona, secao = RE_URL.search(url).groups()
+        linhas = ler_jez(corpo)
+        for turno in ("t1", "t2"):
+            r = linha(uf, mun, zona, secao, turno, linhas, k)
+            r["grupo"] = grupo.get((uf, mun, zona, secao))
+            linhas_out.append(r)
+    df = pd.DataFrame(linhas_out)
+    df.to_parquet(RAIZ / "dados/derivados/amostra_logs.parquet", index=False)
+    print(df.groupby("turno")[["votos", "biometrica", "manual_mes", "manual_sem", "ja_votou"]].sum())
+    print(df[df.turno == "t2"].modelo.value_counts(dropna=False).to_dict())
+
+
+if __name__ == "__main__":
+    main()
