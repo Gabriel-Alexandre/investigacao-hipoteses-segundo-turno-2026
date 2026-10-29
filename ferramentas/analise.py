@@ -130,6 +130,7 @@ def h01_h02(br, out, m=None):
                   "votos_com_hora_depois_17h_nelas_pelo_log": int(tarde.log_votos_depois_17h.fillna(0).sum()),
                   "votos_depois_17h_brasil_log": int(br.log_votos_depois_17h.fillna(0).sum()),
                   "votos_depois_19h_brasil_log": int(br.log_votos_depois_19h.fillna(0).sum()),
+                  "votos_entre_17h_e_19h_brasil_log": int(br.log_votos_depois_17h.fillna(0).sum() - br.log_votos_depois_19h.fillna(0).sum()),
                   "votos_depois_17h_por_uf": br.groupby("uf").log_votos_depois_17h.sum().astype(int).sort_values(ascending=False).head(8).to_dict(),
                   "teto_pct_da_margem": pct(br.log_votos_depois_17h.fillna(0).sum(), MARGEM)}
 
@@ -155,9 +156,10 @@ def h03(br, out, amostra):
     r_mesmo, b_mesmo = within("man2", "lula2")
     r_var, b_var = within("dman", "dlula")
     r_placebo, b_placebo = within("man1", "lula1")
-    out["H03"] = {"liberacao_pelo_mesario_log_2t": int(br.log_manual_mesario.fillna(0).sum()),
-                  "dos_quais_sem_digital_cadastrada": int(br.log_manual_sem_digital.fillna(0).sum()),
-                  "parte_do_comparecimento_pct": pct(br.log_manual_mesario.fillna(0).sum(), br.log_votos.fillna(0).sum()),
+    out["H03"] = {"liberados_pela_digital_do_mesario_2t": int(br.log_manual_mesario.fillna(0).sum()),
+                  "liberados_sem_digital_cadastrada_pelo_ano_de_nascimento_2t": int(br.log_manual_sem_digital.fillna(0).sum()),
+                  "digital_do_mesario_pct_dos_votos": pct(br.log_manual_mesario.fillna(0).sum(), br.log_votos.fillna(0).sum()),
+                  "sem_a_digital_do_eleitor_pct_dos_votos": pct(br.log_manual_mesario.fillna(0).sum() + br.log_manual_sem_digital.fillna(0).sum(), br.log_votos.fillna(0).sum()),
                   "manuais_depois_17h": int(br.log_manuais_depois_17h.fillna(0).sum()),
                   "amostra_secoes": int(len(j)),
                   "amostra_parte_manual_1t_pct": pct((j.manual_mes_t1 + j.manual_sem_t1).sum(), j.votos_t1.sum()),
@@ -196,7 +198,9 @@ def h04_h07(m, br, out):
                   "lula_acima_90_ja_acima_80_no_1t_2026_pct": pct((acima_l.lula_1t / acima_l.nom1 > 0.8).sum(), len(acima_l), 1),
                   "lula_acima_90_ja_acima_80_em_2022_pct": pct((al.l22 > 0.8).sum(), al.l22.notna().sum(), 1),
                   "flavio_acima_90_ja_acima_80_em_2022_pct": pct(((1 - af.l22) > 0.8).sum(), af.l22.notna().sum(), 1),
-                  "lula_acima_90_casadas_em_2022": int(al.l22.notna().sum())}
+                  "lula_acima_90_casadas_em_2022": int(al.l22.notna().sum()),
+                  "2018_acima_90_haddad": int((s18.haddad / (s18.haddad + s18.bolsonaro) > 0.9).sum()),
+                  "2018_acima_90_bolsonaro": int((s18.bolsonaro / (s18.haddad + s18.bolsonaro) > 0.9).sum())}
     # H07: as seções sem voto do Flávio
     z = br[(br.bu_flavio == 0) & (br.bu_lula > 0)].merge(loc, on=K, how="left")
     z = z.merge(s22[K + ["lula", "bolsonaro"]].rename(columns={"lula": "lula22", "bolsonaro": "bols22"}), on=K, how="left")
@@ -224,6 +228,11 @@ def h04_h07(m, br, out):
                   "teto_votos": int(z.flavio_1t.fillna(0).sum())}
 
 
+def distribuicao_1o_digito(x):
+    x = x[x >= 1].astype(int).astype(str).str[0].astype(int)
+    return {str(k): round(float(v), 4) for k, v in x.value_counts(normalize=True).sort_index().items()}
+
+
 def benford(x, digito=1):
     x = x[x >= (10 if digito == 2 else 1)].astype(int).astype(str)
     d = x.str[digito - 1].astype(int)
@@ -241,7 +250,8 @@ def h05(br, out):
     r = {}
     for nome, serie in [("lula_2026", br.bu_lula), ("flavio_2026", br.bu_flavio), ("lula_2022", s22.lula), ("bolsonaro_2022", s22.bolsonaro)]:
         r[nome] = {"mad_1o_digito": benford(serie, 1), "mad_2o_digito": benford(serie, 2)}
-    out["H05"] = {"mad": r, "regua_nigrini_1o_digito": "até 0,006 conformidade; 0,012 a 0,015 marginal; acima de 0,015 não conforme",
+    out["H05"] = {"mad": r, "distribuicao_1o_digito": {"lula_2026": distribuicao_1o_digito(br.bu_lula), "flavio_2026": distribuicao_1o_digito(br.bu_flavio),
+                                                       "benford": {str(k): round(float(np.log10(1 + 1 / k)), 4) for k in range(1, 10)}}, "regua_nigrini_1o_digito": "até 0,006 conformidade; 0,012 a 0,015 marginal; acima de 0,015 não conforme",
                   "nota": "o 1º dígito de votos por seção fica preso no tamanho da seção (200 a 400 eleitores); por isso o teste reprova os dois candidatos e os dois anos"}
 
 

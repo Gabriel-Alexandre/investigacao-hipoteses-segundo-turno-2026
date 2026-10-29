@@ -166,6 +166,7 @@
   "votos_com_hora_depois_17h_nelas_pelo_log": 5663,
   "votos_depois_17h_brasil_log": 34393,
   "votos_depois_19h_brasil_log": 13,
+  "votos_entre_17h_e_19h_brasil_log": 34380,
   "votos_depois_17h_por_uf": {
    "sp": 8860,
    "ba": 4190,
@@ -179,9 +180,10 @@
   "teto_pct_da_margem": 0.78
  },
  "H03": {
-  "liberacao_pelo_mesario_log_2t": 8615564,
-  "dos_quais_sem_digital_cadastrada": 7242863,
-  "parte_do_comparecimento_pct": 6.75,
+  "liberados_pela_digital_do_mesario_2t": 8615564,
+  "liberados_sem_digital_cadastrada_pelo_ano_de_nascimento_2t": 7242863,
+  "digital_do_mesario_pct_dos_votos": 6.75,
+  "sem_a_digital_do_eleitor_pct_dos_votos": 12.42,
   "manuais_depois_17h": 5472,
   "amostra_secoes": 11864,
   "amostra_parte_manual_1t_pct": 12.29,
@@ -210,7 +212,9 @@
   "lula_acima_90_ja_acima_80_no_1t_2026_pct": 99.6,
   "lula_acima_90_ja_acima_80_em_2022_pct": 99.6,
   "flavio_acima_90_ja_acima_80_em_2022_pct": 96.8,
-  "lula_acima_90_casadas_em_2022": 5935
+  "lula_acima_90_casadas_em_2022": 5935,
+  "2018_acima_90_haddad": 14958,
+  "2018_acima_90_bolsonaro": 1298
  },
  "H07": {
   "secoes": 106,
@@ -284,6 +288,41 @@
    "bolsonaro_2022": {
     "mad_1o_digito": 0.0711,
     "mad_2o_digito": 0.0065
+   }
+  },
+  "distribuicao_1o_digito": {
+   "lula_2026": {
+    "1": 0.6089,
+    "2": 0.0926,
+    "3": 0.0092,
+    "4": 0.0168,
+    "5": 0.0281,
+    "6": 0.0425,
+    "7": 0.056,
+    "8": 0.0685,
+    "9": 0.0775
+   },
+   "flavio_2026": {
+    "1": 0.6191,
+    "2": 0.0719,
+    "3": 0.0281,
+    "4": 0.0344,
+    "5": 0.0386,
+    "6": 0.0434,
+    "7": 0.0487,
+    "8": 0.0544,
+    "9": 0.0613
+   },
+   "benford": {
+    "1": 0.301,
+    "2": 0.1761,
+    "3": 0.1249,
+    "4": 0.0969,
+    "5": 0.0792,
+    "6": 0.0669,
+    "7": 0.058,
+    "8": 0.0512,
+    "9": 0.0458
    }
   },
   "regua_nigrini_1o_digito": "até 0,006 conformidade; 0,012 a 0,015 marginal; acima de 0,015 não conforme",
