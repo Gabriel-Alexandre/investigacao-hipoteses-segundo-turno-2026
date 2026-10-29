@@ -4,7 +4,7 @@
 pip install pandas pyarrow numpy matplotlib aiohttp playwright pillow
 python ferramentas/coletar.py              # arquivos abertos do TSE (~1,7 GB)
 python ferramentas/ibge.py                 # Censo 2022 por idade e município
-python ferramentas/amostra_logs.py         # logs de 12.691 seções (~2,2 GB, um coletor só, teto de 60 por segundo)
+python ferramentas/amostra_logs.py         # logs de 13.221 seções (12.691 da 1ª passada e as do oeste do Amazonas da rodada 2; ~2,3 GB, um coletor só, teto de 60 por segundo)
 python ferramentas/derivar_tse.py          # tabelas leves em dados/derivados/
 python ferramentas/derivar_amostra.py      # uma linha por seção e turno da amostra
 python ferramentas/sondagem.py             # rodada 0
