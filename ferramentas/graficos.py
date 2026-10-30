@@ -346,7 +346,7 @@ def g15_zoom_tres_eleicoes():
 
 def g16_boletins_iguais():
     r3 = json.loads((RAIZ / "resultados/RODADA3.json").read_text(encoding="utf-8"))["identicas"]
-    f = fig("Boletins inteiros iguais, em 3 eleições", "Lula, Flávio, branco e nulo idênticos em mais de uma seção, contra o sorteio pelo 1º turno de cada seção")
+    f = fig("Boletins inteiros iguais, em 3 eleições", "Lula, Flávio, branco e nulo idênticos, contra o sorteio pelo 1º turno de cada seção")
     ax = f.add_axes([0.09, 0.17, 0.85, 0.58])
     anos = ["2018", "2022", "2026"]
     x = range(3)
