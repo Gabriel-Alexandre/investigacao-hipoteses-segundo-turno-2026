@@ -28,3 +28,11 @@
 - **Acrescentado:** `resultados/tabelas/h17_curva_nacional.csv` e o gráfico `g12_a_noite.png` (as 346 versões nacionais da noite; nenhum total caiu), sem mudar nenhum número do `RESUMO.json`.
 - **Comentários depois da coleta:** 56 novos nos 3 vídeos, nenhuma hipótese nova (`docs/COMENTARIOS.md`, último bloco).
 - **Correções de texto:** a amostra de logs tem 13.221 seções (`REPLICAR`, `DADOS_LOCAIS`, `FONTES_DE_DADOS`); 79 prints de comentário, não 80.
+
+## Rodada 3 · 30/10/2026 · a curva com zoom e as urnas idênticas
+
+- **Pedido:** testar a curva da apuração com muito zoom em 2026, 2022 e 2018 (a linha do Flávio pareceria programada) e a mensagem de um seguidor sobre urnas idênticas, e deixar o roteiro mais direto (o relatório não muda de método).
+- **Dados:** o boletim de urna de 2022, com a hora de chegada de cada seção (`dados/brutos/bweb2022`, hashes em `dados/MANIFESTO_RODADA3.json`); o histórico de 2018 copiado do projeto `apuracao-eleicoes-2026` (`dados/copias/historico2018`). ⚠️ O boletim público de 2018 não traz a hora de chegada: em 2018 a ordem é o encerramento da urna em horário de Brasília, e 2022 e 2026 também foram medidos assim para comparar igual (`resultados/RODADA3.json`).
+- **H24, nova:** desmentida. A composição das seções (cada uma repetindo o próprio 1º turno, na mesma ordem) explica 99,5% dos passos da linha em 2026 e em 2022; os vales não têm ritmo; a ordem de chegada dentro da zona não muda o resultado; o total de votos nunca caiu. O limite: um desvio igual nos 2 turnos não apareceria neste teste.
+- **H07 e H08, ampliadas:** boletins inteiros iguais são 54.304 em 2026, 31.016 em 2022 e 12.565 em 2018; o sorteio dá 44 mil, 23 mil e 8 mil. O real passa do sorteio nos 3 anos, menos em 2026, e a subida acompanha a queda dos brancos e nulos. Vereditos mantidos.
+- **Validação:** 19 de 19. **Contagem:** 8 desmentidas, 10 não sustentadas, 4 compatíveis com as duas, 2 não testadas; o teto somado não muda (382.199, 8,63%).

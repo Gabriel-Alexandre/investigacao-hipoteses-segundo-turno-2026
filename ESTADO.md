@@ -1,10 +1,10 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 29/10/2026, rodada 2.
+**Atualizado em:** 30/10/2026, rodada 3.
 
 ## Em uma frase
 
-Rodadas 0 a 2 feitas: o levantamento (1.484 comentários, o relatório pericial, as teorias da internet), a coleta (TSE, IBGE, logs de uma amostra de 13.221 seções), um teste por hipótese, a validação por outro caminho (16 de 16), a revisão por três leitores e o relatório com 12 gráficos. Contagem: 7 desmentidas, 10 não sustentadas, 4 compatíveis com as duas visões, 2 não testadas.
+Rodadas 0 a 3 feitas: o levantamento (1.484 comentários, o relatório pericial, as teorias da internet), a coleta (TSE, IBGE, logs de uma amostra de 13.221 seções), um teste por hipótese, a validação por outro caminho (19 de 19), a revisão por três leitores e o relatório com 16 gráficos. A rodada 3 acrescentou a curva com zoom em 2018, 2022 e 2026 (H24) e as urnas idênticas (H07 e H08). Contagem: 8 desmentidas, 10 não sustentadas, 4 compatíveis com as duas visões, 2 não testadas.
 
 O roteiro v1 do vídeo 20, o material e os prints (que têm dado de pessoa e por isso não vêm para cá) ficam no repositório de documentação do canal, na pasta do vídeo.
 

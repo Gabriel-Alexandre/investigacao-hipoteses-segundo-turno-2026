@@ -215,6 +215,17 @@ Sem autor, sem código e sem arquivo publicado. Circula como imagens de 7 págin
 
 ---
 
+## Rodada 3 · H24. A linha do Flávio desce como se fosse programada
+
+| | |
+|---|---|
+| Alegação | com muito zoom, a linha do Flávio sobe um pouco e cai, num ritmo de programa, como se um algoritmo o penalizasse |
+| Legítimo espera | a porcentagem desce quando entra seção de lugar que vota mais no Lula; a mesma linha aparece se cada seção repetir o próprio 1º turno; 2022 e 2018 fazem igual |
+| Fraude espera | passos que a composição não explica, ritmo fixo, e um desconto que cresce com a ordem de chegada dentro da mesma zona |
+| Teste | a curva na ordem de chegada contra a curva prevista, nos passos a cada 100 seções; regularidade dos vales; a ordem de chegada contra o resultado dentro da zona; os totais nas versões gravadas ao vivo |
+
+---
+
 ## O que é dado de pessoa e nunca vai para este repositório
 
 Nome, foto e @ de quem comentou ficam fora (os prints moram no repositório de documentação do canal); aqui só a contagem e a paráfrase. Identificador de mesário e de eleitor que aparecer em log é codificado (HMAC) e nunca publicado.

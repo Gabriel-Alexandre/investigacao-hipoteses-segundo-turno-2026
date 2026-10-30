@@ -1,0 +1,227 @@
+{
+ "limite": "2018 sem hora de chegada no boletim público: a ordem é o encerramento da urna em horário de Brasília",
+ "curva": {
+  "2026_chegada": {
+   "secoes": 497897,
+   "corr_curvas": 0.9981,
+   "diferenca_media_pontos": 0.088,
+   "corr_dos_passos_a_cada_100_secoes": 0.998,
+   "passos_em_que_a_linha_desce_pct": 59.8,
+   "passos_em_que_a_prevista_desce_pct": 58.1,
+   "autocorrelacao_dos_passos_real": -0.112,
+   "autocorrelacao_dos_passos_prevista": -0.102,
+   "parte_dos_passos_explicada_pela_composicao_pct": 99.5,
+   "vales_real": 77,
+   "regularidade_dos_vales_real_cv": 0.97,
+   "vales_prevista": 78,
+   "regularidade_dos_vales_prevista_cv": 1.01,
+   "pico_do_espectro_periodo_secoes": 492900,
+   "pico_do_espectro_parte_da_variancia_pct": 1.6,
+   "na_prevista_pico_no_mesmo_periodo_parte_da_variancia_pct": 1.59,
+   "na_mesma_zona_corr_ordem_x_diferenca_da_prevista": 0.002,
+   "na_mesma_zona_secoes": 497713,
+   "maior_soma_da_diferenca_votos": 54538,
+   "soma_da_diferenca_na_metade_votos": 47363
+  },
+  "2022_chegada": {
+   "secoes": 471000,
+   "corr_curvas": 0.9998,
+   "diferenca_media_pontos": 0.057,
+   "corr_dos_passos_a_cada_100_secoes": 0.998,
+   "passos_em_que_a_linha_desce_pct": 74.8,
+   "passos_em_que_a_prevista_desce_pct": 74.4,
+   "autocorrelacao_dos_passos_real": 0.636,
+   "autocorrelacao_dos_passos_prevista": 0.651,
+   "parte_dos_passos_explicada_pela_composicao_pct": 99.5,
+   "vales_real": 16,
+   "regularidade_dos_vales_real_cv": 0.9,
+   "vales_prevista": 18,
+   "regularidade_dos_vales_prevista_cv": 0.99,
+   "pico_do_espectro_periodo_secoes": 466200,
+   "pico_do_espectro_parte_da_variancia_pct": 8.61,
+   "na_prevista_pico_no_mesmo_periodo_parte_da_variancia_pct": 9.12,
+   "na_mesma_zona_corr_ordem_x_diferenca_da_prevista": 0.0245,
+   "na_mesma_zona_secoes": 470842,
+   "maior_soma_da_diferenca_votos": 22737,
+   "soma_da_diferenca_na_metade_votos": -15875
+  },
+  "2026_encerramento": {
+   "secoes": 497897,
+   "corr_curvas": 1.0,
+   "diferenca_media_pontos": 0.015,
+   "corr_dos_passos_a_cada_100_secoes": 0.998,
+   "passos_em_que_a_linha_desce_pct": 62.5,
+   "passos_em_que_a_prevista_desce_pct": 61.4,
+   "autocorrelacao_dos_passos_real": 0.194,
+   "autocorrelacao_dos_passos_prevista": 0.213,
+   "parte_dos_passos_explicada_pela_composicao_pct": 99.7,
+   "vales_real": 186,
+   "regularidade_dos_vales_real_cv": 0.71,
+   "vales_prevista": 184,
+   "regularidade_dos_vales_prevista_cv": 0.67,
+   "pico_do_espectro_periodo_secoes": 492900,
+   "pico_do_espectro_parte_da_variancia_pct": 1.74,
+   "na_prevista_pico_no_mesmo_periodo_parte_da_variancia_pct": 1.64,
+   "na_mesma_zona_corr_ordem_x_diferenca_da_prevista": -0.0069,
+   "na_mesma_zona_secoes": 497713,
+   "maior_soma_da_diferenca_votos": 15413,
+   "soma_da_diferenca_na_metade_votos": 13794
+  },
+  "2022_encerramento": {
+   "secoes": 471000,
+   "corr_curvas": 1.0,
+   "diferenca_media_pontos": 0.032,
+   "corr_dos_passos_a_cada_100_secoes": 0.999,
+   "passos_em_que_a_linha_desce_pct": 57.7,
+   "passos_em_que_a_prevista_desce_pct": 57.6,
+   "autocorrelacao_dos_passos_real": 0.329,
+   "autocorrelacao_dos_passos_prevista": 0.332,
+   "parte_dos_passos_explicada_pela_composicao_pct": 99.8,
+   "vales_real": 153,
+   "regularidade_dos_vales_real_cv": 0.59,
+   "vales_prevista": 154,
+   "regularidade_dos_vales_prevista_cv": 0.55,
+   "pico_do_espectro_periodo_secoes": 466200,
+   "pico_do_espectro_parte_da_variancia_pct": 2.81,
+   "na_prevista_pico_no_mesmo_periodo_parte_da_variancia_pct": 2.8,
+   "na_mesma_zona_corr_ordem_x_diferenca_da_prevista": 0.0103,
+   "na_mesma_zona_secoes": 470842,
+   "maior_soma_da_diferenca_votos": 20716,
+   "soma_da_diferenca_na_metade_votos": 18786
+  },
+  "2018_encerramento": {
+   "secoes": 453673,
+   "corr_curvas": 0.9875,
+   "diferenca_media_pontos": 0.165,
+   "corr_dos_passos_a_cada_100_secoes": 0.989,
+   "passos_em_que_a_linha_desce_pct": 40.9,
+   "passos_em_que_a_prevista_desce_pct": 40.3,
+   "autocorrelacao_dos_passos_real": 0.525,
+   "autocorrelacao_dos_passos_prevista": 0.494,
+   "parte_dos_passos_explicada_pela_composicao_pct": 97.9,
+   "vales_real": 117,
+   "regularidade_dos_vales_real_cv": 4.31,
+   "vales_prevista": 126,
+   "regularidade_dos_vales_prevista_cv": 4.1,
+   "pico_do_espectro_periodo_secoes": 4630,
+   "pico_do_espectro_parte_da_variancia_pct": 0.63,
+   "na_prevista_pico_no_mesmo_periodo_parte_da_variancia_pct": 0.57,
+   "na_mesma_zona_corr_ordem_x_diferenca_da_prevista": 0.0063,
+   "na_mesma_zona_secoes": 453312,
+   "maior_soma_da_diferenca_votos": 221121,
+   "soma_da_diferenca_na_metade_votos": 98107
+  }
+ },
+ "versoes_ao_vivo_2026": {
+  "versoes_depois_de_1pct": 342,
+  "vezes_que_o_total_de_votos_do_flavio_caiu": 0,
+  "vezes_que_o_total_de_votos_do_lula_caiu": 0,
+  "vezes_que_a_porcentagem_do_flavio_caiu": 230,
+  "vezes_que_a_porcentagem_do_flavio_subiu": 101,
+  "maior_queda_da_porcentagem_em_uma_versao_pontos": 1.881
+ },
+ "identicas": {
+  "2026": {
+   "secoes": 497897,
+   "brancos_e_nulos_por_secao": 8.32,
+   "secoes_sem_1o_turno": 2,
+   "sem_voto_da_direita": 106,
+   "sem_voto_da_esquerda": 4,
+   "sem_voto_da_direita_nem_branco_nem_nulo": 29,
+   "sem_voto_da_esquerda_nem_branco_nem_nulo": 1,
+   "sem_voto_da_direita_com_100_nominais_ou_mais": 64,
+   "das_sem_voto_da_direita_ja_tinham_ate_5_no_1o_turno_pct": 99.1,
+   "boletins_inteiros_que_se_repetem": 54304,
+   "secoes_nesses_boletins": 117488,
+   "boletins_inteiros_repetidos_com_os_2_acima_de_100": 24878,
+   "maior_comparecimento_num_boletim_repetido": 393,
+   "boletins_iguais_no_mesmo_municipio": 949,
+   "boletins_iguais_na_mesma_zona": 212,
+   "percentuais_exatos_diferentes": 8675,
+   "acaso_boletins_inteiros_que_se_repetem": [
+    43808,
+    44541
+   ],
+   "acaso_boletins_iguais_no_mesmo_municipio": [
+    605,
+    685
+   ],
+   "acaso_boletins_iguais_na_mesma_zona": [
+    119,
+    154
+   ],
+   "acaso_sem_voto_da_direita": [
+    151,
+    189
+   ]
+  },
+  "2022": {
+   "secoes": 471000,
+   "brancos_e_nulos_por_secao": 12.08,
+   "secoes_sem_1o_turno": 0,
+   "sem_voto_da_direita": 141,
+   "sem_voto_da_esquerda": 2,
+   "sem_voto_da_direita_nem_branco_nem_nulo": 27,
+   "sem_voto_da_esquerda_nem_branco_nem_nulo": 0,
+   "sem_voto_da_direita_com_100_nominais_ou_mais": 63,
+   "das_sem_voto_da_direita_ja_tinham_ate_5_no_1o_turno_pct": 100.0,
+   "boletins_inteiros_que_se_repetem": 31016,
+   "secoes_nesses_boletins": 64892,
+   "boletins_inteiros_repetidos_com_os_2_acima_de_100": 14222,
+   "maior_comparecimento_num_boletim_repetido": 414,
+   "boletins_iguais_no_mesmo_municipio": 595,
+   "boletins_iguais_na_mesma_zona": 129,
+   "percentuais_exatos_diferentes": 8611,
+   "acaso_boletins_inteiros_que_se_repetem": [
+    22423,
+    22955
+   ],
+   "acaso_boletins_iguais_no_mesmo_municipio": [
+    303,
+    371
+   ],
+   "acaso_boletins_iguais_na_mesma_zona": [
+    52,
+    82
+   ],
+   "acaso_sem_voto_da_direita": [
+    271,
+    315
+   ]
+  },
+  "2018": {
+   "secoes": 453703,
+   "brancos_e_nulos_por_secao": 24.42,
+   "secoes_sem_1o_turno": 3,
+   "sem_voto_da_direita": 328,
+   "sem_voto_da_esquerda": 3,
+   "sem_voto_da_direita_nem_branco_nem_nulo": 42,
+   "sem_voto_da_esquerda_nem_branco_nem_nulo": 0,
+   "sem_voto_da_direita_com_100_nominais_ou_mais": 150,
+   "das_sem_voto_da_direita_ja_tinham_ate_5_no_1o_turno_pct": 99.4,
+   "boletins_inteiros_que_se_repetem": 12565,
+   "secoes_nesses_boletins": 25538,
+   "boletins_inteiros_repetidos_com_os_2_acima_de_100": 1403,
+   "maior_comparecimento_num_boletim_repetido": 400,
+   "boletins_iguais_no_mesmo_municipio": 227,
+   "boletins_iguais_na_mesma_zona": 49,
+   "percentuais_exatos_diferentes": 8935,
+   "acaso_boletins_inteiros_que_se_repetem": [
+    7597,
+    7989
+   ],
+   "acaso_boletins_iguais_no_mesmo_municipio": [
+    94,
+    125
+   ],
+   "acaso_boletins_iguais_na_mesma_zona": [
+    22,
+    41
+   ],
+   "acaso_sem_voto_da_direita": [
+    1347,
+    1429
+   ]
+  }
+ }
+}

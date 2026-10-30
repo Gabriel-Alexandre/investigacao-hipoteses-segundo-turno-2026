@@ -9,6 +9,7 @@ python ferramentas/derivar_tse.py          # tabelas leves em dados/derivados/
 python ferramentas/derivar_amostra.py      # uma linha por seção e turno da amostra
 python ferramentas/sondagem.py             # rodada 0
 python ferramentas/analise.py              # rodada 1: resultados/RESUMO.json
+python ferramentas/rodada_3.py             # rodada 3: baixa o boletim de 2022 (67 MB), resultados/RODADA3.json
 python ferramentas/validacao_independente.py
 python ferramentas/gerar_relatorio.py
 python ferramentas/graficos.py

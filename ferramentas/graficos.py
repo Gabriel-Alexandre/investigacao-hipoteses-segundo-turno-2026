@@ -253,7 +253,7 @@ CURTO = {"H01": "Flávio venceu até as 17h", "H02": "2,5 milhões depois do hor
          "H09": "Urna antiga contra nova", "H10": "Urnas trocadas", "H11": "Boletim de papel e site", "H12": "Seções fantasmas",
          "H13": "Mortos votaram", "H14": "Mais votos que habitantes", "H15": "Já tinham votado por mim", "H16": "Mesário votando o dia todo",
          "H17": "Sala-cofre e painel", "H18": "Programa troca o voto", "H19": "Flávio perdeu votos em 6 estados", "H20": "Abstenção no Nordeste",
-         "H21": "Compra de voto com benefício", "H22": "Celular e 5G", "H23": "Joaçaba e Região dos Lagos"}
+         "H21": "Compra de voto com benefício", "H22": "Celular e 5G", "H23": "Joaçaba e Região dos Lagos", "H24": "A linha com zoom"}
 
 
 def g11_vereditos():
@@ -292,7 +292,80 @@ def g12_a_noite():
     salvar(f, "g12_a_noite")
 
 
+def g13_tres_eleicoes():
+    import pandas as pd
+    f = fig("A linha do candidato da direita em 3 eleições", "Parte dele nos votos dos 2, na ordem em que as seções entraram")
+    for i, (ano, ord_, nome) in enumerate(((2018, "enc", "2018, Bolsonaro (encerramento)"), (2022, "rec", "2022, Bolsonaro (chegada)"), (2026, "rec", "2026, Flávio (chegada)"))):
+        c = pd.read_csv(RAIZ / f"resultados/tabelas/r3_curva_{ano}_{ord_}.csv")
+        c = c[c.pct_secoes >= 1]
+        ax = f.add_axes([0.06 + i * 0.32, 0.17, 0.27, 0.58])
+        ax.plot(c.pct_secoes, c.real, lw=3, color=FLAVIO)
+        ax.axhline(50, color=BASE, lw=1)
+        ax.set_title(nome, fontsize=17, color=TEXTO)
+        ax.set_xlabel("% das seções", fontsize=16)
+        ax.tick_params(labelsize=15)
+        ax.yaxis.set_major_formatter(lambda v, _: f"{v:.1f}%")
+    rodape(f, "TSE, boletim de urna por seção")
+    salvar(f, "g13_a_linha_em_3_eleicoes")
+
+
+def g14_zoom_2026():
+    import pandas as pd
+    f = fig("O zoom na linha do Flávio", "Em vermelho, a mesma linha com cada seção repetindo o próprio 1º turno, na mesma ordem")
+    trechos = ((f"r3_curva_2026_rec.csv", "a noite inteira"), ("r3_zoom1_2026_rec.csv", "zoom em 5% das seções"), ("r3_zoom2_2026_rec.csv", "zoom em 0,5% das seções"))
+    for i, (arq, nome) in enumerate(trechos):
+        c = pd.read_csv(RAIZ / "resultados/tabelas" / arq)
+        c = c[c.pct_secoes >= 1]
+        ax = f.add_axes([0.06 + i * 0.32, 0.17, 0.27, 0.58])
+        ax.plot(c.pct_secoes, c.prevista, lw=2.5, color=LULA, alpha=0.75, label="1º turno repetido")
+        ax.plot(c.pct_secoes, c.real, lw=2.5, color=FLAVIO, label="real")
+        ax.set_title(nome, fontsize=17, color=TEXTO)
+        ax.set_xlabel("% das seções", fontsize=16)
+        ax.tick_params(labelsize=14)
+        ax.yaxis.set_major_formatter(lambda v, _: f"{v:.2f}%")
+        if i == 0:
+            ax.legend(frameon=False, fontsize=15)
+    rodape(f, "TSE, boletim de urna por seção")
+    salvar(f, "g14_o_zoom_em_2026")
+
+
+def g15_zoom_tres_eleicoes():
+    import pandas as pd
+    f = fig("O mesmo zoom nas 3 eleições", "0,5% das seções, a partir da metade da contagem")
+    for i, (ano, ord_, nome) in enumerate(((2018, "enc", "2018, Bolsonaro"), (2022, "rec", "2022, Bolsonaro"), (2026, "rec", "2026, Flávio"))):
+        c = pd.read_csv(RAIZ / f"resultados/tabelas/r3_zoom2_{ano}_{ord_}.csv")
+        ax = f.add_axes([0.07 + i * 0.32, 0.17, 0.26, 0.58])
+        ax.plot(c.pct_secoes, c.real, lw=2.5, color=FLAVIO)
+        ax.set_title(nome, fontsize=17, color=TEXTO)
+        ax.set_xlabel("% das seções", fontsize=16)
+        ax.tick_params(labelsize=14)
+        ax.yaxis.set_major_formatter(lambda v, _: f"{v:.3f}%")
+    rodape(f, "TSE, boletim de urna por seção")
+    salvar(f, "g15_o_zoom_em_3_eleicoes")
+
+
+def g16_boletins_iguais():
+    r3 = json.loads((RAIZ / "resultados/RODADA3.json").read_text(encoding="utf-8"))["identicas"]
+    f = fig("Boletins inteiros iguais, em 3 eleições", "Lula, Flávio, branco e nulo idênticos em mais de uma seção, contra o sorteio pelo 1º turno de cada seção")
+    ax = f.add_axes([0.09, 0.17, 0.85, 0.58])
+    anos = ["2018", "2022", "2026"]
+    x = range(3)
+    real = [r3[a]["boletins_inteiros_que_se_repetem"] for a in anos]
+    sor = [sum(r3[a]["acaso_boletins_inteiros_que_se_repetem"]) / 2 for a in anos]
+    ax.bar([i - 0.2 for i in x], sor, 0.38, color=BASE, label="sorteio")
+    ax.bar([i + 0.2 for i in x], real, 0.38, color=FLAVIO, label="real")
+    for i in x:
+        ax.text(i - 0.2, sor[i], n(sor[i]), ha="center", va="bottom", fontsize=17)
+        ax.text(i + 0.2, real[i], n(real[i]), ha="center", va="bottom", fontsize=17, weight="bold")
+    ax.set_xticks(list(x), anos)
+    ax.set_yticks([])
+    ax.spines["left"].set_visible(False)
+    ax.legend(frameon=False, loc="upper left")
+    rodape(f, "TSE, boletim de urna por seção")
+    salvar(f, "g16_boletins_iguais")
+
+
 if __name__ == "__main__":
-    for g in (g01_fuso, g02_17h, g03_unanimidade, g04_benford, g05_repetidos, g06_modelo, g07_centenarios, g08_manual_por_hora, g09_estados, g10_renda, g11_vereditos, g12_a_noite):
+    for g in (g01_fuso, g02_17h, g03_unanimidade, g04_benford, g05_repetidos, g06_modelo, g07_centenarios, g08_manual_por_hora, g09_estados, g10_renda, g11_vereditos, g12_a_noite, g13_tres_eleicoes, g14_zoom_2026, g15_zoom_tres_eleicoes, g16_boletins_iguais):
         g()
     print("ok", len(list(OUT.glob("*.png"))))

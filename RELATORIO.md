@@ -1,6 +1,6 @@
 # Relatório: as hipóteses do público sobre o 2º turno de 2026
 
-**Rodada 2, 29/out/2026.** Investigação Aberta, parte 3. Cada hipótese que o público levantou (comentários dos vídeos 8, 16 e 19, o "Relatório Pericial Independente" e as teorias da internet) foi testada pelas duas visões: a do resultado legítimo e a da fraude. A rodada 2 aplicou a revisão de três leitores (`docs/REVISAO_ADVERSARIAL.md`). Todo número sai de `ferramentas/analise.py` (`resultados/RESUMO.json`); os números centrais foram refeitos por outro caminho em `ferramentas/validacao_independente.py` (16 de 16 passaram).
+**Rodada 3, 30/out/2026.** Investigação Aberta, parte 3. Cada hipótese que o público levantou (comentários dos vídeos 8, 16 e 19, o "Relatório Pericial Independente" e as teorias da internet) foi testada pelas duas visões: a do resultado legítimo e a da fraude. A rodada 2 aplicou a revisão de três leitores (`docs/REVISAO_ADVERSARIAL.md`). Todo número sai de `ferramentas/analise.py` (`resultados/RESUMO.json`); os números centrais foram refeitos por outro caminho em `ferramentas/validacao_independente.py` (19 de 19 passaram).
 
 ## O que este projeto não consegue dizer
 
@@ -24,7 +24,7 @@ Duas respostas separadas: se o fato que circula está certo, e o que o dado diz 
 | H05 | A lei de Benford reprova a votação | o relatório não mostrou número nenhum | **Não sustentado** | raridade | não se aplica |
 | H06 | Os boletins ficaram 72 horas escondidos | meio certo: só a entrada no catálogo foi em 28/10 | **Desmentido** | arquivos | não se aplica |
 | H07 | 106 urnas com zero voto para o Flávio | certo: 106 seções e 14.860 votos | **Não sustentado** | raridade | 118 votos (o que o Flávio teve nelas no 1º turno), menos de 0,01% da diferença |
-| H08 | Seções com placar repetido seriam impossíveis | existem, e abaixo do que o acaso daria | **Desmentido** | raridade | não se aplica |
+| H08 | Seções com placar repetido seriam impossíveis | existem, e o boletim inteiro igual também (mensagem de um seguidor) | **Desmentido** | raridade | não se aplica |
 | H09 | As urnas antigas votam diferente das novas | os quatro modelos (2013 a 2022) votaram em 2026 | **Não sustentado** | comportamento | não se aplica |
 | H10 | Urnas trocadas e levadas em carro de partido | houve 1.996 trocas registradas e um caso real de transporte irregular | **Não sustentado** | comportamento | 246 votos pela diferença contra as vizinhas (menos de 0,01%); se todos os votos dessas seções fossem falsos, 502.317 |
 | H11 | O boletim de papel não bate com o site do TSE | o caso que circulou (Teixeira de Freitas) está errado | **Não sustentado** | arquivos | não medido |
@@ -34,6 +34,7 @@ Duas respostas separadas: se o fato que circula está certo, e o que o dado diz 
 | H15 | Cheguei e já tinham votado por mim | certo: o aviso apareceu 113.315 vezes | **Compatível com as duas** | comportamento | se cada aviso fosse um voto roubado: 113.315 votos (2,56%) |
 | H16 | O mesário vota o dia todo, quando a seção esvazia | não: a liberação manual acompanha o movimento da seção | **Não sustentado** | comportamento | não se aplica |
 | H17 | O Flávio "perdendo votos" no painel, os 165 mil "sem origem" e a sala-cofre | errado: o total do Flávio nunca caiu | **Desmentido** | arquivos | não se aplica |
+| H24 | A linha do Flávio desce como se fosse programada (o zoom na curva) | certo que, com zoom, a porcentagem desce em degraus; o total de votos nunca desce | **Desmentido** | comportamento | não se aplica |
 | H18 | O programa da urna troca o voto | certo que o Flávio caiu em 82.155 seções | **Compatível com as duas** | arquivos | se as quedas grandes do Flávio fossem votos trocados para o Lula: 49.110 votos de diferença (1,11%) |
 | H19 | O Flávio perdeu votos em 6 estados e o Lula em nenhum | certo | **Não sustentado** | comportamento | não se aplica |
 | H20 | A abstenção caiu no Nordeste, mesmo com a falta de ônibus | certo | **Não sustentado** | comportamento | não se aplica |
@@ -41,7 +42,7 @@ Duas respostas separadas: se o fato que circula está certo, e o que o dado diz 
 | H22 | Onde tem mais celular e 5G, mais voto novo no Lula | não medido | **Não testado nesta rodada** | comportamento | não medido |
 | H23 | Joaçaba (SC), Araruama e a Região dos Lagos (RJ) | certo: a conta fecha | **Compatível com as duas** | comportamento | 3.025 votos (0,07%) |
 
-Contagem: Não sustentado: 10; Desmentido: 7; Compatível com as duas: 4; Não testado nesta rodada: 2.
+Contagem: Não sustentado: 10; Desmentido: 8; Compatível com as duas: 4; Não testado nesta rodada: 2.
 
 ## O achado principal do relatório pericial
 
@@ -123,7 +124,7 @@ Os 28 pacotes do 2º turno entraram no catálogo de Dados Abertos em 28/10 11h07
 
 **O fato que circula:** certo: 106 seções e 14.860 votos. **Veredito sobre a fraude: Não sustentado** (critério: raridade, que pesa no meio).
 
-São 106 seções e 14.860 votos (30 no AM, 20 no MA, 16 no PA, 8 em RR); 46 têm nome de aldeia, escola indígena ou comunidade no local de votação. No 1º turno de 2026, 50 delas já não tinham voto do Flávio, e as outras 56 somavam 118 votos dele; pelo acaso, com a divisão do 1º turno, seriam esperadas 79 seções zeradas entre as que tinham voto do Flávio. O fenômeno foi maior antes: 141 seções sem voto do Bolsonaro em 2022 e 328 em 2018. O espelho existe: 4 seções sem voto do Lula, no RS e no PA.
+São 106 seções e 14.860 votos (30 no AM, 20 no MA, 16 no PA, 8 em RR); 46 têm nome de aldeia, escola indígena ou comunidade no local de votação. No 1º turno de 2026, 50 delas já não tinham voto do Flávio, e as outras 56 somavam 118 votos dele; pelo acaso, com a divisão do 1º turno, seriam esperadas 79 seções zeradas entre as que tinham voto do Flávio. O fenômeno foi maior antes: 141 seções sem voto do Bolsonaro em 2022 e 328 em 2018. O espelho existe: 4 seções sem voto do Lula, no RS e no PA. As que têm 100% para um candidato, sem branco nem nulo: 29 do Lula e 1 do Flávio em 2026; em 2022, 27 do Lula; em 2018, 42 do Haddad. Sorteando pelo próprio 1º turno de cada seção, seriam esperadas 151 a 189 seções sem voto do Flávio, mais do que as 106 que apareceram.
 
 - Visão do resultado legítimo: voto concentrado em aldeia e comunidade, que se repete eleição após eleição e foi mais frequente em 2018 e 2022.
 - Visão da fraude: a lista teria seções sem histórico de unanimidade; quase todas já votavam assim.
@@ -132,9 +133,9 @@ São 106 seções e 14.860 votos (30 no AM, 20 no MA, 16 no PA, 8 em RR); 46 tê
 
 #### H08. Seções com placar repetido seriam impossíveis
 
-**O fato que circula:** existem, e abaixo do que o acaso daria. **Veredito sobre a fraude: Desmentido** (critério: raridade, que pesa no meio).
+**O fato que circula:** existem, e o boletim inteiro igual também (mensagem de um seguidor). **Veredito sobre a fraude: Desmentido** (critério: raridade, que pesa no meio).
 
-41.133 placares (Lula, Flávio) aparecem em mais de uma seção. Sorteando os votos de cada seção 20 vezes pela divisão Lula e Flávio dela no 1º turno, o acaso dá entre 42.494 e 42.693. Em 2022 foram 43.111. Nenhum placar se repete com os dois candidatos acima de 300 votos.
+41.133 placares (Lula, Flávio) aparecem em mais de uma seção. Sorteando os votos de cada seção 20 vezes pela divisão Lula e Flávio dela no 1º turno, o acaso dá entre 42.494 e 42.693. Em 2022 foram 43.111. Nenhum placar se repete com os dois candidatos acima de 300 votos. Boletim inteiro (Lula, Flávio, branco e nulo iguais): 54.304 em 2026, 31.016 em 2022 e 12.565 em 2018. A subida acompanha a queda dos brancos e nulos (24,4 por seção em 2018, 12,1 em 2022, 8,3 em 2026), porque com menos branco e nulo há menos combinações possíveis: o sorteio dá 43.808 a 44.541 em 2026, 22.423 a 22.955 em 2022 e 7.597 a 7.989 em 2018. O real passa do sorteio nos 3 anos, e 2026 é o ano em que passa menos (23% acima, contra 37% em 2022 e 61% em 2018). O maior boletim repetido tem 393 votos.
 
 - Visão do resultado legítimo: com meio milhão de seções, placar repetido é o esperado (é o problema do aniversário).
 - Visão da fraude: a fraude por cópia deixaria repetição acima do acaso; não há.
@@ -244,6 +245,17 @@ Nas 346 versões nacionais do resultado gravadas ao vivo na noite, o total do Fl
 - Teto do pior caso: não se aplica.
 - O que fecharia: já fechado para o painel; para a totalização, a assinatura dos boletins.
 
+#### H24. A linha do Flávio desce como se fosse programada (o zoom na curva)
+
+**O fato que circula:** certo que, com zoom, a porcentagem desce em degraus; o total de votos nunca desce. **Veredito sobre a fraude: Desmentido** (critério: comportamento, que pesa mais).
+
+Com muito zoom, a porcentagem do Flávio desce em degraus: caiu em 230 e subiu em 101 das versões gravadas ao vivo, e o total de votos dele caiu 0 vezes. A curva foi refeita com cada seção repetindo o próprio 1º turno, na mesma ordem de chegada: a própria composição das seções explica 99,5% dos passos em 2026 e 99,5% em 2022 (em 2018, sem hora de chegada no arquivo público, pela hora de encerramento, 97,9%). O Bolsonaro desceu em 74,8% dos passos em 2022, mais que o Flávio (59,8%). Os vales não têm ritmo: o intervalo entre eles varia quase tanto quanto ao acaso (0,97 em 2026, 0,90 em 2022; um relógio daria 0), igual à curva prevista (1,01 e 0,99). Dentro da mesma zona, chegar mais tarde não muda o resultado da seção (correlação 0,002 em 2026, 0,025 em 2022).
+
+- Visão do resultado legítimo: a porcentagem desce quando entra seção de lugar que já votava mais no Lula, sem nenhum voto sair.
+- Visão da fraude: um programa deixaria passos que a composição não explica, ritmo fixo e desconto crescente com a ordem; nada disso aparece.
+- Teto do pior caso: não se aplica.
+- O que fecharia: já fechado para a curva; um programa agindo dentro da urna é a H18.
+
 #### H18. O programa da urna troca o voto
 
 **O fato que circula:** certo que o Flávio caiu em 82.155 seções. **Veredito sobre a fraude: Compatível com as duas** (critério: arquivos, que pesa menos (bater é o esperado nas duas visões)).
@@ -317,7 +329,6 @@ Em Joaçaba, o Flávio cresceu 843 e o Lula 1.046, com 1.366 votos dos outros ca
 | Hipótese | Onde |
 |---|---|
 | A conta dos 10 milhões e "a conta não fecha" | vídeos 16 e 19 |
-| A curva da noite "programada" | vídeo 16 |
 | As pesquisas e as regras quebradas (líder do 1º turno, Minas) | vídeo 19 |
 | Mesários votando por quem faltou no 1º turno | vídeo 8 |
 
@@ -327,11 +338,11 @@ Com os pesos do vídeo 16 (o comportamento dos votos pesa mais, a raridade no me
 
 | Critério | Hipóteses | O que o dado sustenta mais |
 |---|---|---|
-| Comportamento dos votos | H01, H02, H03, H09, H10, H13, H14, H15, H16, H19, H20, H21, H22, H23 | o resultado legítimo; ficam de pé, a conferir, H14, H15, H23 |
+| Comportamento dos votos | H01, H02, H03, H09, H10, H13, H14, H15, H16, H24, H19, H20, H21, H22, H23 | o resultado legítimo; ficam de pé, a conferir, H14, H15, H23 |
 | Raridade | H04, H05, H07, H08 | o resultado legítimo: unanimidade, dígitos e placares repetidos aparecem do mesmo jeito em 2018 e 2022 |
 | Arquivos das urnas | H06, H11, H12, H17, H18 | o resultado legítimo, com peso pequeno: arquivo do TSE contra arquivo do TSE bateria nas duas visões; fica a conferir H18 |
 
-Das 21 hipóteses testadas, 17 não mostraram a marca que a fraude deixaria no dado público (7 desmentidas e 10 não sustentadas), e 4 ficam compatíveis com as duas visões (H14, H15, H18, H23). O número do relatório pericial sai de um erro de fuso. Mesmo somando o pior caso de todos os caminhos que ainda podem ter acrescentado voto, um por cima do outro, dá 382.199 votos, 8,63% da diferença. O que continua sem resposta está dentro do TSE: a lista de quem votou em cada seção, o cadastro cruzado com os óbitos, a assinatura de cada boletim e um teste de integridade maior.
+Das 22 hipóteses testadas, 18 não mostraram a marca que a fraude deixaria no dado público (8 desmentidas e 10 não sustentadas), e 4 ficam compatíveis com as duas visões (H14, H15, H18, H23). O número do relatório pericial sai de um erro de fuso. Mesmo somando o pior caso de todos os caminhos que ainda podem ter acrescentado voto, um por cima do outro, dá 382.199 votos, 8,63% da diferença. O que continua sem resposta está dentro do TSE: a lista de quem votou em cada seção, o cadastro cruzado com os óbitos, a assinatura de cada boletim e um teste de integridade maior.
 
 ## O pior caso de cada caminho ainda aberto
 
@@ -367,6 +378,9 @@ Das 21 hipóteses testadas, 17 não mostraram a marca que a fraude deixaria no d
 | votos depois das 17h no oeste do AM (fuso tirado do próprio log) | 31 | 31 | RESUMO.json (fuso pela abertura no boletim) | sim |
 | eleitorado 2026 | 158745463 | 158745463 | TSE, eleitorado apto em 2026 | sim |
 | população do Censo 2022 | 203080756 | 203080756 | IBGE, Censo 2022 | sim |
+| boletins inteiros repetidos em 2026 (votação por seção × boletim) | 54304 | 54304 | resultados/RODADA3.json | sim |
+| seções sem voto do Flávio (votação por seção × boletim) | 106 | 106 | resultados/RODADA3.json | sim |
+| a composição explica mais de 99% dos passos da curva de 2026 (blocos de 250 seções, sem rodada_3.py) | True | True | obtido 99.54% | sim |
 
 ## Reconciliação com o total proclamado
 

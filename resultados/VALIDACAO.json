@@ -111,8 +111,29 @@
    "esperado": 203080756,
    "fonte_do_esperado": "IBGE, Censo 2022",
    "passou": true
+  },
+  {
+   "checagem": "boletins inteiros repetidos em 2026 (votação por seção × boletim)",
+   "obtido": 54304,
+   "esperado": 54304,
+   "fonte_do_esperado": "resultados/RODADA3.json",
+   "passou": true
+  },
+  {
+   "checagem": "seções sem voto do Flávio (votação por seção × boletim)",
+   "obtido": 106,
+   "esperado": 106,
+   "fonte_do_esperado": "resultados/RODADA3.json",
+   "passou": true
+  },
+  {
+   "checagem": "a composição explica mais de 99% dos passos da curva de 2026 (blocos de 250 seções, sem rodada_3.py)",
+   "obtido": true,
+   "esperado": true,
+   "fonte_do_esperado": "obtido 99.54%",
+   "passou": true
   }
  ],
- "passaram": 16,
- "total": 16
+ "passaram": 19,
+ "total": 19
 }

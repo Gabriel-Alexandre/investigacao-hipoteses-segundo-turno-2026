@@ -16,6 +16,7 @@ import sqlite3
 import zipfile
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -116,6 +117,34 @@ def main():
     ib = json.loads((B / "ibge/censo2022_9514_total.json").read_text(encoding="utf-8"))
     pop = sum(int(s["serie"]["2022"]) for resp in ib for b in resp[0]["resultados"] for s in b["series"])
     conferir("população do Censo 2022", pop, 203080756, "IBGE, Censo 2022")
+
+    # rodada 3: o boletim inteiro repetido, pela votação por seção (outro produto que não o boletim), e o total de 2022
+    r3 = json.loads((RAIZ / "resultados/RODADA3.json").read_text(encoding="utf-8"))
+    z = zipfile.ZipFile(B / "tse/votacao_secao_2026_BR.zip")
+    nome = next(n for n in z.namelist() if n.lower().endswith(".csv"))
+    partes = []
+    for c in pd.read_csv(z.open(nome), sep=";", encoding="latin1", dtype=str, usecols=lambda c: c in ["NR_TURNO", "SG_UF", "CD_MUNICIPIO", "NR_ZONA", "NR_SECAO", "CD_CARGO", "NR_VOTAVEL", "QT_VOTOS"], chunksize=2_000_000, keep_default_na=False):
+        partes.append(c[(c.NR_TURNO == "2") & (c.CD_CARGO == "1") & (c.SG_UF != "ZZ") & c.NR_VOTAVEL.isin(["13", "22", "95", "96"])])
+    vs = pd.concat(partes)
+    vs["QT_VOTOS"] = vs.QT_VOTOS.astype(int)
+    pv = vs.pivot_table(index=["SG_UF", "CD_MUNICIPIO", "NR_ZONA", "NR_SECAO"], columns="NR_VOTAVEL", values="QT_VOTOS", aggfunc="sum", fill_value=0)
+    pv = pv[(pv["13"] + pv["22"]) > 0]
+    conferir("boletins inteiros repetidos em 2026 (votação por seção × boletim)", int((pv.groupby(["13", "22", "95", "96"]).size() >= 2).sum()), r3["identicas"]["2026"]["boletins_inteiros_que_se_repetem"], "resultados/RODADA3.json")
+    conferir("seções sem voto do Flávio (votação por seção × boletim)", int((pv["22"] == 0).sum()), r3["identicas"]["2026"]["sem_voto_da_direita"], "resultados/RODADA3.json")
+    # a curva de 2026 refeita sem rodada_3.py: a parte dos passos explicada, em blocos de 250 seções, tem que ficar acima de 99%
+    t2c = pd.read_parquet(RAIZ / "dados/copias/t2_secoes.parquet", columns=["uf", "municipio", "zona", "secao", "recebido", "bu_lula", "bu_flavio"])
+    t1c = pd.read_parquet(RAIZ / "dados/copias/t1_secoes.parquet", columns=["uf", "municipio", "zona", "secao", "lula", "flavio"])
+    mc = t2c[t2c.uf.str.upper() != "ZZ"].merge(t1c, on=["uf", "municipio", "zona", "secao"], how="left")
+    for k in ("bu_lula", "bu_flavio", "lula", "flavio"):
+        mc[k] = pd.to_numeric(mc[k], errors="coerce").fillna(0)
+    mc = mc.sort_values(["recebido", "uf", "municipio", "zona", "secao"])
+    tt = (mc.bu_lula + mc.bu_flavio).to_numpy(float)
+    pp = (mc.flavio / (mc.lula + mc.flavio)).fillna(mc.flavio.sum() / (mc.lula.sum() + mc.flavio.sum())).to_numpy(float)
+    pp = (pp + (mc.bu_flavio.sum() - (pp * tt).sum()) / tt.sum()).clip(0, 1)
+    rr = (mc.bu_flavio.to_numpy(float).cumsum() / tt.cumsum().clip(1))[5000::250]
+    qq = ((pp * tt).cumsum() / tt.cumsum().clip(1))[5000::250]
+    expl = float(np.corrcoef(np.diff(rr), np.diff(qq))[0, 1] ** 2 * 100)
+    conferir("a composição explica mais de 99% dos passos da curva de 2026 (blocos de 250 seções, sem rodada_3.py)", expl > 99, True, f"obtido {expl:.2f}%")
 
     out = {"checagens": ch, "passaram": int(sum(c["passou"] for c in ch)), "total": len(ch)}
     (RAIZ / "resultados/VALIDACAO.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

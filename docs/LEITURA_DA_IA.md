@@ -1,6 +1,6 @@
 # Leitura da IA
 
-**Rodada 2, 29/out/2026.** A leitura de cada bloco, com o que cada visão diz e qual o dado sustenta mais. Os números estão no `RELATORIO.md`.
+**Rodada 3, 30/out/2026.** A leitura de cada bloco, com o que cada visão diz e qual o dado sustenta mais. Os números estão no `RELATORIO.md`.
 
 ## O relatório pericial
 
@@ -30,6 +30,7 @@
 ## A totalização
 
 - **H17 · Desmentido.** Legítimo: a soma é aberta seção por seção, e o painel só cresceu. Fraude: uma totalização mexida apareceria entre o boletim da seção e o total; os dois batem, mas isso também bateria numa fraude feita antes do boletim.
+- **H24 · Desmentido.** Legítimo: a porcentagem desce quando entra seção de lugar que já votava mais no Lula, sem nenhum voto sair. Fraude: um programa deixaria passos que a composição não explica, ritmo fixo e desconto crescente com a ordem; nada disso aparece.
 - **H18 · Compatível com as duas.** Legítimo: o voto segue o 1º turno de cada seção, o padrão geral é o de 2022 com os lados trocados, e a auditoria por amostra bateu. Fraude: uma troca que imitasse o eleitor não se separa por estatística, e as quedas grandes do Flávio são mais que as do Lula em 2022.
 
 ## O comportamento dos votos
@@ -42,6 +43,6 @@
 
 ## No fim
 
-Das 21 hipóteses testadas, 17 não mostraram a marca que a fraude deixaria no dado público (7 desmentidas e 10 não sustentadas), e 4 ficam compatíveis com as duas visões (H14, H15, H18, H23). O número do relatório pericial sai de um erro de fuso. Mesmo somando o pior caso de todos os caminhos que ainda podem ter acrescentado voto, um por cima do outro, dá 382.199 votos, 8,63% da diferença. O que continua sem resposta está dentro do TSE: a lista de quem votou em cada seção, o cadastro cruzado com os óbitos, a assinatura de cada boletim e um teste de integridade maior.
+Das 22 hipóteses testadas, 18 não mostraram a marca que a fraude deixaria no dado público (8 desmentidas e 10 não sustentadas), e 4 ficam compatíveis com as duas visões (H14, H15, H18, H23). O número do relatório pericial sai de um erro de fuso. Mesmo somando o pior caso de todos os caminhos que ainda podem ter acrescentado voto, um por cima do outro, dá 382.199 votos, 8,63% da diferença. O que continua sem resposta está dentro do TSE: a lista de quem votou em cada seção, o cadastro cruzado com os óbitos, a assinatura de cada boletim e um teste de integridade maior.
 
 A visão do resultado legítimo fica na frente nos três critérios, sem que isso prove que não houve irregularidade em lugar nenhum. Os pedidos ao TSE estão em `docs/PEDIDOS_LAI.md`.

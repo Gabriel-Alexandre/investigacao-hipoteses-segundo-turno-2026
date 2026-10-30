@@ -1,0 +1,590 @@
+{
+ "bweb2022/bweb_2t_AC_311020221535.zip": {
+  "bytes": 538139,
+  "sha256": "c7c1e1dd9d752f47ce6fdb05ced92001dee85d1fcbff81f850e1cb4aa404e127",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_AC_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_AL_311020221535.zip": {
+  "bytes": 1341316,
+  "sha256": "934a061e9f9905c9dd14e5f58316c07ab0502190f568df9801ada6a068475148",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_AL_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_AM_311020221535.zip": {
+  "bytes": 1480749,
+  "sha256": "05549e4562a3022cb297fa9f3b9bf1725a8484030811b97e5b29ccd7adb4089f",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_AM_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_AP_311020221535.zip": {
+  "bytes": 501229,
+  "sha256": "3f79d99e643930cabdc506167d7fe46553cd965ef0ce7a072ffa1d3671e38a73",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_AP_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_BA_311020221535.zip": {
+  "bytes": 5522366,
+  "sha256": "47d236cabb758c9ba5410ac66d8a7e4dc3d9dfd0e1eca37fe662ebb49301a498",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_BA_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_CE_311020221535.zip": {
+  "bytes": 2613744,
+  "sha256": "ee7da46cdb0141c500e274d701998718a5c68f2bdae5e2f6daae0328577b3a77",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_CE_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_DF_311020221535.zip": {
+  "bytes": 998403,
+  "sha256": "373b91674c437468494eeeff041d1b00760a27424b7c1094a791f1f0ef308965",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_DF_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_ES_311020221535.zip": {
+  "bytes": 1717142,
+  "sha256": "cd62f7f13731f57075ed9ae03d74a6cc2dde2179936b482bbc7489a593d938d9",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_ES_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_GO_311020221535.zip": {
+  "bytes": 1786175,
+  "sha256": "817a8cde9e399b8bfcebef4ac3594ecf5ef52862d3ff7bc46bff12ff434dedfd",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_GO_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_MA_311020221535.zip": {
+  "bytes": 1965703,
+  "sha256": "2eafff0950e35bed46f52020e1e1d42cb3d634a3a7f9fac99879c910b994dff9",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MA_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_MG_311020221535.zip": {
+  "bytes": 5283911,
+  "sha256": "fd139fb63ea5cd06b9dc8854f77433cf02e62a8aacfa989881535cc37981781a",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MG_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_MS_311020221535.zip": {
+  "bytes": 1380373,
+  "sha256": "d979e0a0ca91948d9672c87354bf92d88da948fd4e065d5fe38662a52d3572f2",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MS_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_MT_311020221535.zip": {
+  "bytes": 1081503,
+  "sha256": "1db6887cc30124724be3cd75fdd2d923f78545e4cd0f1bd3fbb2b7c2f80dbef2",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MT_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_PA_311020221535.zip": {
+  "bytes": 2118855,
+  "sha256": "f8de600ece5af4a456f79e8116172e8340d4147163eb1dcb59a6bebb3d31ab65",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PA_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_PB_311020221535.zip": {
+  "bytes": 1806259,
+  "sha256": "43db324f0166f28a6863c481a55136cb1e5c571da44c2d85069711d5f3166eac",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PB_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_PE_311020221535.zip": {
+  "bytes": 3469891,
+  "sha256": "023aa5a0584bfd89023803a7823e2bf2a56ed839713aed4dbe3d5572201ea9b4",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PE_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_PI_311020221535.zip": {
+  "bytes": 1227487,
+  "sha256": "f85d2b5348ab32c12df92496fdd2c87609ec1191439c238f7f105bcdc87be540",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PI_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_PR_311020221535.zip": {
+  "bytes": 2855742,
+  "sha256": "a6324ed276d1d4e49ad4814b5f6a649df57a2ee520ec53822a5fa29f600ba9b3",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PR_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_RJ_311020221535.zip": {
+  "bytes": 3728044,
+  "sha256": "9dd10ef9599d37dda023b8c2353065352fc4b2d744b804348ae97a6d9a255b44",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RJ_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_RN_311020221535.zip": {
+  "bytes": 1090336,
+  "sha256": "b3aad33d132cdb0ef963c99117d4578161eb37e1d608dbf93aede538b9d440ab",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RN_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_RO_311020221535.zip": {
+  "bytes": 959055,
+  "sha256": "2cedffb216d5de03227cf612ccba87a2a4cbf37b4bf7cdcc6efaf9cb83e34b0a",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RO_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_RR_311020221535.zip": {
+  "bytes": 450233,
+  "sha256": "d3681e90acf0711704525ea5efc3f56955bcfb8638c9f6de54a4830e40304cd5",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RR_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_RS_311020221535.zip": {
+  "bytes": 4537987,
+  "sha256": "6870c7f4666ae12959e96cb95b3dbe6ea0b10b8b36130510cd3a843cfa09a599",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RS_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_SC_311020221535.zip": {
+  "bytes": 2776735,
+  "sha256": "cf67057ad095817a1c4bb30ef1cb9349bd0843a5f6bfd29a26aa21ee7c719c16",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_SC_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_SE_311020221535.zip": {
+  "bytes": 1168873,
+  "sha256": "6906894047561b842ec3f22556c00acfcedb66d1e79a6de7633d3407dfe32fd9",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_SE_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_SP_311020221535.zip": {
+  "bytes": 16096583,
+  "sha256": "6a36f44f7cc7712b8ce251066830cf3e574af74e110833e6e56c9e96e6001125",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_SP_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_TO_311020221535.zip": {
+  "bytes": 721111,
+  "sha256": "f1832b3b5a8a15a6fa55bcdf115f12177abd924dd0f99be2776fee7ed60399c1",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_TO_311020221535.zip"
+ },
+ "bweb2022/bweb_2t_ZZ_311020221535.zip": {
+  "bytes": 433558,
+  "sha256": "7be450456258a2f0f106b09010fb5b41aafca229373d4d4d3357662a65bcb789",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_ZZ_311020221535.zip"
+ },
+ "historico2018/2018-1-ac-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "4c68bdd3c0ce9beae937aed0788496a1af536327cd5f4adc1a5b36dad631de02"
+ },
+ "historico2018/2018-1-ac-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "39de0d763a423bd92c425aa10e3dbaef4c3ac82930b48422cc9905675bfe1f26"
+ },
+ "historico2018/2018-1-al-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "b8cc39328d145e1cd716bd997ac6a0cb36602bcd6e94316f72b7e8ac12dcb1e5"
+ },
+ "historico2018/2018-1-al-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "c3cdb4f312558dcdea78a7223454bb28ae484762f06fec869555dbe22d3602dc"
+ },
+ "historico2018/2018-1-am-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9a7e42990d61dde23c08f76f13ad260566f188d7e9400792d8a6864c10d8dd83"
+ },
+ "historico2018/2018-1-am-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "a673027f37c3d2a3ceae7a4b0589bdda1b8fb0f558b5cbb7d4b3fe4d389981ff"
+ },
+ "historico2018/2018-1-ap-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "d404946b031c86d5b6769bdc887e2f5eb966b8a9a2c2b4b4c2e6373d6e3dea20"
+ },
+ "historico2018/2018-1-ap-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "ad9ed8de7d860406ba44e599535195ff5f7adc25c8199fcc38dd9623109646f1"
+ },
+ "historico2018/2018-1-ba-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "a1b02c5187a64406748de8c086f4c287e20fdf17bab7826c92919911e253603c"
+ },
+ "historico2018/2018-1-ba-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "962f6f9907b217aabafc130177ede4b035435bbacaa5d89facb05a7ee585c48f"
+ },
+ "historico2018/2018-1-ce-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "cf5c4cfa4e33dac6120738b5ff37ca3406951e217c9759241a10941d45f619cb"
+ },
+ "historico2018/2018-1-ce-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "27a642a6b3c31b5ac41ea4db762130d808af5f48fdaf3765fef4c8a5531b7261"
+ },
+ "historico2018/2018-1-df-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "a00c9399547211079e12360ba517514013152f7fa9a9abb0cb6c45d86c1f2cce"
+ },
+ "historico2018/2018-1-df-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9123c7e7c9ae218756ff3a010db487b40c7b8a9ba77c1631a793b4dd7387ae02"
+ },
+ "historico2018/2018-1-es-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9310702e917f7534e8904e62fc3870d596052ee759aae237178596b98501d4ea"
+ },
+ "historico2018/2018-1-es-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "6c42809bc88a812b660b2a881a4894805366802ccfbb392ac8d5ecffe66a0362"
+ },
+ "historico2018/2018-1-go-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "5860f7d382deeb20d77e7738e706c99eaf637e2cb686011afe9f703af0f4876b"
+ },
+ "historico2018/2018-1-go-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "da83888008d9e32433d14efae339e61ed6dd929bb68510780523d20edb3b6e02"
+ },
+ "historico2018/2018-1-ma-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "0d96402c01e960e1dac775ba4c13c64426ad2240c8670ab21bd27daad44b4dba"
+ },
+ "historico2018/2018-1-ma-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "8c37d32da339192c0d05ce0d5873838747e34d67e836655741e078cbad6b83ae"
+ },
+ "historico2018/2018-1-mg-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "a0a90f2e961de6a55b64acd9803907d6a3934e084d066e4abdbd2f3aad791821"
+ },
+ "historico2018/2018-1-mg-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "0ddaeae99106a72f9450c2c04595fd4fbcead2614d28193354630eaf32940987"
+ },
+ "historico2018/2018-1-ms-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "c4f502eb326ba1a17d720f28e449bc9bd6a2702b124ed1b350737219de858c43"
+ },
+ "historico2018/2018-1-ms-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "190331103d3aa8027a190f5c5a8e0429ce665620e28ae6bcca16f9c017c3e9ec"
+ },
+ "historico2018/2018-1-mt-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "2a0bd04f605f4b8e76e3421b8a9daacb02d46d6bb5d534536218052d6fd01d53"
+ },
+ "historico2018/2018-1-mt-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "c7a832da1cba3195cc0efcfcf2098d53e5eaa33f40f3406829a6473f65ab91b0"
+ },
+ "historico2018/2018-1-pa-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "1c517e376013d82338dd80627fcc79e5cb1a2da0bd1c1373b661b693ca7bf123"
+ },
+ "historico2018/2018-1-pa-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "8f0cc02c604af448c390510befce27fcdd048199853da88abc618d25e3cd5b44"
+ },
+ "historico2018/2018-1-pb-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9bea9717e2009a886a4dfd1cd852ca8c204c3249e6ba18973690af91f2bde96b"
+ },
+ "historico2018/2018-1-pb-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "c4943168a3bbb53c6af9c9f896978f947e19c387b04ee2d2330bcdbdda6dd1ea"
+ },
+ "historico2018/2018-1-pe-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "689dc7f464d79c36a89325373773fd848f181ece8a6de08786f502b4c3aa9b5f"
+ },
+ "historico2018/2018-1-pe-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "df5a9366946af2061640d04830c949e4e02a7e21e00714e30e23446865089d66"
+ },
+ "historico2018/2018-1-pi-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "6024885a5338fc135a3264fa5a99858f3215a7f397233ba8cdbe3cf54651bb1b"
+ },
+ "historico2018/2018-1-pi-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "392d144e8703443b5b54b86e2acd2821b5ea68b032840824ff65c0b619b45a01"
+ },
+ "historico2018/2018-1-pr-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "f2c01bbd7a59785b6db0722aa6283bba93a7b7e6288ad200a3e84faf0cf996dd"
+ },
+ "historico2018/2018-1-pr-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "dba14a9d2cf3d371d98080ccde0f8ca022863a9fb145dc45a0a8b11d2f9fde87"
+ },
+ "historico2018/2018-1-rj-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "ba870ff5a6f3ec41a646b3d0dc74a6736a13c4fc5428c9a2a2873712e9874fa4"
+ },
+ "historico2018/2018-1-rj-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "b804cc1810ce0bdb51f6cbcfe435721df61d7d0bd0dd5f2cffec08a725d8baeb"
+ },
+ "historico2018/2018-1-rn-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "dc5ce4048dfb4ac938ed9e2a852b29a87fcfba6bcd2774b7341154fec9763149"
+ },
+ "historico2018/2018-1-rn-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "ebe38a0f8bd0020e12809144c564689d5e973c681399d860597344b1811e43c3"
+ },
+ "historico2018/2018-1-ro-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "86dc1ef48340acd0f46625c49f7cff77f6e103b4158ee0b50bbb2187affa3ed1"
+ },
+ "historico2018/2018-1-ro-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "5662a2a21162b1bd34a62dd902b62b4e98ecbcfbbbbfeae1b60c8dc1fdb5bfaf"
+ },
+ "historico2018/2018-1-rr-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "145558ff17c83c9dce4b6e42f30bc271163cf116177b915eefce6fc4eebeb835"
+ },
+ "historico2018/2018-1-rr-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "5cb496f70ea98cdd9fad2924dea1d54cce67902d452f42e0a08206dbc60f2350"
+ },
+ "historico2018/2018-1-rs-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "d1985f61e5ca14033797c1061d4e917b634d8482b505207364de1249db2da2f2"
+ },
+ "historico2018/2018-1-rs-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "3a330a8c9570a9633f04007d605b9bd1938c1f6830f031bf641fd3744111b31d"
+ },
+ "historico2018/2018-1-sc-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9caff0c5332168407b5a26d85d5cd2af420df9e9464356de675c68fd5680596b"
+ },
+ "historico2018/2018-1-sc-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "40e94b3e76321e3c01cf01d0eb8781c4979358d70e6f9b30eda1c62f85f8df73"
+ },
+ "historico2018/2018-1-se-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "5c119446f40cd8582d82dab543a34825b5b822ecd875e816c5d1f12c79f19562"
+ },
+ "historico2018/2018-1-se-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9bb444e92aeafcc6be06618eaaaf422b03347ad06866e6facb52b31bbb682912"
+ },
+ "historico2018/2018-1-sp-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "0c7a2a485a4097ee8474746c776f486bf4837462cb860608a55a3719ccac94fd"
+ },
+ "historico2018/2018-1-sp-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "27f26a4bf547712b4c3aa3031ab3c9469e35450d66803a84b8c52f6e66683769"
+ },
+ "historico2018/2018-1-to-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "2df0de139f6f5e2f862db2af259c3b54512593c6c7c48e5309c847c313d551e4"
+ },
+ "historico2018/2018-1-to-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "26c8f0c134645ecfc0c6923f0e6d7e18a45ffcf82f6bcddf46b3b295d15f5719"
+ },
+ "historico2018/2018-1-zz-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "36068ee25c442732eea6cda720674ca95205aa7ef41dd1982bcee2b9ff710e4e"
+ },
+ "historico2018/2018-1-zz-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "7a1f47c1ee9a976a6abc687e396b45cb06d593db0d6bc12d17e65cd8c8df6add"
+ },
+ "historico2018/2018-2-ac-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "833bac58b264d52c7d0503e62d043bf9b9db2444df1ca17957d1e1ce53cc37c7"
+ },
+ "historico2018/2018-2-ac-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "79b5dba1d01b5a2e2cadd9acf20153985cbdd6c7361792737e80da05f1cb1269"
+ },
+ "historico2018/2018-2-al-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "bccfd37a618eb9e92a1329c124f4fdda9e5f71a3e9a785acea14caa339e7cdb2"
+ },
+ "historico2018/2018-2-al-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "ad4e538fcf48721abf7f56d1447fa2715c14848a56a00a2fce15c190d314c8f9"
+ },
+ "historico2018/2018-2-am-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "41e546061ca0af289c1fb3d7aa946db52375700fdaad5d750f635e390474562b"
+ },
+ "historico2018/2018-2-am-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "50c930f766708abb52e8c91b78e1d5232e5bdc24a91bc18ac409ee46232e45fb"
+ },
+ "historico2018/2018-2-ap-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "6fa6294cff7b539cf41513e9d6c7d659561175200adb0ce488201abbb328a720"
+ },
+ "historico2018/2018-2-ap-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "92c8344d13e873f3d2c927cac2439fb3aaf59a70d36c13f88ddf995a67e30b96"
+ },
+ "historico2018/2018-2-ba-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "e555c8edd7744acac6fc57f42e4b0efaab795a949c00f3844a72e9e180a997ea"
+ },
+ "historico2018/2018-2-ba-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9669ffe0fc18626730641af918c0d42e6111408e693ea5f859a2b0b97b9be7d1"
+ },
+ "historico2018/2018-2-ce-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "d1b1026fb1189accdc58997cdd2eac8899f768fd6fc40c7c35f5688a20eea0bc"
+ },
+ "historico2018/2018-2-ce-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "36a4202c596017b01ac77acc52c049a770843071b2ac34a6863ee25550131b7b"
+ },
+ "historico2018/2018-2-df-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "bb26114b4fe34b50006a238e38609bdc7341cddf62ce6805d8621f58c3e2af3d"
+ },
+ "historico2018/2018-2-df-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "525f753f47ddb157fe2b49e3dd06c376dd93d1042183eb000dfc80d932ce977d"
+ },
+ "historico2018/2018-2-es-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "84a92d3ed389227e2b7c56d6b3d946b938b1f06bf7404149ba6df0750d87a9fb"
+ },
+ "historico2018/2018-2-es-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "6c655de8f05a561ab26736934a14d15b0cbae4978c12a02f0c2362089089ec2d"
+ },
+ "historico2018/2018-2-go-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "d4bbf40b1ca2d2eb898fc094e98a1814856d75e16bdb67c5a96cef940182c95e"
+ },
+ "historico2018/2018-2-go-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "d656dd9d3c5efe49c8663d6566ae2ac0c5196206b92ca93f15b4a2989415da7b"
+ },
+ "historico2018/2018-2-ma-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "0a87a1b01591bf2e082682feebe6b187184ff070dd5bf8a1d81a77e98ee40dcb"
+ },
+ "historico2018/2018-2-ma-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "fd1e5b174eb85a3b2a55a7ec8ef61e748e5c7ae60def490bc24fac5fd2eb91eb"
+ },
+ "historico2018/2018-2-mg-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9916617885a8f1c24c6c9c19875f42d25c7a5090cb76e14da3f3fc34baf8aac1"
+ },
+ "historico2018/2018-2-mg-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "8692ff0296b19e26b96516d0ef14a165e2b5aefb1ba6b2340bb34a4939904d61"
+ },
+ "historico2018/2018-2-ms-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "6f55c6a8c7d358a30153e081fc1b8351143da8fb727655970d0a817981345359"
+ },
+ "historico2018/2018-2-ms-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "c38374509b4276b2e04c35a86e5cdad319d043170c6dc6e76218f3a3a875ed16"
+ },
+ "historico2018/2018-2-mt-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "6ecd49655f2524aef007088030e5445f3ea0f8c0d02b0e4d6a644edebf5a6b93"
+ },
+ "historico2018/2018-2-mt-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "5c299585f554c9193498b4dcfce9a7028abb3ea41f9b0bb6e1aa52d9cbc84e9f"
+ },
+ "historico2018/2018-2-pa-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "13002cc5143420720e6c9238454e84709a3e68733d044f5be9efc404575befdb"
+ },
+ "historico2018/2018-2-pa-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "795471f6569f2cc3e99733eba1498bc3abfc57811e8e720ca4f1dd755e1e013d"
+ },
+ "historico2018/2018-2-pb-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "47db8a25fc44d13be19baa1293d93d71fba831563b81fb6705f1df20e9e14edc"
+ },
+ "historico2018/2018-2-pb-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "17b49f435c84ada16880aa3dd6db33f02611dd795ada2d864a2033e0cf362678"
+ },
+ "historico2018/2018-2-pe-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "a8ed8be7aed9a5210c87e31cb8e124392295f2a040ca87b403a9c2c1f6dbcc37"
+ },
+ "historico2018/2018-2-pe-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "14509a0f7b004c7cf59d4096750bed3b84b09e92e09120af1099f4305545ba26"
+ },
+ "historico2018/2018-2-pi-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "b44cd9f8f2d4d83b5a517cb34a04cb77a507b1057e34d7d2f6a94b9da12bb076"
+ },
+ "historico2018/2018-2-pi-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "4b834c951f51f24ebc2a7233677a0249cc950396fdad1a3526e462e2978d7d24"
+ },
+ "historico2018/2018-2-pr-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "f58fc6497a612c1a6fc47850a716b8d2167110a07f6a1a27809da06d9f38608a"
+ },
+ "historico2018/2018-2-pr-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "09f0d33453afa5097639e6c88c3dfe41db9adf28e3c55d208edb8dec08a19259"
+ },
+ "historico2018/2018-2-rj-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "e18c5910bfc239318c4f64a96a8ce37c70e9be83daf954b3e4d77663d58e0392"
+ },
+ "historico2018/2018-2-rj-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "9f55c199c0477a4c126d378ec2525236ea19e638f280e18a1851431f3db08cd1"
+ },
+ "historico2018/2018-2-rn-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "fc43b95d8e9304b7b859ca20dd363a2139b4c29c7a61038d384f636ada842c67"
+ },
+ "historico2018/2018-2-rn-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "527e57eb68f3409730d8322a70c9fc617a8f087f698f8359db67270456a2629a"
+ },
+ "historico2018/2018-2-ro-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "05e3c794d0a55c154f980e134b988df1ffe89d1812494d7ec2c3945fe1c16287"
+ },
+ "historico2018/2018-2-ro-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "47403573f99e687cef51968a27850bfafe9786503505223fef110642d9088321"
+ },
+ "historico2018/2018-2-rr-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "15f985d69748b0e2dd53e4a8076261aa52fe95d689a17629440c4c1192dd26fa"
+ },
+ "historico2018/2018-2-rr-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "1a00e07941accd3ad13a25e098524ea095c113e734eae35c4128f0449e400fa4"
+ },
+ "historico2018/2018-2-rs-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "96b3002334c7b0de11b74feecfdc781b26e712dfb07c5fa7d893c6223978a497"
+ },
+ "historico2018/2018-2-rs-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "3fbf0921790651a6a503b5e8009d96423e1405ab08b02eb57039965068faab6f"
+ },
+ "historico2018/2018-2-sc-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "54578121a0f30a2d86c5b2c1272791492b7c3e74c9798e3c25216618d593dedf"
+ },
+ "historico2018/2018-2-sc-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "117392542da6ce904ffbaf4d86d0d4c8b553121630c230d9a9a3d674686b2d3f"
+ },
+ "historico2018/2018-2-se-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "2cc1d62d2e1a5c10039ef1ad6877dd743e7e1d6fbe03d5db95aa9aace7880a8f"
+ },
+ "historico2018/2018-2-se-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "6a9ca552045c6d812dff175fa30659291e0b72de6383430064adf5fda53316d4"
+ },
+ "historico2018/2018-2-sp-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "1bc696f9cc0b722187c1e293d64fa1cc72d284fdecac11cad01ff68b54e952f6"
+ },
+ "historico2018/2018-2-sp-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "2dcfd85802e039742dfed54e2eb230e1762b3eb2c00649a9e412b473bf8373b4"
+ },
+ "historico2018/2018-2-to-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "b06d565c4bdf4bfe7779838ac4cff1f5801164a66d0bbb4463d46ab26d077e8f"
+ },
+ "historico2018/2018-2-to-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "eaad92e1ad442035848ec19f4f588302c5fa7b5a97411986c483de6b8fd29dfe"
+ },
+ "historico2018/2018-2-zz-secoes.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "ddc3eb496c8494860ce85245ae030f116ad1d51b37d3d2b0bb29c039a794bbf5"
+ },
+ "historico2018/2018-2-zz-votos.parquet": {
+  "origem": "apuracao-eleicoes-2026/dados/derivados/historico",
+  "sha256": "974403c7c47eaf4e4b5da88939a33d0b1107806a13395703e440990e386e240f"
+ }
+}

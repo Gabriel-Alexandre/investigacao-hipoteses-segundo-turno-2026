@@ -2,7 +2,7 @@
 
 **A pergunta:** o público levantou dezenas de hipóteses de fraude sobre o 2º turno de 2026 que os vídeos anteriores não tinham testado. Alguma delas aparece no dado?
 
-**Como foi feito:** 23 hipóteses, cada uma pelas duas visões (resultado legítimo e fraude), com o arquivo de todas as 499.248 seções, o modelo de cada urna, os logs de uma amostra de urnas, o eleitorado e o comparecimento por idade, o Censo do IBGE e as versões do resultado gravadas ao vivo na noite. Três leitores revisaram (um pela fraude, um pelo resultado legítimo, um pelo método), e os números centrais foram refeitos por outro caminho (16 de 16).
+**Como foi feito:** 24 hipóteses, cada uma pelas duas visões (resultado legítimo e fraude), com o arquivo de todas as 499.248 seções, o modelo de cada urna, os logs de uma amostra de urnas, o eleitorado e o comparecimento por idade, o Censo do IBGE e as versões do resultado gravadas ao vivo na noite. Três leitores revisaram (um pela fraude, um pelo resultado legítimo, um pelo método), e os números centrais foram refeitos por outro caminho (19 de 19).
 
 ## O que deu
 
@@ -15,7 +15,7 @@
 | A lei de Benford reprova a votação | o relatório não mostrou número nenhum | Não sustentado |
 | Os boletins ficaram 72 horas escondidos | meio certo: só a entrada no catálogo foi em 28/10 | Desmentido |
 | 106 urnas com zero voto para o Flávio | certo: 106 seções e 14.860 votos | Não sustentado |
-| Seções com placar repetido seriam impossíveis | existem, e abaixo do que o acaso daria | Desmentido |
+| Seções com placar repetido seriam impossíveis | existem, e o boletim inteiro igual também (mensagem de um seguidor) | Desmentido |
 | As urnas antigas votam diferente das novas | os quatro modelos (2013 a 2022) votaram em 2026 | Não sustentado |
 | Urnas trocadas e levadas em carro de partido | houve 1.996 trocas registradas e um caso real de transporte irregular | Não sustentado |
 | O boletim de papel não bate com o site do TSE | o caso que circulou (Teixeira de Freitas) está errado | Não sustentado |
@@ -25,6 +25,7 @@
 | Cheguei e já tinham votado por mim | certo: o aviso apareceu 113.315 vezes | Compatível com as duas |
 | O mesário vota o dia todo, quando a seção esvazia | não: a liberação manual acompanha o movimento da seção | Não sustentado |
 | O Flávio "perdendo votos" no painel, os 165 mil "sem origem" e a sala-cofre | errado: o total do Flávio nunca caiu | Desmentido |
+| A linha do Flávio desce como se fosse programada (o zoom na curva) | certo que, com zoom, a porcentagem desce em degraus; o total de votos nunca desce | Desmentido |
 | O programa da urna troca o voto | certo que o Flávio caiu em 82.155 seções | Compatível com as duas |
 | O Flávio perdeu votos em 6 estados e o Lula em nenhum | certo | Não sustentado |
 | A abstenção caiu no Nordeste, mesmo com a falta de ônibus | certo | Não sustentado |

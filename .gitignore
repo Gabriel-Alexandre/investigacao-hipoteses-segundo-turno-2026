@@ -14,3 +14,4 @@ __pycache__/
 .pytest_cache/
 dados/brutos/relatorio-pericial/x-chequei-brasil-*/
 dados/brutos/tse/
+dados/brutos/bweb2022/
