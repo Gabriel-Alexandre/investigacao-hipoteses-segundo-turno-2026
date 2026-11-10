@@ -167,7 +167,7 @@ A objeção (*"use o intervalo entre votos consecutivos, a mediana é de 1 minut
 
 ## Rodada 4c (10/11/2026, de noite) · mais quatro pedidos, lidos nos 908 comentários dos dias 31/10 a 10/11
 
-**Código:** `ferramentas/rodada_4c.py` (resultados em `resultados/RODADA4C.json`) e `ferramentas/validacao_rodada_4c.py` (7 de 7). Mesmos dados, sem rede, sem pré-registro.
+**Código:** `ferramentas/rodada_4c.py` (resultados em `resultados/RODADA4C.json`) e `ferramentas/validacao_rodada_4c.py` (7 de 7) e gráficos `g24_secoes_depois_das_17h`, `g25_mudanca_de_local`, `g26_cidades_bolsonaristas` e `g27_santa_catarina_e_exterior` (`ferramentas/graficos_rodada_4.py`; o `g23_as_33_hipoteses` resume a série). Mesmos dados, sem rede, sem pré-registro.
 
 | # | Hipótese | O fato que circula | A leitura de fraude | Pior caso |
 |---|---|---|---|---|

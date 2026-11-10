@@ -210,6 +210,105 @@ def g23_vereditos():
     salvar(f, "g23_as_33_hipoteses")
 
 
+def _r4c():
+    return json.loads((RAIZ / "resultados/RODADA4C.json").read_text(encoding="utf-8"))
+
+
+def g24_depois_das_17h():
+    h = _r4c()["H33"]
+    f = fig("Seções que fecharam depois das 17h", "Dentro do município, o Lula cresceu igual nas que fecharam tarde e nas que fecharam no horário")
+    ax = f.add_axes([0.07, 0.17, 0.5, 0.56])
+    horas = h["fechamento_por_hora_brt"]
+    ks = list(horas)
+    cores = [BASE if int(k[:2]) <= 17 else AMARELO for k in ks]
+    ax.bar(ks, [horas[k] for k in ks], color=cores)
+    ax.set_yscale("log")
+    ax.minorticks_off()
+    ax.set_title("seções por hora de fechamento (Brasília, escala log)", fontsize=18, color=BASE)
+    for i, k in enumerate(ks):
+        ax.text(i, horas[k] * 1.25, n(horas[k]), ha="center", fontsize=14)
+    ax.set_ylim(1, 3e6)
+    ax.set_yticks([])
+    ax.tick_params(labelsize=16)
+    ax2 = f.add_axes([0.66, 0.2, 0.3, 0.53])
+    v = [h["variacao_media_do_lula_pontos_no_horario"], h["variacao_media_do_lula_pontos_tarde"]]
+    ax2.bar(["no horário", f"depois das\n17h15 ({n(h['fecharam_depois_das_17h15_brt'])})"], v, color=[BASE, AMARELO], width=0.55)
+    for i, x in enumerate(v):
+        ax2.text(i, x + 0.08, "+" + d(x, 2), ha="center", fontsize=22, weight="bold")
+    ax2.set_title("ganho médio do Lula, em pontos", fontsize=18, color=BASE)
+    ax2.set_ylim(0, max(v) * 1.3)
+    ax2.set_yticks([])
+    ax2.tick_params(labelsize=16)
+    lo, hi = h["intervalo_95_bootstrap"]
+    f.text(0.06, 0.09, f"Dentro do mesmo município, a diferença é de {d(h['diferenca_dentro_do_municipio_pontos'], 2)} ponto (de {d(lo, 2)} a +{d(hi, 2)}): o intervalo inclui o zero.", fontsize=19, color=TEXTO)
+    rodape(f, "TSE, boletim e encerramento por seção do 2º turno")
+    salvar(f, "g24_secoes_depois_das_17h")
+
+
+def g25_mudanca_de_local():
+    h = _r4c()["H34"]
+    f = fig("Seções que mudaram de local de votação", f"{n(h['mudaram_de_local'])} de {n(h['secoes_nos_dois_turnos'])} seções ({d(h['pct'], 2)}%)")
+    ax = f.add_axes([0.2, 0.22, 0.6, 0.5])
+    v = [h["variacao_do_lula_nas_que_ficaram_pontos"], h["variacao_do_lula_nas_que_mudaram_pontos"]]
+    ax.bar(["ficaram no\nmesmo local", "mudaram\nde local"], v, color=[BASE, AMARELO], width=0.5)
+    for i, x in enumerate(v):
+        ax.text(i, x + 0.08, "+" + d(x, 2), ha="center", fontsize=26, weight="bold")
+    ax.set_title("ganho médio do Lula entre os turnos, em pontos", fontsize=20, color=BASE)
+    ax.set_ylim(0, max(v) * 1.3)
+    ax.set_yticks([])
+    ax.tick_params(labelsize=20)
+    lo, hi = h["intervalo_95_bootstrap"]
+    f.text(0.2, 0.09, f"Dentro do mesmo município: +{d(h['diferenca_dentro_do_municipio_pontos'], 2)} ponto (de {d(lo, 2)} a +{d(hi, 2)})", fontsize=18, color=TEXTO)
+    rodape(f, "TSE, detalhe da seção (local de votação) e resultado por seção")
+    salvar(f, "g25_mudanca_de_local")
+
+
+def g26_cidades_bolsonaristas():
+    h = _r4c()["H35"]
+    a, b = h["2026_por_decil_da_forca_do_Flavio_no_1t"], h["2022_por_decil_da_forca_do_Bolsonaro_no_1t"]
+    f = fig("Cidades onde o adversário era mais forte", "O ganho do Lula entre os turnos (pontos do comparecimento) é menor no décimo mais forte, em 2026 e em 2022")
+    for k, (dados, tit, cor, x0) in enumerate([(a, "2026 · força do Flávio no 1º turno", LULA, 0.05), (b, "2022 · força do Bolsonaro no 1º turno", FLAVIO, 0.53)]):
+        ax = f.add_axes([x0, 0.15, 0.42, 0.55])
+        vs = [r["ganho_do_lula_pontos"] for r in dados]
+        ax.bar(range(1, 11), vs, color=cor)
+        for i, x in enumerate(vs):
+            ax.text(i + 1, x + 0.1, d(x, 1), ha="center", fontsize=14)
+        ax.set_title(tit, fontsize=18, color=BASE)
+        ax.set_xticks([1, 5, 10], ["mais fraco", "meio", "mais forte"], fontsize=15)
+        ax.set_yticks([])
+        ax.set_ylim(0, max(vs) * 1.2)
+    rodape(f, "TSE, resultado por município de 2022 e 2026")
+    salvar(f, "g26_cidades_bolsonaristas")
+
+
+def g27_sc_e_exterior():
+    h = _r4c()["H36"]
+    sc, ex = h["santa_catarina"], h["exterior"]
+    f = fig("Duas conferências de fato", "O que circulou contra o que está nos arquivos do TSE")
+    ax = f.add_axes([0.06, 0.15, 0.4, 0.55])
+    vs = [sc["ganho_do_lula"], sc["ganho_do_flavio"]]
+    ax.bar(["Lula", "Flávio"], vs, color=[LULA, FLAVIO], width=0.5)
+    for i, x in enumerate(vs):
+        ax.text(i, x + 6000, "+" + n(x), ha="center", fontsize=22, weight="bold")
+    ax.set_title("Santa Catarina: votos a mais no 2º turno\n(um comentário dizia mais de 3 milhões)", fontsize=17, color=BASE)
+    ax.set_yticks([])
+    ax.set_ylim(0, max(vs) * 1.2)
+    ax.tick_params(labelsize=18)
+    ax2 = f.add_axes([0.56, 0.15, 0.4, 0.55])
+    anos = ["2022\n1º turno", "2022\n2º turno", "2026\n1º turno", "2026\n2º turno"]
+    vs2 = [ex["lula_pct_dos_dois_2022_1t"], ex["lula_pct_dos_dois_2022_2t"], ex["lula_pct_dos_dois_1t"], ex["lula_pct_dos_dois_2t"]]
+    ax2.bar(anos, vs2, color=[FLAVIO, FLAVIO, LULA, LULA], width=0.55)
+    for i, x in enumerate(vs2):
+        ax2.text(i, x + 1, d(x, 1) + "%", ha="center", fontsize=20, weight="bold")
+    ax2.axhline(50, color=BASE, lw=1)
+    ax2.set_title("Exterior: parte do Lula nos votos dos dois candidatos\n(o comentário dizia que foram todos)", fontsize=17, color=BASE)
+    ax2.set_ylim(0, 100)
+    ax2.set_yticks([])
+    ax2.tick_params(labelsize=15)
+    rodape(f, "TSE, resultado por município e por seção")
+    salvar(f, "g27_santa_catarina_e_exterior")
+
+
 def main():
     g17_campos()
     g18_municipios()
@@ -219,7 +318,12 @@ def main():
     if RB:
         g22_tamanho()
     g23_vereditos()
-    print("g17 a g23 em resultados/figuras")
+    if (RAIZ / "resultados/RODADA4C.json").exists():
+        g24_depois_das_17h()
+        g25_mudanca_de_local()
+        g26_cidades_bolsonaristas()
+        g27_sc_e_exterior()
+    print("g17 a g27 em resultados/figuras")
 
 
 if __name__ == "__main__":
