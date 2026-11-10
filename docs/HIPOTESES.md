@@ -230,7 +230,7 @@ Sem autor, sem código e sem arquivo publicado. Circula como imagens de 7 págin
 
 Nome, foto e @ de quem comentou ficam fora (os prints moram no repositório de documentação do canal); aqui só a contagem e a paráfrase. Identificador de mesário e de eleitor que aparecer em log é codificado (HMAC) e nunca publicado.
 
-## Rodada 4 · H25 a H30 (10/11/2026)
+## Rodada 4 · H25 a H32 (10/11/2026)
 
 | # | Hipótese | Teste | Espelho |
 |---|---|---|---|
@@ -240,3 +240,5 @@ Nome, foto e @ de quem comentou ficam fora (os prints moram no repositório de d
 | H28 | seções da mesma escola, 1º contra 2º turno | afastamento de cada seção em relação às outras da escola | o 1º turno |
 | H29 | voto pelo ausente: a queda da abstenção contra o ganho do Lula | inclinação dentro do município | 2022 |
 | H30 | as urnas substituídas dobraram do 1º para o 2º turno e já tinham voto para o Lula | taxa de urnas substituídas por turno e a parte do Lula nas trocadas contra o resto do município | o 1º turno |
+| H31 (estende a H05) | a Lei de Benford não vale para voto por urna; a 2ª casa decimal vale? | MAD da 2ª casa, 2º turno × 1º turno × 2022 | 1º turno e 2022 |
+| H32 | o intervalo entre votos: seções rápidas demais a favor de um lado | intervalo médio entre votos por seção e a parte do Lula, dentro do município | o resto do município |

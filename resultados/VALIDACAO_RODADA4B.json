@@ -1,0 +1,38 @@
+[
+  {
+    "teste": "V30 municipios em que o Flavio perdeu voto (somando as secoes)",
+    "a": 938.0,
+    "b": 938.0,
+    "ok": true
+  },
+  {
+    "teste": "V30b municipios em que o Lula perdeu voto em 2026",
+    "a": 79.0,
+    "b": 79.0,
+    "ok": true
+  },
+  {
+    "teste": "V31 eleitorado do 1o turno de 2026: tabela por municipio contra o detalhe por secao (milhoes)",
+    "a": 157.83,
+    "b": 157.83,
+    "ok": true
+  },
+  {
+    "teste": "V31b municipios no cruzamento com 2022 (o resto fica sem Censo ou sem codigo, e e dito)",
+    "a": 5570.0,
+    "b": 5571.0,
+    "ok": true
+  },
+  {
+    "teste": "V32 Benford 2a casa, Lula 2026 2o turno (MAD pelo texto)",
+    "a": 0.01023,
+    "b": 0.01023,
+    "ok": true
+  },
+  {
+    "teste": "V33 mediana do intervalo medio entre votos (segundos)",
+    "a": 121.0,
+    "b": 121.0,
+    "ok": true
+  }
+]

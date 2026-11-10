@@ -1,0 +1,322 @@
+{
+  "H25b": {
+    "campos_lula_do_pool_pct": 86.4,
+    "cortes": {
+      "20000": {
+        "municipios": 1359,
+        "mediana_pct": 93.5,
+        "campos_abaixo_de_pct_dos_municipios": 36.3
+      },
+      "50000": {
+        "municipios": 496,
+        "mediana_pct": 90.0,
+        "campos_abaixo_de_pct_dos_municipios": 38.7
+      },
+      "100000": {
+        "municipios": 221,
+        "mediana_pct": 89.8,
+        "campos_abaixo_de_pct_dos_municipios": 38.5
+      },
+      "200000": {
+        "municipios": 102,
+        "mediana_pct": 89.4,
+        "campos_abaixo_de_pct_dos_municipios": 43.1
+      },
+      "todas": {
+        "municipios": 5570,
+        "mediana_pct": 91.0,
+        "campos_abaixo_de_pct_dos_municipios": 42.8
+      }
+    },
+    "as_cidades_grandes_onde_o_flavio_perdeu": [
+      {
+        "municipio": "Macapá (AP)",
+        "flavio_1t": 124378,
+        "flavio_2t": 120593,
+        "perdeu_pct": -3.04,
+        "abstencao_variou": 19143,
+        "abstencao_1t_pct": 15.9,
+        "abstencao_2t_pct": 21.8,
+        "lula_do_pool_pct": 37.0
+      },
+      {
+        "municipio": "Campos Dos Goytacazes (RJ)",
+        "flavio_1t": 160859,
+        "flavio_2t": 159470,
+        "perdeu_pct": -0.86,
+        "abstencao_variou": 3895,
+        "abstencao_1t_pct": 21.6,
+        "abstencao_2t_pct": 22.6,
+        "lula_do_pool_pct": 86.4
+      },
+      {
+        "municipio": "Boa Vista (RR)",
+        "flavio_1t": 143225,
+        "flavio_2t": 142680,
+        "perdeu_pct": -0.38,
+        "abstencao_variou": 7397,
+        "abstencao_1t_pct": 17.4,
+        "abstencao_2t_pct": 20.4,
+        "lula_do_pool_pct": 52.5
+      }
+    ],
+    "todos_os_municipios_2026": {
+      "municipios": 5571,
+      "flavio_perdeu_voto": 938,
+      "lula_perdeu_voto": 79,
+      "flavio_perdeu_voto_e_abstencao_subiu": 727
+    },
+    "todos_os_municipios_2022": {
+      "bolsonaro_perdeu_voto": 108,
+      "lula_perdeu_voto": 997,
+      "municipios": 5710
+    },
+    "municipios_com_abstencao_subindo_2026": 1128,
+    "municipios_com_abstencao_subindo_2022": 2016
+  },
+  "H26b": {
+    "municipios": 5570,
+    "eleitorado_2022_1t": 155758572,
+    "eleitorado_2026_1t": 157824642,
+    "crescimento_nacional_pct": 1.33,
+    "mediana_do_crescimento_pct": 2.67,
+    "nos_835_mediana_do_crescimento_pct": 6.6,
+    "nos_demais_mediana_do_crescimento_pct": 1.98,
+    "municipios_que_cresceram_mais_de_20_pct": 67,
+    "municipios_que_cresceram_mais_de_20_pct_entre_os_835": 23,
+    "municipios_cujo_eleitorado_caiu": 1659,
+    "dos_835_ja_tinham_mais_eleitores_que_habitantes_em_2022": 550,
+    "dos_835_surgiram_depois_de_2022": 285,
+    "correlacao_crescimento_do_eleitorado_x_ganho_do_lula": 0.027,
+    "ganho_medio_do_lula_nos_835_pontos": 5.24,
+    "ganho_medio_do_lula_nos_demais_pontos": 5.31,
+    "ufs_com_mais_municipios_acima": [
+      {
+        "uf": "MG",
+        "acima": 197,
+        "de": 853,
+        "pct": 23.1
+      },
+      {
+        "uf": "RS",
+        "acima": 87,
+        "de": 497,
+        "pct": 17.5
+      },
+      {
+        "uf": "PI",
+        "acima": 86,
+        "de": 224,
+        "pct": 38.4
+      },
+      {
+        "uf": "GO",
+        "acima": 85,
+        "de": 246,
+        "pct": 34.6
+      },
+      {
+        "uf": "PB",
+        "acima": 80,
+        "de": 223,
+        "pct": 35.9
+      },
+      {
+        "uf": "RN",
+        "acima": 58,
+        "de": 167,
+        "pct": 34.7
+      }
+    ],
+    "ufs_com_maior_parcela_acima": [
+      {
+        "uf": "PI",
+        "acima": 86,
+        "de": 224,
+        "pct": 38.4
+      },
+      {
+        "uf": "PB",
+        "acima": 80,
+        "de": 223,
+        "pct": 35.9
+      },
+      {
+        "uf": "RN",
+        "acima": 58,
+        "de": 167,
+        "pct": 34.7
+      },
+      {
+        "uf": "GO",
+        "acima": 85,
+        "de": 246,
+        "pct": 34.6
+      },
+      {
+        "uf": "AP",
+        "acima": 5,
+        "de": 16,
+        "pct": 31.2
+      },
+      {
+        "uf": "SE",
+        "acima": 18,
+        "de": 75,
+        "pct": 24.0
+      }
+    ],
+    "parcela_acima_por_tamanho": {
+      "ate 5 mil": {
+        "municipios": 1324,
+        "acima": 620,
+        "pct": 46.8
+      },
+      "5 a 20 mil": {
+        "municipios": 2537,
+        "acima": 203,
+        "pct": 8.0
+      },
+      "20 a 100 mil": {
+        "municipios": 1390,
+        "acima": 12,
+        "pct": 0.9
+      },
+      "mais de 100 mil": {
+        "municipios": 319,
+        "acima": 0,
+        "pct": 0.0
+      }
+    }
+  },
+  "H31": {
+    "2026_2t_lula": {
+      "n": 499015,
+      "mad": 0.01023,
+      "distribuicao": [
+        0.1346,
+        0.1292,
+        0.1204,
+        0.1113,
+        0.1026,
+        0.095,
+        0.0866,
+        0.0795,
+        0.0736,
+        0.0672
+      ]
+    },
+    "2026_2t_flavio": {
+      "n": 496586,
+      "mad": 0.00911,
+      "distribuicao": [
+        0.1175,
+        0.1182,
+        0.1184,
+        0.1172,
+        0.1117,
+        0.1033,
+        0.0941,
+        0.0839,
+        0.0722,
+        0.0635
+      ]
+    },
+    "2026_1t_lula": {
+      "n": 498889,
+      "mad": 0.00916,
+      "distribuicao": [
+        0.1394,
+        0.128,
+        0.1176,
+        0.1075,
+        0.0997,
+        0.0935,
+        0.0876,
+        0.0818,
+        0.0751,
+        0.0699
+      ]
+    },
+    "2026_1t_flavio": {
+      "n": 496708,
+      "mad": 0.01304,
+      "distribuicao": [
+        0.1256,
+        0.1268,
+        0.1252,
+        0.1195,
+        0.1113,
+        0.1005,
+        0.0891,
+        0.0769,
+        0.0668,
+        0.0583
+      ]
+    },
+    "2022_2t_lula": {
+      "n": 471903,
+      "mad": 0.01026,
+      "distribuicao": [
+        0.1349,
+        0.1297,
+        0.1201,
+        0.1105,
+        0.1031,
+        0.0951,
+        0.087,
+        0.0809,
+        0.0726,
+        0.0659
+      ]
+    },
+    "2022_2t_bolsonaro": {
+      "n": 468468,
+      "mad": 0.00649,
+      "distribuicao": [
+        0.115,
+        0.1138,
+        0.1144,
+        0.1131,
+        0.109,
+        0.1036,
+        0.0958,
+        0.0875,
+        0.0784,
+        0.0693
+      ]
+    },
+    "esperado_benford_2a_casa": [
+      0.1197,
+      0.1139,
+      0.1088,
+      0.1043,
+      0.1003,
+      0.0967,
+      0.0934,
+      0.0904,
+      0.0876,
+      0.085
+    ],
+    "nota": "MAD (desvio medio absoluto) da 2a casa decimal; a regra de Nigrini para a 2a casa diz conforme ate 0,008 e nao conforme acima de 0,012"
+  },
+  "H32": {
+    "secoes": 498901,
+    "intervalo_medio_entre_votos_s": {
+      "p1": 88.0,
+      "p5": 95.0,
+      "mediana": 121.0,
+      "p95": 195.0,
+      "p99": 306.0
+    },
+    "secoes_com_intervalo_medio_abaixo_de_60s": 15,
+    "secoes_com_intervalo_medio_acima_de_600s": 464,
+    "inclinacao_pontos_do_lula_por_log_do_intervalo": 3.356,
+    "intervalo_95_bootstrap_por_municipio": [
+      2.726,
+      3.947
+    ],
+    "parte_do_lula_nas_10pct_mais_rapidas_menos_o_resto_do_municipio_pontos": -0.8,
+    "parte_do_lula_nas_10pct_mais_lentas_menos_o_resto_do_municipio_pontos": 1.27
+  }
+}

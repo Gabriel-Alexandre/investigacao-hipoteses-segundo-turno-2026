@@ -42,5 +42,13 @@
 - **Pedido:** o episódio seguinte do Investigação Aberta, como conclusão da série, com as hipóteses que o público levantou nos comentários (31/10 a 10/11) e em três posts do X que chegaram por mensagem.
 - **Dados:** os de `dados/copias/` e `dados/derivados/` (sem coleta nova). **Decisão de forma:** sem pré-registro (padrão de rodadas).
 - **Feito:** H25 (Campos dos Goytacazes), H26 (população × votos, refeita), H27 (voto liberado sem digital entre os turnos), H28 (seções da mesma escola), H29 (a queda da abstenção contra o ganho do Lula, com 2022 de espelho) e H30 (urnas substituídas); validação por outro caminho 14 de 14; gráficos g17 a g21; relatório em `docs/RODADA_4.md`.
-- **Contagem:** 8 desmentidas, 15 não sustentadas, 4 compatíveis com as duas, 2 não testadas. Soma do pior caso: 383.588 (8,66%), **com a ressalva** de que o item H15 (113.315) é um piso observável, não um teto (nota N4 em `docs/RODADA_4.md`).
+- **Contagem:** 8 desmentidas, 16 não sustentadas, 4 compatíveis com as duas, 2 não testadas. Soma do pior caso: 383.588 (8,66%), **com a ressalva** de que o item H15 (113.315) é um piso observável, não um teto (nota N4 em `docs/RODADA_4.md`).
 - **Fora:** o post de @urna_2026 (404), a fala do Lula no debate, o vídeo da urna sem ninguém e os relatos pessoais de uma seção.
+
+### Rodada 4b · 10/11/2026, mais tarde · o aprofundamento
+
+- **Pedido:** aprofundar tudo e garantir que está certo. **Feito:** H25b (Campos com outros cortes e as outras cidades), H26b (o eleitorado de 2022 para 2026), H31 (Benford na 2ª casa, extensão da H05) e H32 (o ritmo entre os votos); validação 6 de 6; gráfico g22.
+- **Erro corrigido:** o cruzamento com 2022 perdia 520 municípios por causa do zero à esquerda do código do TSE. 2022 agora: 590 com eleitorado maior que a população (era 566), 52 com votantes maiores (era 51) e 1 cidade grande com candidato perdendo voto (o Lula, em Cametá). Os números de 2026 e os de seção não mudaram.
+- **Contagem:** 8 desmentidas, 16 não sustentadas, 4 compatíveis com as duas, 2 não testadas (30 linhas).
+- **LAI:** o TRE-PE avisou em 10/11 a prorrogação do prazo por 10 dias (art. 11, §2º da Lei 12.527/2011); ver `docs/PEDIDOS_LAI.md`.
+

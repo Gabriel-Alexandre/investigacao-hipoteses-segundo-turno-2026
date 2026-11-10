@@ -28,6 +28,6 @@ Os pedidos do vídeo 8 (TSE, TRE-BA e TRE-PE, 21/10) seguem com o andamento regi
 |---|---|---|
 | TSE · 82032521133805 | 21/10 13h38 | 21/10 16h26: encaminhado à unidade responsável. **23/10 17h36: resposta de protocolo**, em que a Secretaria de Tecnologia da Informação informa que *"o relato foi submetido à administração do TSE, por meio de processo administrativo"* e que a Ouvidoria reabrirá o protocolo com nova resposta quando o procedimento for finalizado |
 | TRE-BA · 82034321135124 | 21/10 13h51 | 23/10 12h43: encaminhado à unidade responsável |
-| TRE-PE · 82034721135306 | 21/10 13h53 | 21/10 14h01 e 22/10 13h30: encaminhado à unidade responsável |
+| TRE-PE · 82034721135306 | 21/10 13h53 | 21/10 14h01 e 22/10 13h30: encaminhado à unidade responsável. **10/11 15h25: prorrogação do prazo por 10 dias (Lei 12.527, art. 11, §2º)** |
 
-O prazo legal de resposta é de 20 dias (Resolução-TSE 23.435/2015), até 10/11/2026, e pode ser prorrogado por 10 dias com justificativa expressa; nenhum dos e-mails recebidos anuncia a prorrogação. A resposta do TSE de 23/10 **não responde** às 3 perguntas do pedido. Em caso de negativa, o recurso é de 10 dias.
+O prazo legal de resposta é de 20 dias (Lei 12.527/2011, art. 11, §1º), até 10/11/2026, e **pode ser prorrogado por mais 10 dias, mediante justificativa expressa** (§2º). **Em 10/11, às 15h25, o TRE-PE avisou a prorrogação do pedido dele por 10 dias** (assunto *"Prorrogação de prazo para resposta (LAI)"*), o que leva o prazo a 20/11/2026. Nenhum aviso de prorrogação chegou do TSE nem do TRE-BA. A resposta do TSE de 23/10 **não responde** às 3 perguntas do pedido. Em caso de negativa, o recurso é de 10 dias (art. 15), dirigido à autoridade superior, que decide em 5.

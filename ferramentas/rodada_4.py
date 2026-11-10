@@ -60,7 +60,7 @@ def m2022():
     w = a.pivot(index=["uf", "municipio"], columns="turno", values=["aptos", "comp", "bolsonaro", "lula"])
     w.columns = [f"{c}_{t}t" for c, t in w.columns]
     w = w.reset_index()
-    w["cd_tse"] = w.municipio.astype(str)
+    w["cd_tse"] = w.municipio.astype(str).str.zfill(5)  # o codigo do TSE de 2026 tem 5 digitos com zero a esquerda (bug achado em 10/11: sem isso 520 municipios saiam do cruzamento com 2022)
     w["gb"] = w.bolsonaro_2t - w.bolsonaro_1t
     w["gl"] = w.lula_2t - w.lula_1t
     return w

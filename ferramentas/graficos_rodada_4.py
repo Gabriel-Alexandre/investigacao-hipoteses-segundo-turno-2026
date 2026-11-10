@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parents[1]
 R = json.loads((RAIZ / "resultados/RODADA4.json").read_text(encoding="utf-8"))
+RB = json.loads((RAIZ / "resultados/RODADA4B.json").read_text(encoding="utf-8")) if (RAIZ / "resultados/RODADA4B.json").exists() else {}
 OUT = RAIZ / "resultados/figuras"
 LULA, FLAVIO, BASE, FUNDO, TEXTO, AMARELO, VERDE = "#C8553D", "#2D6A8A", "#6B6B6B", "#FFFFFF", "#1E1E1E", "#E0B400", "#3D7A4F"
 REPO = "github.com/Gabriel-Alexandre/investigacao-hipoteses-segundo-turno-2026"
@@ -155,13 +156,36 @@ def g21_sem_digital():
     salvar(f, "g21_sem_digital_por_hora")
 
 
+def g22_tamanho():
+    t = RB["H26b"]["parcela_acima_por_tamanho"]
+    f = fig("É um fenômeno de cidade pequena", "Parte dos municípios com mais eleitores que habitantes, por tamanho da cidade")
+    ax = f.add_axes([0.1, 0.29, 0.85, 0.48])
+    rot = list(t.keys())
+    vals = [t[k]["pct"] for k in rot]
+    nomes = {"ate 5 mil": "até 5 mil" + chr(10) + "habitantes", "5 a 20 mil": "5 a 20 mil", "20 a 100 mil": "20 a 100 mil", "mais de 100 mil": "mais de" + chr(10) + "100 mil"}
+    for i, v in enumerate(vals):
+        ax.bar([i], [v], color=FLAVIO if i == 0 else "#9DB9C9", width=0.55)
+        ax.text(i, v + 1.2, f"{d(v)}%", ha="center", fontsize=26, weight="bold")
+    ax.set_xticks(range(len(rot)))
+    ax.set_xticklabels([nomes[k] for k in rot], fontsize=19)
+    ax.set_ylim(0, 56)
+    ax.set_yticks([])
+    ax.spines["left"].set_visible(False)
+    h = RB["H26b"]
+    f.text(0.05, 0.1, f"Dos 835, {h['dos_835_ja_tinham_mais_eleitores_que_habitantes_em_2022']} já estavam assim em 2022. Piauí, Paraíba, Rio Grande do Norte e Goiás têm de 35% a 38% dos municípios.\nO ganho do Lula nesses municípios foi {d(h['ganho_medio_do_lula_nos_835_pontos'])} pontos, contra {d(h['ganho_medio_do_lula_nos_demais_pontos'])} nos demais.", fontsize=14.5, color=TEXTO)
+    rodape(f, "TSE, Censo 2022 (IBGE) e boletins de 2022 por seção")
+    salvar(f, "g22_cidade_pequena")
+
+
 def main():
     g17_campos()
     g18_municipios()
     g19_abstencao()
     g20_escolas()
     g21_sem_digital()
-    print("g17 a g21 em resultados/figuras")
+    if RB:
+        g22_tamanho()
+    print("g17 a g22 em resultados/figuras")
 
 
 if __name__ == "__main__":
