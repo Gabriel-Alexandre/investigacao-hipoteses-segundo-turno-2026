@@ -72,6 +72,12 @@
     "ok": true
   },
   {
+    "teste": "V25 H30 contingencia no 2o turno: amostra (pct) contra o log nacional (pct)",
+    "a": 0.33,
+    "b": 0.4,
+    "ok": true
+  },
+  {
     "teste": "V23 H28 z calculado a mao em 3 locais (todos finitos e abaixo de 12)",
     "a": 1.0,
     "b": 1.0,

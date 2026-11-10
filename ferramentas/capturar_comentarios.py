@@ -18,7 +18,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter
 from playwright.sync_api import sync_playwright
 
-ESCALA = 2
+ESCALA = int(sys.argv[sys.argv.index("--escala") + 1]) if "--escala" in sys.argv else 2  # 3 = qualidade maior (rodada 4)
 
 
 def avatar_e_foto(img):
@@ -126,7 +126,10 @@ def main():
     saida.mkdir(parents=True, exist_ok=True)
     so_faltando = "--so-faltando" in sys.argv
     with sync_playwright() as p:
-        nav = p.chromium.launch(headless=True)
+        try:
+            nav = p.chromium.launch(headless=True)
+        except Exception:  # noqa: BLE001  (sem o Chromium do Playwright: usa o Chrome instalado)
+            nav = p.chromium.launch(headless=True, channel="chrome")
         ctx = nav.new_context(viewport={"width": 1100, "height": 1400}, device_scale_factor=ESCALA,
                               locale="pt-BR", color_scheme="light",
                               user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36")

@@ -41,6 +41,6 @@
 
 - **Pedido:** o episódio seguinte do Investigação Aberta, como conclusão da série, com as hipóteses que o público levantou nos comentários (31/10 a 10/11) e em três posts do X que chegaram por mensagem.
 - **Dados:** os de `dados/copias/` e `dados/derivados/` (sem coleta nova). **Decisão de forma:** sem pré-registro (padrão de rodadas).
-- **Feito:** H25 (Campos dos Goytacazes), H26 (população × votos, refeita), H27 (voto liberado sem digital entre os turnos), H28 (seções da mesma escola) e H29 (a queda da abstenção contra o ganho do Lula, com 2022 de espelho); validação por outro caminho 13 de 13; gráficos g17 a g21; relatório em `docs/RODADA_4.md`.
-- **Contagem:** 8 desmentidas, 14 não sustentadas, 4 compatíveis com as duas, 2 não testadas. Soma do pior caso: 383.588 (8,66%), **com a ressalva** de que o item H15 (113.315) é um piso observável, não um teto (nota N4 em `docs/RODADA_4.md`).
+- **Feito:** H25 (Campos dos Goytacazes), H26 (população × votos, refeita), H27 (voto liberado sem digital entre os turnos), H28 (seções da mesma escola), H29 (a queda da abstenção contra o ganho do Lula, com 2022 de espelho) e H30 (urnas substituídas); validação por outro caminho 14 de 14; gráficos g17 a g21; relatório em `docs/RODADA_4.md`.
+- **Contagem:** 8 desmentidas, 15 não sustentadas, 4 compatíveis com as duas, 2 não testadas. Soma do pior caso: 383.588 (8,66%), **com a ressalva** de que o item H15 (113.315) é um piso observável, não um teto (nota N4 em `docs/RODADA_4.md`).
 - **Fora:** o post de @urna_2026 (404), a fala do Lula no debate, o vídeo da urna sem ninguém e os relatos pessoais de uma seção.

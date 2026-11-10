@@ -89,6 +89,9 @@ def main():
         man = sum(gg[f"m{h:02d}"].sum() for h in range(6, 21))
         esperado = R4["H27"]["por_turno"][t]["sem_digital_pct"]
         conferir(f"V24 H27 sem digital {t} (somando as horas)", round(100 * man / tot, 2), esperado, tol=0.6)
+    # V25: H30, a taxa de urnas substituidas da amostra contra o log do 2o turno inteiro (tolerancia de 2 erros padrao, fixada antes: 0,12 ponto)
+    nac = t2.log_contingencia.dropna()
+    conferir("V25 H30 contingencia no 2o turno: amostra (pct) contra o log nacional (pct)", R4["H30"]["taxa_na_amostra"]["t2"]["pct"], round(100 * float((nac > 0).mean()), 2), tol=0.12)
     # V23: z a mao de 3 locais do 2o turno
     L = pd.read_parquet(D / "local_votacao_2026.parquet")
     L = L[L.turno == "2"]

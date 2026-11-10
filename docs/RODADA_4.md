@@ -1,6 +1,6 @@
-# Rodada 4 · 10/11/2026 · cinco hipóteses novas, saídas dos comentários e das mensagens depois do vídeo 20
+# Rodada 4 · 10/11/2026 · seis hipóteses novas, saídas dos comentários e das mensagens depois do vídeo 20
 
-**Pedido:** o episódio seguinte do Investigação Aberta, como conclusão do que foi testado, com as hipóteses que o público levantou depois do vídeo 20 e as mensagens que chegaram (três posts do X). Sem pré-registro (padrão de rodadas, como na 1 a 3). **Dados:** os mesmos de `dados/copias/` e `dados/derivados/`, nenhum arquivo novo e nenhuma rede. **Código:** `ferramentas/rodada_4.py` (resultados em `resultados/RODADA4.json`), `ferramentas/validacao_rodada_4.py` (13 de 13) e `ferramentas/graficos_rodada_4.py` (g17 a g21).
+**Pedido:** o episódio seguinte do Investigação Aberta, como conclusão do que foi testado, com as hipóteses que o público levantou depois do vídeo 20 e as mensagens que chegaram (três posts do X). Sem pré-registro (padrão de rodadas, como na 1 a 3). **Dados:** os mesmos de `dados/copias/` e `dados/derivados/`, nenhum arquivo novo e nenhuma rede. **Código:** `ferramentas/rodada_4.py` (resultados em `resultados/RODADA4.json`), `ferramentas/validacao_rodada_4.py` (14 de 14) e `ferramentas/graficos_rodada_4.py` (g17 a g21).
 
 ## O que já estava feito e não foi repetido
 
@@ -8,10 +8,10 @@
 |---|---|
 | Ritmo entre votos, sequências rápidas demais | vídeo 16, A7: rajadas (10 votos seguidos com menos de 15 s) = 0,000% dos votos |
 | Liberação sem digital por vencedor e por hora | vídeo 16, A7: 13,1% onde o Lula venceu e 12,3% onde o Flávio venceu |
-| Urnas substituídas dobraram | sondagem da rodada 0 (300 urnas de contingência), H10 |
+| Urnas substituídas: as trocadas já tinham voto para o Lula? | sondagem da rodada 0 (300 urnas de contingência), H10; a **taxa entre os turnos** é nova (H30) |
 | Fluxos de comparecimento | projeto do vídeo 19 |
 
-O que **não** estava feito e entra aqui: H25 a H29.
+O que **não** estava feito e entra aqui: H25 a H30.
 
 ## Os vereditos
 
@@ -21,11 +21,12 @@ O que **não** estava feito e entra aqui: H25 a H29.
 | **H26** | mais eleitores (ou votantes) que habitantes, em quantos municípios e quanto pesa | **certo**: 835 de 5.570 têm eleitorado maior que a população; 120 têm mais votantes que habitantes | **compatível com as duas** (mantém a H14) | 33.408 votos acima da população (0,75%) |
 | **H27** | votos liberados sem a digital, seção a seção entre os turnos | **certo**: 12,3% no 1º turno, 12,5% no 2º | **não sustentada** | não se aplica |
 | **H28** | seções da mesma escola, 1º contra 2º turno | **certo**: dentro da escola as seções divergem, e divergem igual nos dois turnos | **não sustentada** | não se aplica |
+| **H30** | *"as urnas substituídas dobraram do 1º para o 2º turno e já tinham voto para o Lula"* | **errado**: caíram (0,46% das seções da amostra no 1º turno, 0,33% no 2º; o TSE conta 1.551 trocas no 2º, 0,31%) | **não sustentada** | não se aplica |
 | **H29** | a queda da abstenção seção a seção contra o ganho do Lula (voto pelo ausente) | **certo**: a abstenção caiu 1,86 ponto no país | **não sustentada** | não se aplica |
 
-**Contagem da série (28 linhas):** 8 desmentidas, 14 não sustentadas, 4 compatíveis com as duas (H14, H15, H18, H23), 2 não testadas (H21, H22). As 24 anteriores mais H25, H27, H28 e H29 (as não sustentadas sobem de 10 para 14); a H26 é a extensão da H14 e não cria linha nova.
+**Contagem da série (29 linhas):** 8 desmentidas, 15 não sustentadas, 4 compatíveis com as duas (H14, H15, H18, H23), 2 não testadas (H21, H22). As 24 anteriores mais H25, H27, H28, H29 e H30 (as não sustentadas sobem de 10 para 15); a H26 é a extensão da H14 e não cria linha nova.
 
-**Soma do pior caso:** 382.199 (8,63%) + 1.389 (H25) = **383.588 (8,66%)**. ⚠️ **Correção de método (nota N4):** o item H15 da soma usa o número de avisos *"eleitor já votou"* (113.315). Esse número é **o que o log enxerga**, não um teto: o aviso só aparece quando o eleitor de verdade vai votar. Um voto dado em nome de quem **não** apareceu não deixa aviso. Então **o 113.315 é um piso observável**, não o limite do mecanismo, e a soma de 8,66% **não é um teto para tudo que ficou aberto**. O que se pode dizer é que os testes que não dependem do aviso (H29, H27, H28) não acham a assinatura que esse mecanismo deixaria, e que o limite verdadeiro só sai do caderno de votação e da ata de cada seção, que os pedidos por LAI ao TRE-BA e ao TRE-PE pedem.
+**Soma do pior caso:** 382.199 (8,63%) + 1.389 (H25) = **383.588 (8,66%)** (H27, H28, H29 e H30 não somam: nenhuma tem um caminho aberto com número). ⚠️ **Correção de método (nota N4):** o item H15 da soma usa o número de avisos *"eleitor já votou"* (113.315). Esse número é **o que o log enxerga**, não um teto: o aviso só aparece quando o eleitor de verdade vai votar. Um voto dado em nome de quem **não** apareceu não deixa aviso. Então **o 113.315 é um piso observável**, não o limite do mecanismo, e a soma de 8,66% **não é um teto para tudo que ficou aberto**. O que se pode dizer é que os testes que não dependem do aviso (H29, H27, H28) não acham a assinatura que esse mecanismo deixaria, e que o limite verdadeiro só sai do caderno de votação e da ata de cada seção, que os pedidos por LAI ao TRE-BA e ao TRE-PE pedem.
 
 ## H25 · Campos dos Goytacazes
 
@@ -97,6 +98,15 @@ Amostra sorteada de 11.972 seções com os dois turnos nos logs (11.853 pareadas
 - **Nas 5% de seções onde a abstenção mais caiu:** o Lula ganhou 7,53 pontos contra 7,00 na média geral (2026); em 2022, 2,06 contra 2,29.
 - **Veredito:** o fato é certo (a abstenção caiu); a leitura de fraude é **não sustentada**. **Limite:** votos acrescentados de modo uniforme, em todas as seções, não deixam essa assinatura.
 
+## H30 · as urnas substituídas
+
+**O comentário (@AdrianoSantos-ub5fi, 01/11):** as urnas substituídas *"já estavam com os votos para o Lula"* e *"em média, dobraram a quantidade do 1º para o 2º turno"*.
+
+- **Elas não dobraram: caíram.** Na amostra sorteada de 11.972 seções, 55 (0,46%) tinham urna substituída no 1º turno e 40 (0,33%) no 2º. O documento de observação da Transparência Eleitoral Brasil, publicado pelo TSE em 05/11, conta **1.551 trocas em 499.248 urnas no 2º turno (0,31%)** e fala em *"redução na substituição de urnas"*. Para o 1º turno, uma reportagem registra 1.861 trocas (⚠️ uma fonte só, ainda sem o balanço oficial).
+- **No log do 2º turno inteiro**, 2.000 seções (0,40%) marcam contingência; a conta do TSE (1.551) e a do log têm definições diferentes, e a amostra (0,33%) fica entre as duas.
+- **Elas já tinham voto para o Lula?** Nas seções trocadas, a parte do Lula (entre Lula e Flávio) foi **1,86 ponto acima** do resto do município no 1º turno (erro padrão 0,91) e **2,61 pontos abaixo** no 2º (erro 1,19). Sem o padrão que o comentário descreve.
+- **Veredito:** o fato é **errado** (caíram); a leitura de fraude é **não sustentada**. **Limite:** a amostra tem 40 e 55 seções trocadas, então o erro é grande; o que a conta separa é *"dobraram"*, que a amostra e o TSE desmentem.
+
 ## A objeção que o dado público não responde
 
 Os comentários repetem que *"o truque estaria dentro da urna, e nenhum dado público o veria"*. É verdade em parte, e o projeto sempre disse isso (H18). O que a rodada 4 acrescenta é a **separação por tipo de prova**:
@@ -123,7 +133,7 @@ Os comentários repetem que *"o truque estaria dentro da urna, e nenhum dado pú
 | H29 · *"a mobilização do Lula é real"* | por isso o espelho de 2022 e o *dentro do município* |
 | Todas · *"o dado vem do TSE"* | os totais conferem por 3 caminhos independentes (vídeo 16); a assinatura digital dos boletins **não** foi verificada (H11 e H17) |
 
-## Validação por outro caminho: 13 de 13
+## Validação por outro caminho: 14 de 14
 
 `ferramentas/validacao_rodada_4.py`: Campos refeita somando as seções (6 números); o eleitorado e o comparecimento contra a população refeitos pelo detalhe de 999 mil linhas (835 e 120); a H29 refeita com a zona no lugar do município (0,023 contra 0,034, e 0,029 em 2022 com o mesmo método); a H27 refeita somando as horas; o z de 3 escolas feito à mão. ⚠️ A tolerância da H29 foi fixada em 0,02 **depois** de ver a diferença de 0,011; a conclusão (inclinação perto de zero e igual à de 2022) vale com os dois efeitos fixos.
 

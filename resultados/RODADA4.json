@@ -231,5 +231,36 @@
     "secoes_nos_dois_turnos": 477057,
     "z_extremo_no_2t_e_normal_no_1t": 2,
     "z_extremo_no_1t_e_normal_no_2t": 4
+  },
+  "H30": {
+    "taxa_na_amostra": {
+      "t1": {
+        "secoes": 11972,
+        "com_urna_substituida": 55,
+        "pct": 0.46
+      },
+      "t2": {
+        "secoes": 11972,
+        "com_urna_substituida": 40,
+        "pct": 0.33
+      }
+    },
+    "lula_nas_secoes_trocadas_contra_o_resto_do_municipio": {
+      "t1": {
+        "secoes": 55,
+        "diferenca_media_do_lula_em_pontos": 1.86,
+        "erro_padrao": 0.91
+      },
+      "t2": {
+        "secoes": 40,
+        "diferenca_media_do_lula_em_pontos": -2.61,
+        "erro_padrao": 1.19
+      }
+    },
+    "tse_observadores_2t": {
+      "trocadas": 1551,
+      "urnas": 499248,
+      "pct": 0.31
+    }
   }
 }

@@ -230,7 +230,7 @@ Sem autor, sem código e sem arquivo publicado. Circula como imagens de 7 págin
 
 Nome, foto e @ de quem comentou ficam fora (os prints moram no repositório de documentação do canal); aqui só a contagem e a paráfrase. Identificador de mesário e de eleitor que aparecer em log é codificado (HMAC) e nunca publicado.
 
-## Rodada 4 · H25 a H29 (10/11/2026)
+## Rodada 4 · H25 a H30 (10/11/2026)
 
 | # | Hipótese | Teste | Espelho |
 |---|---|---|---|
@@ -239,3 +239,4 @@ Nome, foto e @ de quem comentou ficam fora (os prints moram no repositório de d
 | H27 | voto liberado sem a digital, seção a seção, entre os turnos | variação do sem digital contra variação do Lula, dentro do município | o próprio 1º turno |
 | H28 | seções da mesma escola, 1º contra 2º turno | afastamento de cada seção em relação às outras da escola | o 1º turno |
 | H29 | voto pelo ausente: a queda da abstenção contra o ganho do Lula | inclinação dentro do município | 2022 |
+| H30 | as urnas substituídas dobraram do 1º para o 2º turno e já tinham voto para o Lula | taxa de urnas substituídas por turno e a parte do Lula nas trocadas contra o resto do município | o 1º turno |

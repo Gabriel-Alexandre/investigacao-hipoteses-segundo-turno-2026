@@ -4,6 +4,7 @@ H25  Campos dos Goytacazes: "o Lula ganhou TODOS os votos nulos, brancos, absten
 H26  populacao x votos refeita: quantos dos 5.571 municipios e quanto representa em votos (post de 07/11)
 H27  voto liberado sem digital: variacao de cada secao entre os turnos, contra a variacao do Lula (comentario de 31/10)
 H28  pares de secoes da mesma escola: o resultado dentro da escola, 1o contra 2o turno (comentario de 10/11)
+H30  urnas substituidas: dobraram do 1o para o 2o turno? (comentario de 01/11)
 H29  voto pelo ausente: a queda da abstencao secao a secao contra o ganho do Lula, com 2022 de espelho (comentario de 04/11)
 
 Le so o que ja esta em dados/ (copias e derivados). Escreve resultados/RODADA4.json. Sem rede.
@@ -325,6 +326,31 @@ def h28(b):
     return res
 
 
+# --------------------------------------------------------------------------- H30
+def h30(b):
+    """urnas substituidas (contingencia): dobraram do 1o para o 2o turno? as trocadas ja tinham voto para o Lula?"""
+    a = pd.read_parquet(D / "amostra_logs.parquet")
+    a = a[a.grupo == "sorteio"].copy()
+    a["k"] = a.uf.str.lower() + "|" + a.municipio.astype(str).str.zfill(5) + "|" + a.zona.astype(str).str.zfill(4) + "|" + a.secao.astype(str).str.zfill(4)
+    taxa = {t: {"secoes": int(len(g)), "com_urna_substituida": int(g.contingencia.sum()), "pct": round(100 * float(g.contingencia.mean()), 2)} for t, g in a.groupby("turno")}
+    # nas secoes trocadas, o Lula (parte do Lula + Flavio) contra o resto do mesmo municipio; o 1o turno e o espelho
+    bb = b.set_index("k")
+    res = {}
+    for t, col in (("t1", "ls1"), ("t2", "ls2")):
+        trocadas = a[(a.turno == t) & a.contingencia].k
+        trocadas = [k for k in trocadas if k in bb.index]
+        difs = []
+        for k in trocadas:
+            m = bb.loc[k, "mun"]
+            resto = b[(b.mun == m) & (b.k != k)][col]
+            if len(resto):
+                difs.append(100 * (float(bb.loc[k, col]) - float(resto.mean())))
+        d = np.array(difs)
+        res[t] = {"secoes": int(len(d)), "diferenca_media_do_lula_em_pontos": round(float(d.mean()), 2), "erro_padrao": round(float(d.std(ddof=1) / np.sqrt(len(d))), 2)}
+    return {"taxa_na_amostra": taxa, "lula_nas_secoes_trocadas_contra_o_resto_do_municipio": res,
+            "tse_observadores_2t": {"trocadas": 1551, "urnas": 499248, "pct": 0.31}}
+
+
 def main():
     mu = municipios()
     m22 = m2022()
@@ -334,6 +360,7 @@ def main():
     out["H29"] = h29(b)
     out["H27"] = h27(b)
     out["H28"] = h28(b)
+    out["H30"] = h30(b)
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2, default=lambda o: o.item() if hasattr(o, "item") else str(o)), encoding="utf-8")
     print(json.dumps(out, ensure_ascii=False, indent=1, default=lambda o: o.item() if hasattr(o, "item") else str(o)))
 
