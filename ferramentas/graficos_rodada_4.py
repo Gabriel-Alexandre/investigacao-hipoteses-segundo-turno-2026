@@ -1,6 +1,6 @@
 """Graficos 1920x1080 da rodada 4 (H25 a H29), a partir de resultados/RODADA4.json. Mesmo padrao de graficos.py.
 
-Uso: python ferramentas/graficos_rodada_4.py   ->  resultados/figuras/g17 a g22
+Uso: python ferramentas/graficos_rodada_4.py   ->  resultados/figuras/g17 a g23
 """
 import json
 from pathlib import Path
@@ -177,6 +177,39 @@ def g22_tamanho():
     salvar(f, "g22_cidade_pequena")
 
 
+def g23_vereditos():
+    """As 33 hipoteses da serie, uma a uma, por veredito (H01 a H24 do RELATORIO.md; H25 a H35 desta rodada)."""
+    import re
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from graficos import CURTO
+    texto = (RAIZ / "RELATORIO.md").read_text(encoding="utf-8")
+    base = {h: v for h, _, _, v in re.findall(r"^\| (H\d\d) \| (.+?) \| (.+?) \| \*\*(.+?)\*\* \|", texto, re.M)}
+    novas = {"H25": "Campos dos Goytacazes", "H27": "Voto sem digital entre os turnos", "H28": "Seções da mesma escola", "H29": "Abstenção e ganho do Lula",
+             "H30": "Urnas substituídas dobraram", "H32": "O ritmo entre os votos", "H33": "Seções abertas depois das 17h", "H34": "Mudança de local",
+             "H35": "Cidades bolsonaristas"}
+    linhas = [(h, CURTO[h], base[h]) for h in sorted(base) if h in CURTO] + [(h, t, "Não sustentado") for h, t in novas.items()]
+    assert len(linhas) == 33, len(linhas)
+    cores = {"Desmentido": "#2E7D32", "Não sustentado": "#7CB342", "Compatível com as duas": "#F9A825", "Não testado nesta rodada": "#9E9E9E"}
+    nomes = {"Desmentido": "desmentidas", "Não sustentado": "não sustentadas", "Compatível com as duas": "compatíveis com as duas", "Não testado nesta rodada": "não testadas"}
+    cont = {k: sum(1 for _, _, v in linhas if v == k) for k in cores}
+    f = plt.figure(figsize=(16, 9), dpi=120, facecolor=FUNDO)
+    f.text(0.05, 0.95, "As 33 hipóteses, uma a uma", fontsize=32, weight="bold", color=TEXTO, va="top")
+    x0 = 0.05
+    for k, cor in cores.items():
+        f.patches.append(plt.Rectangle((x0, 0.855), 0.014, 0.025, transform=f.transFigure, color=cor))
+        t = f"{cont[k]} {nomes[k]}"
+        f.text(x0 + 0.02, 0.8675, t, fontsize=15, va="center", color=TEXTO)
+        x0 += 0.02 + 0.0105 * len(t) + 0.03
+    for i, (h, t, v) in enumerate(linhas):
+        col, lin = i // 11, i % 11
+        x, y = 0.05 + col * 0.325, 0.78 - lin * 0.066
+        f.patches.append(plt.Rectangle((x, y - 0.014), 0.012, 0.028, transform=f.transFigure, color=cores[v]))
+        f.text(x + 0.02, y, f"{h}  {t}", fontsize=13.5, va="center", color=TEXTO)
+    rodape(f, "resultados/RESUMO.json e docs/RODADA_4.md deste projeto")
+    salvar(f, "g23_as_33_hipoteses")
+
+
 def main():
     g17_campos()
     g18_municipios()
@@ -185,7 +218,8 @@ def main():
     g21_sem_digital()
     if RB:
         g22_tamanho()
-    print("g17 a g22 em resultados/figuras")
+    g23_vereditos()
+    print("g17 a g23 em resultados/figuras")
 
 
 if __name__ == "__main__":
