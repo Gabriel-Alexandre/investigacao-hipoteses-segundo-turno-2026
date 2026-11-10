@@ -59,7 +59,7 @@ O que **não** estava feito e entra aqui: H25 a H30.
 | Quem venceu nos 120 | Lula em 75, Flávio em 45 | |
 | Quem venceu nos 835 | Lula em 550, Flávio em 285 | |
 
-- **O caso do reply (@not_av4il4ble): Tibau (RN), 9.238 eleitores e 5.382 habitantes.** Confere nos dados. É o **3º maior** em razão eleitores/habitantes (1,72), atrás de Davinópolis (GO, 2,18) e Anhanguera (GO, 1,88).
+- **O caso da resposta ao post: Tibau (RN), 9.238 eleitores e 5.382 habitantes.** Confere nos dados. É o **3º maior** em razão eleitores/habitantes (1,72), atrás de Davinópolis (GO, 2,18) e Anhanguera (GO, 1,88).
 - **A relação com o ganho do Lula é nula:** a correlação entre a razão votantes/habitantes e o ganho do Lula entre os turnos é **−0,07**.
 - **Por que acontece:** quem mora fora (outra cidade ou o exterior) e mantém o título na cidade natal; o Censo 2022 conta moradores. É a explicação da visão legítima. A visão da fraude diz *"título de quem não existe"*, que **só se separa com o cadastro** (TSE) e o óbito (cartórios): o dado público não separa.
 - **Veredito:** o fato é **certo**; a leitura de fraude fica **compatível com as duas**, como na H14. O número novo é o tamanho: 835 municípios e 33.408 votos.
@@ -100,7 +100,7 @@ Amostra sorteada de 11.972 seções com os dois turnos nos logs (11.853 pareadas
 
 ## H30 · as urnas substituídas
 
-**O comentário (@AdrianoSantos-ub5fi, 01/11):** as urnas substituídas *"já estavam com os votos para o Lula"* e *"em média, dobraram a quantidade do 1º para o 2º turno"*.
+**O comentário (vídeo 20, 01/11):** as urnas substituídas *"já estavam com os votos para o Lula"* e *"em média, dobraram a quantidade do 1º para o 2º turno"*.
 
 - **Elas não dobraram: caíram.** Na amostra sorteada de 11.972 seções, 55 (0,46%) tinham urna substituída no 1º turno e 40 (0,33%) no 2º. O documento de observação da Transparência Eleitoral Brasil, publicado pelo TSE em 05/11, conta **1.551 trocas em 499.248 urnas no 2º turno (0,31%)** e fala em *"redução na substituição de urnas"*. Para o 1º turno, uma reportagem registra 1.861 trocas (⚠️ uma fonte só, ainda sem o balanço oficial).
 - **No log do 2º turno inteiro**, 2.000 seções (0,40%) marcam contingência; a conta do TSE (1.551) e a do log têm definições diferentes, e a amostra (0,33%) fica entre as duas.
