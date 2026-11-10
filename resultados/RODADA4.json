@@ -1,0 +1,235 @@
+{
+  "H25": {
+    "campos": {
+      "flavio_1t": 160859,
+      "flavio_2t": 159470,
+      "lula_1t": 91105,
+      "lula_2t": 115927,
+      "abstencao_1t": 80008,
+      "abstencao_2t": 83903,
+      "eleitores": 370466
+    },
+    "conta_do_post": {
+      "lula_ganhou": 24822,
+      "flavio_variou": -1389,
+      "brancos_e_nulos_que_sumiram": 7131,
+      "abstencao_variou_para_cima": 3895,
+      "votos_dos_outros_candidatos_no_1t": 20200,
+      "cury_caiado_renan_zema": 19469,
+      "o_pool_de_quem_podia_mudar": 28720,
+      "lula_ficou_com_pct_do_pool": 86.4
+    },
+    "municipios_grandes_100mil": 221,
+    "flavio_perdeu_voto_entre_turnos_2026": 3,
+    "bolsonaro_perdeu_voto_entre_turnos_2022": 0,
+    "lula_perdeu_voto_entre_turnos_2022": 0,
+    "flavio_perdeu_nos_grandes_do_rj_2026": 1,
+    "grandes_do_rj": 25,
+    "campos_percentil_do_lula_no_pool_entre_grandes": 38.5,
+    "mediana_lula_do_pool_grandes_pct": 89.8,
+    "mediana_lula_do_pool_grandes_rj_pct": 97.5,
+    "grandes_com_lula_de_75_a_100_do_pool": 133,
+    "flavio_perda_pct_campos": -0.86,
+    "flavio_perdeu_mais_que_campos_em_pct_grandes": 1,
+    "lista_grandes_onde_o_flavio_perdeu": [
+      {
+        "municipio": "Macapá (AP)",
+        "flavio_1t": 124378,
+        "flavio_2t": 120593,
+        "variacao_pct": -3.04
+      },
+      {
+        "municipio": "Campos Dos Goytacazes (RJ)",
+        "flavio_1t": 160859,
+        "flavio_2t": 159470,
+        "variacao_pct": -0.86
+      },
+      {
+        "municipio": "Boa Vista (RR)",
+        "flavio_1t": 143225,
+        "flavio_2t": 142680,
+        "variacao_pct": -0.38
+      }
+    ]
+  },
+  "H26": {
+    "municipios_com_censo": 5570,
+    "eleitorado_maior_que_populacao_2026_2t": 835,
+    "eleitorado_maior_que_populacao_2026_1t": 834,
+    "eleitorado_maior_que_populacao_2022_2t": 566,
+    "comparecimento_maior_que_populacao_2026_2t": 120,
+    "comparecimento_maior_que_populacao_2022_2t": 51,
+    "pct_dos_municipios_eleitorado_maior_2026": 15.0,
+    "eleitores_a_mais_que_habitantes_soma_2026": 404321,
+    "eleitorado_total_nesses_municipios": 4259356,
+    "pct_do_eleitorado_do_pais_nesses_municipios": 2.7,
+    "mediana_da_populacao_desses_municipios": 3504,
+    "votos_acima_da_populacao_soma_2026": 33408,
+    "votos_acima_da_populacao_pct_da_diferenca": 0.75,
+    "lula_venceu_dos_120": 75,
+    "flavio_venceu_dos_120": 45,
+    "dos_835_lula_venceu": 550,
+    "dos_835_flavio_venceu": 285,
+    "maiores_razoes": [
+      {
+        "municipio": "Davinópolis (GO)",
+        "eleitores": 4144,
+        "habitantes": 1902,
+        "razao": 2.18
+      },
+      {
+        "municipio": "Anhangüera (GO)",
+        "eleitores": 1738,
+        "habitantes": 924,
+        "razao": 1.88
+      },
+      {
+        "municipio": "Tibau (RN)",
+        "eleitores": 9238,
+        "habitantes": 5382,
+        "razao": 1.72
+      },
+      {
+        "municipio": "Chapada De Areia (TO)",
+        "eleitores": 2545,
+        "habitantes": 1501,
+        "razao": 1.7
+      },
+      {
+        "municipio": "Pilar De Goiás (GO)",
+        "eleitores": 3938,
+        "habitantes": 2328,
+        "razao": 1.69
+      },
+      {
+        "municipio": "Novo Santo Antônio (PI)",
+        "eleitores": 4727,
+        "habitantes": 2827,
+        "razao": 1.67
+      },
+      {
+        "municipio": "Bodó (RN)",
+        "eleitores": 3784,
+        "habitantes": 2306,
+        "razao": 1.64
+      },
+      {
+        "municipio": "São Sebastião Do Rio Preto (MG)",
+        "eleitores": 2044,
+        "habitantes": 1259,
+        "razao": 1.62
+      }
+    ],
+    "tibau_rn": {
+      "eleitores": 9238,
+      "habitantes": 5382
+    },
+    "correlacao_razao_x_ganho_do_lula": -0.074
+  },
+  "secoes_pareadas_2026": 499095,
+  "H29": {
+    "2026": {
+      "secoes": 499095,
+      "inclinacao_pontos_do_lula_por_ponto_de_queda_da_abstencao": 0.034,
+      "intervalo_95_bootstrap_por_municipio": [
+        0.025,
+        0.044
+      ]
+    },
+    "2022": {
+      "secoes": 472026,
+      "inclinacao_pontos_do_lula_por_ponto_de_queda_da_abstencao": 0.029,
+      "intervalo_95_bootstrap_por_municipio": [
+        0.018,
+        0.039
+      ]
+    },
+    "abstencao_1t_pct": 21.08,
+    "abstencao_2t_pct": 19.22,
+    "abstencao_1t_2022_pct": 20.95,
+    "abstencao_2t_2022_pct": 20.58,
+    "secoes_onde_a_abstencao_mais_caiu_(5%)": {
+      "n": 24966,
+      "ganho_medio_do_lula_pontos": 7.53,
+      "ganho_medio_geral_pontos": 7.0
+    },
+    "secoes_onde_a_abstencao_mais_caiu_(5%)_2022": {
+      "n": 23625,
+      "ganho_medio_do_lula_pontos": 2.06,
+      "ganho_medio_geral_pontos": 2.29
+    }
+  },
+  "H27": {
+    "secoes_no_par": 11853,
+    "por_turno": {
+      "t1": {
+        "sem_digital_pct": 12.29,
+        "sem_digital_estrito_pct": 5.62,
+        "secoes": 11972.0
+      },
+      "t2": {
+        "sem_digital_pct": 12.51,
+        "sem_digital_estrito_pct": 5.75,
+        "secoes": 11972.0
+      }
+    },
+    "correlacao_do_sem_digital_entre_turnos": 0.959,
+    "inclinacao_variacao_sem_digital_x_variacao_do_lula": 0.004,
+    "intervalo_95_bootstrap_por_municipio": [
+      -0.02,
+      0.027
+    ],
+    "inclinacao_no_1t": 0.038,
+    "inclinacao_no_2t": 0.01,
+    "liberacao_manual_por_hora_pct": {
+      "t1": {
+        "08h": 13.6,
+        "09h": 13.2,
+        "10h": 12.6,
+        "11h": 11.8,
+        "12h": 11.6,
+        "13h": 11.7,
+        "14h": 12.0,
+        "15h": 12.2,
+        "16h": 12.2,
+        "17h": 12.0
+      },
+      "t2": {
+        "08h": 13.0,
+        "09h": 12.8,
+        "10h": 12.4,
+        "11h": 12.0,
+        "12h": 12.0,
+        "13h": 12.4,
+        "14h": 12.7,
+        "15h": 12.6,
+        "16h": 12.3,
+        "17h": 15.9
+      }
+    }
+  },
+  "H28": {
+    "1t": {
+      "secoes": 477165,
+      "locais": 72394,
+      "variancia_z": 1.833,
+      "z_maior_que_4_pct": 0.711,
+      "z_maior_que_6_pct": 0.076,
+      "z_maior_que_4_n": 3394,
+      "z_maior_que_6_n": 365
+    },
+    "2t": {
+      "secoes": 477101,
+      "locais": 72376,
+      "variancia_z": 1.838,
+      "z_maior_que_4_pct": 0.724,
+      "z_maior_que_6_pct": 0.072,
+      "z_maior_que_4_n": 3453,
+      "z_maior_que_6_n": 342
+    },
+    "correlacao_do_z_entre_turnos": 0.872,
+    "secoes_nos_dois_turnos": 477057,
+    "z_extremo_no_2t_e_normal_no_1t": 2,
+    "z_extremo_no_1t_e_normal_no_2t": 4
+  }
+}

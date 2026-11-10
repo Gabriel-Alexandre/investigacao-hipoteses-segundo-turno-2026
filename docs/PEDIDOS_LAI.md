@@ -21,3 +21,13 @@
 Um caso relatado nos comentários traz zona e seção na Paraíba; a seção fica só no repositório de documentação do canal, porque é dado da própria pessoa. O log daquela seção é público e entra no teste de H15.
 
 Os pedidos do vídeo 8 (TSE, TRE-BA e TRE-PE, 21/10) seguem com o andamento registrado no repositório de documentação do canal.
+
+## Andamento dos pedidos do vídeo 8 (atualizado em 10/11/2026)
+
+| Protocolo | Registrado | O que chegou depois |
+|---|---|---|
+| TSE · 82032521133805 | 21/10 13h38 | 21/10 16h26: encaminhado à unidade responsável. **23/10 17h36: resposta de protocolo**, em que a Secretaria de Tecnologia da Informação informa que *"o relato foi submetido à administração do TSE, por meio de processo administrativo"* e que a Ouvidoria reabrirá o protocolo com nova resposta quando o procedimento for finalizado |
+| TRE-BA · 82034321135124 | 21/10 13h51 | 23/10 12h43: encaminhado à unidade responsável |
+| TRE-PE · 82034721135306 | 21/10 13h53 | 21/10 14h01 e 22/10 13h30: encaminhado à unidade responsável |
+
+O prazo legal de resposta é de 20 dias (Resolução-TSE 23.435/2015), até 10/11/2026, e pode ser prorrogado por 10 dias com justificativa expressa; nenhum dos e-mails recebidos anuncia a prorrogação. A resposta do TSE de 23/10 **não responde** às 3 perguntas do pedido. Em caso de negativa, o recurso é de 10 dias.

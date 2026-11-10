@@ -41,3 +41,7 @@
 4. **O que fica a conferir (H14, H15, H18, H23):** 120 municípios com mais votos que habitantes (eram 52 em 2022), os avisos "já votou" isolados, que subiram, as quedas grandes do Flávio em parte das seções e a Região dos Lagos. Somando o pior caso de tudo o que ainda está aberto: 8,63% da diferença.
 
 O que só o TSE tem: a lista de quem votou, o cruzamento do cadastro com os óbitos e a assinatura de cada boletim. Relatório completo: [`RELATORIO.md`](RELATORIO.md).
+
+## Rodada 4 (10/11/2026)
+
+Cinco hipóteses a mais, saídas dos comentários e das mensagens depois do vídeo 20. **Campos dos Goytacazes:** o Lula ficou com 86% de quem podia mudar de voto, abaixo da mediana (90%) das cidades grandes, e a abstenção ali subiu, não caiu. **População e votos:** 835 dos 5.570 municípios têm mais eleitores que habitantes (já eram 566 em 2022), 120 têm mais votantes que habitantes, e o excesso soma 33.408 votos, 0,75% da diferença. **Sem a digital, escolas e abstenção:** iguais nos dois turnos e iguais a 2022. Contagem: 8 desmentidas, 14 não sustentadas, 4 compatíveis com as duas, 2 não testadas. Detalhe: [`docs/RODADA_4.md`](docs/RODADA_4.md).

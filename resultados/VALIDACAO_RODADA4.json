@@ -1,0 +1,80 @@
+[
+  {
+    "teste": "V20 Campos Lula 1t (soma das secoes)",
+    "a": 91105.0,
+    "b": 91105.0,
+    "ok": true
+  },
+  {
+    "teste": "V20 Campos Flavio 1t",
+    "a": 160859.0,
+    "b": 160859.0,
+    "ok": true
+  },
+  {
+    "teste": "V20 Campos Lula 2t (RDV por secao)",
+    "a": 115927.0,
+    "b": 115927.0,
+    "ok": true
+  },
+  {
+    "teste": "V20 Campos Flavio 2t (RDV por secao)",
+    "a": 159470.0,
+    "b": 159470.0,
+    "ok": true
+  },
+  {
+    "teste": "V20 Campos abstencao 1t (aptos - comparecimento)",
+    "a": 80008.0,
+    "b": 80008.0,
+    "ok": true
+  },
+  {
+    "teste": "V20 Campos abstencao 2t",
+    "a": 83903.0,
+    "b": 83903.0,
+    "ok": true
+  },
+  {
+    "teste": "V21 municipios com eleitorado > populacao (detalhe por secao)",
+    "a": 835.0,
+    "b": 835.0,
+    "ok": true
+  },
+  {
+    "teste": "V21 municipios com comparecimento > populacao (detalhe por secao)",
+    "a": 120.0,
+    "b": 120.0,
+    "ok": true
+  },
+  {
+    "teste": "V22 H29 inclinacao com zona como efeito fixo (tolerancia 0,02)",
+    "a": 0.023,
+    "b": 0.034,
+    "ok": true
+  },
+  {
+    "teste": "V22b H29 2026 e 2022 com o mesmo efeito fixo (zona) diferem pouco",
+    "a": 0.023,
+    "b": 0.029,
+    "ok": true
+  },
+  {
+    "teste": "V24 H27 sem digital t1 (somando as horas)",
+    "a": 12.29,
+    "b": 12.29,
+    "ok": true
+  },
+  {
+    "teste": "V24 H27 sem digital t2 (somando as horas)",
+    "a": 12.51,
+    "b": 12.51,
+    "ok": true
+  },
+  {
+    "teste": "V23 H28 z calculado a mao em 3 locais (todos finitos e abaixo de 12)",
+    "a": 1.0,
+    "b": 1.0,
+    "ok": true
+  }
+]

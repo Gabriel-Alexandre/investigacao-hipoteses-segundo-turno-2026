@@ -387,3 +387,7 @@ Das 22 hipóteses testadas, 18 não mostraram a marca que a fraude deixaria no d
 O detalhe por seção do TSE soma 124.082.273 votos nominais e 128.236.074 de comparecimento, o total proclamado. As tabelas por seção copiadas do vídeo 16 somam 124.081.475 nominais: os 798 que faltam são as 27 seções com voto no detalhe e sem boletim de urna nas tabelas (798 votos; 27 delas no exterior, apuradas pelo sistema de apuração). Nenhum teste muda por isso.
 
 Fontes, método e como refazer: `docs/PLANO.md`, `docs/HIPOTESES.md`, `docs/FONTES_DE_DADOS.md` e `docs/REPLICAR.md`. Análise feita pelo Claude, a pedido do autor do canal.
+
+## Rodada 4 (10/11/2026): H25 a H29
+
+Cinco hipóteses novas, saídas dos comentários depois do vídeo 20 e de três posts do X: **H25** (Campos dos Goytacazes: o fato é meio certo, a leitura de fraude não é sustentada), **H26** (835 de 5.570 municípios têm eleitorado maior que a população, 120 têm mais votantes, 33.408 votos acima, 0,75% da diferença: compatível com as duas), **H27**, **H28** e **H29** (não sustentadas). O detalhe, a validação (13 de 13) e a correção da nota sobre o teto do aviso *"eleitor já votou"* estão em [`docs/RODADA_4.md`](docs/RODADA_4.md). Gráficos: `resultados/figuras/g17` a `g21`.

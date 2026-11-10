@@ -229,3 +229,13 @@ Sem autor, sem código e sem arquivo publicado. Circula como imagens de 7 págin
 ## O que é dado de pessoa e nunca vai para este repositório
 
 Nome, foto e @ de quem comentou ficam fora (os prints moram no repositório de documentação do canal); aqui só a contagem e a paráfrase. Identificador de mesário e de eleitor que aparecer em log é codificado (HMAC) e nunca publicado.
+
+## Rodada 4 · H25 a H29 (10/11/2026)
+
+| # | Hipótese | Teste | Espelho |
+|---|---|---|---|
+| H25 | Campos dos Goytacazes: o Lula *"ganhou todos"* os votos nulos, brancos, abstenções e dos outros candidatos | quanto do que podia mudar de mão o Lula ficou, contra as cidades com mais de 100 mil eleitores | 2022: nenhum município grande teve candidato perdendo voto |
+| H26 | quantos dos 5.570 municípios têm mais eleitores ou votantes que habitantes, e quanto isso pesa | contagem contra o Censo 2022 | 2022 com o mesmo Censo |
+| H27 | voto liberado sem a digital, seção a seção, entre os turnos | variação do sem digital contra variação do Lula, dentro do município | o próprio 1º turno |
+| H28 | seções da mesma escola, 1º contra 2º turno | afastamento de cada seção em relação às outras da escola | o 1º turno |
+| H29 | voto pelo ausente: a queda da abstenção contra o ganho do Lula | inclinação dentro do município | 2022 |

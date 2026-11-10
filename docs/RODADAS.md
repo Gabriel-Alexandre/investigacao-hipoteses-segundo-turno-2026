@@ -36,3 +36,11 @@
 - **H24, nova:** desmentida. A composição das seções (cada uma repetindo o próprio 1º turno, na mesma ordem) explica 99,5% dos passos da linha em 2026 e em 2022; os vales não têm ritmo; a ordem de chegada dentro da zona não muda o resultado; o total de votos nunca caiu. O limite: um desvio igual nos 2 turnos não apareceria neste teste.
 - **H07 e H08, ampliadas:** boletins inteiros iguais são 54.304 em 2026, 31.016 em 2022 e 12.565 em 2018; o sorteio dá 44 mil, 23 mil e 8 mil. O real passa do sorteio nos 3 anos, menos em 2026, e a subida acompanha a queda dos brancos e nulos. Vereditos mantidos.
 - **Validação:** 19 de 19. **Contagem:** 8 desmentidas, 10 não sustentadas, 4 compatíveis com as duas, 2 não testadas; o teto somado não muda (382.199, 8,63%).
+
+## Rodada 4 · 10/11/2026 · cinco hipóteses novas depois do vídeo 20
+
+- **Pedido:** o episódio seguinte do Investigação Aberta, como conclusão da série, com as hipóteses que o público levantou nos comentários (31/10 a 10/11) e em três posts do X que chegaram por mensagem.
+- **Dados:** os de `dados/copias/` e `dados/derivados/` (sem coleta nova). **Decisão de forma:** sem pré-registro (padrão de rodadas).
+- **Feito:** H25 (Campos dos Goytacazes), H26 (população × votos, refeita), H27 (voto liberado sem digital entre os turnos), H28 (seções da mesma escola) e H29 (a queda da abstenção contra o ganho do Lula, com 2022 de espelho); validação por outro caminho 13 de 13; gráficos g17 a g21; relatório em `docs/RODADA_4.md`.
+- **Contagem:** 8 desmentidas, 14 não sustentadas, 4 compatíveis com as duas, 2 não testadas. Soma do pior caso: 383.588 (8,66%), **com a ressalva** de que o item H15 (113.315) é um piso observável, não um teto (nota N4 em `docs/RODADA_4.md`).
+- **Fora:** o post de @urna_2026 (404), a fala do Lula no debate, o vídeo da urna sem ninguém e os relatos pessoais de uma seção.
