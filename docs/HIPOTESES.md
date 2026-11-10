@@ -242,3 +242,12 @@ Nome, foto e @ de quem comentou ficam fora (os prints moram no repositório de d
 | H30 | as urnas substituídas dobraram do 1º para o 2º turno e já tinham voto para o Lula | taxa de urnas substituídas por turno e a parte do Lula nas trocadas contra o resto do município | o 1º turno |
 | H31 (estende a H05) | a Lei de Benford não vale para voto por urna; a 2ª casa decimal vale? | MAD da 2ª casa, 2º turno × 1º turno × 2022 | 1º turno e 2022 |
 | H32 | o intervalo entre votos: seções rápidas demais a favor de um lado | intervalo médio entre votos por seção e a parte do Lula, dentro do município | o resto do município |
+
+## Rodada 4c · H33 a H36 (10/11/2026)
+
+| # | Hipótese | Teste | Espelho |
+|---|---|---|---|
+| H33 | seções abertas depois das 17h: o Lula cresceu igual nos dois grupos? | ganho do Lula entre os turnos nas seções que fecharam depois das 17h15 (Brasília) contra as que fecharam no horário, dentro do município, com 4 cortes de horário | o 1º turno das mesmas seções |
+| H34 | seções que mudaram de local entre os turnos | ganho do Lula nas que mudaram contra as que ficaram, dentro do município | o comparecimento |
+| H35 | cidades extremamente bolsonaristas em que o Lula cresceu muito | ganho do Lula por décimo de força do adversário no 1º turno | 2022 com o mesmo desenho |
+| H36 | conferências de fato (exterior, Santa Catarina, seção com mais votantes que aptos) | soma direta dos arquivos do TSE | 2022 |

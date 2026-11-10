@@ -1,0 +1,253 @@
+{
+  "H33": {
+    "secoes_com_horario": 499094,
+    "fecharam_depois_das_17h15_brt": 8899,
+    "pct": 1.78,
+    "municipios_com_os_dois_grupos": 625,
+    "variacao_media_do_lula_pontos_tarde": 3.04,
+    "variacao_media_do_lula_pontos_no_horario": 2.9,
+    "diferenca_dentro_do_municipio_pontos": -0.066,
+    "intervalo_95_bootstrap": [
+      -0.297,
+      0.209
+    ],
+    "diferenca_no_1o_turno_pontos_(espelho)": -0.939,
+    "outros_cortes": {
+      "depois_das_17h00": {
+        "secoes": 191027,
+        "inclinacao": 0.037
+      },
+      "depois_das_17h25": {
+        "secoes": 8861,
+        "inclinacao": -0.066
+      },
+      "depois_das_17h50": {
+        "secoes": 7551,
+        "inclinacao": -0.059
+      },
+      "depois_das_18h00": {
+        "secoes": 7045,
+        "inclinacao": -0.036
+      }
+    },
+    "fechamento_por_hora_brt": {
+      "16h": 551,
+      "17h": 490922,
+      "18h": 852,
+      "19h": 6745,
+      "20h": 23,
+      "21h": 1
+    }
+  },
+  "H34": {
+    "secoes_nos_dois_turnos": 497814,
+    "mudaram_de_local": 431,
+    "pct": 0.09,
+    "variacao_do_lula_nas_que_mudaram_pontos": 2.67,
+    "variacao_do_lula_nas_que_ficaram_pontos": 2.91,
+    "diferenca_dentro_do_municipio_pontos": 0.15,
+    "intervalo_95_bootstrap": [
+      -0.097,
+      0.361
+    ],
+    "ufs_com_mais_mudancas": [
+      {
+        "uf": "MG",
+        "mudaram": 64,
+        "de": 52054,
+        "pct": 0.12
+      },
+      {
+        "uf": "PA",
+        "mudaram": 58,
+        "de": 20812,
+        "pct": 0.28
+      },
+      {
+        "uf": "PR",
+        "mudaram": 36,
+        "de": 27140,
+        "pct": 0.13
+      },
+      {
+        "uf": "CE",
+        "mudaram": 30,
+        "de": 23762,
+        "pct": 0.13
+      },
+      {
+        "uf": "PI",
+        "mudaram": 29,
+        "de": 10223,
+        "pct": 0.28
+      },
+      {
+        "uf": "SP",
+        "mudaram": 27,
+        "de": 103656,
+        "pct": 0.03
+      }
+    ],
+    "comparecimento_das_que_mudaram_pct": 79.5,
+    "comparecimento_das_que_ficaram_pct": 81.0
+  },
+  "H35": {
+    "2026_por_decil_da_forca_do_Flavio_no_1t": [
+      {
+        "decil": 1,
+        "forca_do_adversario_pct": "9 a 21",
+        "municipios": 558,
+        "ganho_do_lula_pontos": 5.51
+      },
+      {
+        "decil": 2,
+        "forca_do_adversario_pct": "21 a 26",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 5.93
+      },
+      {
+        "decil": 3,
+        "forca_do_adversario_pct": "26 a 32",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 6.35
+      },
+      {
+        "decil": 4,
+        "forca_do_adversario_pct": "32 a 41",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 6.43
+      },
+      {
+        "decil": 5,
+        "forca_do_adversario_pct": "41 a 48",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 6.73
+      },
+      {
+        "decil": 6,
+        "forca_do_adversario_pct": "48 a 53",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 6.66
+      },
+      {
+        "decil": 7,
+        "forca_do_adversario_pct": "53 a 58",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 6.3
+      },
+      {
+        "decil": 8,
+        "forca_do_adversario_pct": "58 a 62",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 6.0
+      },
+      {
+        "decil": 9,
+        "forca_do_adversario_pct": "62 a 68",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 5.55
+      },
+      {
+        "decil": 10,
+        "forca_do_adversario_pct": "68 a 87",
+        "municipios": 557,
+        "ganho_do_lula_pontos": 4.23
+      }
+    ],
+    "2022_por_decil_da_forca_do_Bolsonaro_no_1t": [
+      {
+        "decil": 1,
+        "forca_do_adversario_pct": "0 a 15",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 2.25
+      },
+      {
+        "decil": 2,
+        "forca_do_adversario_pct": "15 a 20",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 2.35
+      },
+      {
+        "decil": 3,
+        "forca_do_adversario_pct": "20 a 26",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 2.35
+      },
+      {
+        "decil": 4,
+        "forca_do_adversario_pct": "26 a 33",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 1.93
+      },
+      {
+        "decil": 5,
+        "forca_do_adversario_pct": "33 a 39",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 1.54
+      },
+      {
+        "decil": 6,
+        "forca_do_adversario_pct": "39 a 44",
+        "municipios": 570,
+        "ganho_do_lula_pontos": 1.2
+      },
+      {
+        "decil": 7,
+        "forca_do_adversario_pct": "44 a 49",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 1.25
+      },
+      {
+        "decil": 8,
+        "forca_do_adversario_pct": "49 a 54",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 1.18
+      },
+      {
+        "decil": 9,
+        "forca_do_adversario_pct": "54 a 59",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 1.16
+      },
+      {
+        "decil": 10,
+        "forca_do_adversario_pct": "59 a 93",
+        "municipios": 571,
+        "ganho_do_lula_pontos": 0.7
+      }
+    ],
+    "inclinacao_2026_pontos_do_lula_por_ponto_de_Flavio": -0.015,
+    "inclinacao_2022_pontos_do_lula_por_ponto_de_Bolsonaro": -0.032,
+    "municipios_2026": 5571,
+    "municipios_2022": 5709
+  },
+  "H36": {
+    "exterior": {
+      "secoes_2026": 1351,
+      "lula_pct_dos_dois_1t": 52.2,
+      "lula_pct_dos_dois_2t": 53.9,
+      "lula_pct_dos_dois_2022_1t": 53.1,
+      "lula_pct_dos_dois_2022_2t": 51.3,
+      "votos_lula_2t": 200154,
+      "votos_flavio_2t": 171497
+    },
+    "santa_catarina": {
+      "lula_1t": 1127168,
+      "lula_2t": 1418314,
+      "ganho_do_lula": 291146,
+      "flavio_1t": 3000020,
+      "flavio_2t": 3220071,
+      "ganho_do_flavio": 220051,
+      "comparecimento_1t": 4648159,
+      "comparecimento_2t": 4762303
+    },
+    "secoes_com_mais_votantes_que_aptos": {
+      "1t": 0,
+      "2t": 0,
+      "secoes_1t": 499206,
+      "secoes_2t": 499248,
+      "2022_1t": 0,
+      "2022_2t": 0
+    }
+  }
+}

@@ -1,10 +1,10 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 10/11/2026, rodada 4.
+**Atualizado em:** 10/11/2026, rodada 4c.
 
 ## Em uma frase
 
-Rodadas 0 a 3 feitas: o levantamento (1.484 comentários, o relatório pericial, as teorias da internet), a coleta (TSE, IBGE, logs de uma amostra de 13.221 seções), um teste por hipótese, a validação por outro caminho (19 de 19), a revisão por três leitores e o relatório com 16 gráficos. A rodada 3 acrescentou a curva com zoom em 2018, 2022 e 2026 (H24) e as urnas idênticas (H07 e H08). Contagem depois da rodada 4: 8 desmentidas, 16 não sustentadas, 4 compatíveis com as duas visões, 2 não testadas. A **rodada 4** (10/11) acrescentou H25 a H32 (Campos dos Goytacazes, população × votos, voto sem digital entre os turnos, seções da mesma escola, a queda da abstenção contra o ganho do Lula, as urnas substituídas, Benford na 2ª casa e o ritmo entre os votos); detalhe em `docs/RODADA_4.md`.
+Rodadas 0 a 3 feitas: o levantamento (1.484 comentários, o relatório pericial, as teorias da internet), a coleta (TSE, IBGE, logs de uma amostra de 13.221 seções), um teste por hipótese, a validação por outro caminho (19 de 19), a revisão por três leitores e o relatório com 16 gráficos. A rodada 3 acrescentou a curva com zoom em 2018, 2022 e 2026 (H24) e as urnas idênticas (H07 e H08). Contagem depois da rodada 4c: 8 desmentidas, 19 não sustentadas, 4 compatíveis com as duas visões, 2 não testadas (33 linhas). A **rodada 4** (10/11) acrescentou H25 a H32 (Campos dos Goytacazes, população × votos, voto sem digital entre os turnos, seções da mesma escola, a queda da abstenção contra o ganho do Lula, as urnas substituídas, Benford na 2ª casa e o ritmo entre os votos); A **rodada 4c** (10/11, à noite) acrescentou H33 a H36 (seções abertas depois das 17h, mudança de local, cidades bolsonaristas e as conferências de fato do exterior, de Santa Catarina e de seção com mais votantes que aptos); detalhe em `docs/RODADA_4.md`.
 
 O roteiro v1 do vídeo 20, o material e os prints (que têm dado de pessoa e por isso não vêm para cá) ficam no repositório de documentação do canal, na pasta do vídeo.
 

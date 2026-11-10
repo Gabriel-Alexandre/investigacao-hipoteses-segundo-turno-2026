@@ -1,0 +1,44 @@
+[
+  {
+    "teste": "V40 secoes fechadas depois das 17h15 BRT (pelos segundos do log)",
+    "a": 8955.0,
+    "b": 8899.0,
+    "ok": true
+  },
+  {
+    "teste": "V41 secoes que mudaram de local (tabela de locais de votacao)",
+    "a": 431.0,
+    "b": 431.0,
+    "ok": true
+  },
+  {
+    "teste": "V42 Santa Catarina, votos do Lula no 1o turno (por municipio)",
+    "a": 1127168.0,
+    "b": 1127168.0,
+    "ok": true
+  },
+  {
+    "teste": "V42b Santa Catarina, votos do Lula no 2o turno (por municipio)",
+    "a": 1418314.0,
+    "b": 1418314.0,
+    "ok": true
+  },
+  {
+    "teste": "V43 exterior: boletim = registro de voto onde os dois existem (diferenca de votos do Lula)",
+    "a": 0.0,
+    "b": 0.0,
+    "ok": true
+  },
+  {
+    "teste": "V43b exterior: secoes sem boletim no arquivo",
+    "a": 70.0,
+    "b": 70.0,
+    "ok": true
+  },
+  {
+    "teste": "V43c exterior: Lula no 2o turno pelo registro de voto (rodada 4c)",
+    "a": 200154.0,
+    "b": 200154.0,
+    "ok": true
+  }
+]

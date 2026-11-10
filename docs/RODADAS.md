@@ -52,3 +52,9 @@
 - **Contagem:** 8 desmentidas, 16 não sustentadas, 4 compatíveis com as duas, 2 não testadas (30 linhas).
 - **LAI:** o TRE-PE avisou em 10/11 a prorrogação do prazo por 10 dias (art. 11, §2º da Lei 12.527/2011); ver `docs/PEDIDOS_LAI.md`.
 
+
+### Rodada 4c · 10/11/2026, à noite · mais quatro pedidos
+
+- **Pedido:** aprofundar tudo o que os 908 comentários dos dias 31/10 a 10/11 pediam e que o dado já salvo responde. **Feito:** H33 (seções abertas depois das 17h), H34 (mudança de local), H35 (cidades bolsonaristas, com 2022 de espelho) e H36 (conferências de fato: exterior, Santa Catarina, seção com mais votantes que aptos); validação 7 de 7.
+- **Contagem:** 8 desmentidas, 19 não sustentadas, 4 compatíveis com as duas, 2 não testadas (33 linhas). Soma do pior caso: 383.588 (8,66%), igual (com a ressalva da nota N4).
+- **Fora:** o "voto casado" é só contexto (o número vem do projeto do vídeo 6); o conteúdo dos relatórios do TCU e dos TREs ainda não foi lido.

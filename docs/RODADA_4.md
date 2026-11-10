@@ -165,6 +165,60 @@ A objeção (*"use o intervalo entre votos consecutivos, a mediana é de 1 minut
 - O vídeo das urnas já tinha medido as **rajadas** (10 votos seguidos com menos de 15 s entre eles): 0,000% dos votos.
 - **Veredito: não sustentada.** Limite: só o 2º turno (os logs do 1º ficaram fora do que está salvo).
 
+## Rodada 4c (10/11/2026, de noite) · mais quatro pedidos, lidos nos 908 comentários dos dias 31/10 a 10/11
+
+**Código:** `ferramentas/rodada_4c.py` (resultados em `resultados/RODADA4C.json`) e `ferramentas/validacao_rodada_4c.py` (7 de 7). Mesmos dados, sem rede, sem pré-registro.
+
+| # | Hipótese | O fato que circula | A leitura de fraude | Pior caso |
+|---|---|---|---|---|
+| **H33** | seções que ficaram abertas depois das 17h: o Lula cresceu igual nos dois grupos? | **certo**: 8.899 seções (1,78%) fecharam depois das 17h15 de Brasília, sobretudo as que a prorrogação alcançou | **não sustentada** | não se aplica |
+| **H34** | seções que mudaram de local entre os turnos | **certo**: 431 de 497.814 (0,09%) | **não sustentada** | não se aplica |
+| **H35** | cidades *"extremamente bolsonaristas"* em que o Lula teria crescido muito | **errado no desenho geral**: onde o Flávio foi mais forte, o Lula cresceu **menos**, e 2022 teve a mesma forma | **não sustentada** | não se aplica |
+| **H36** | três conferências de fato (exterior, Santa Catarina, seção com mais votantes que eleitores) | exterior: o Lula **não** teve todos os votos; Santa Catarina: o aumento foi de 291 mil, não *"mais de 3 milhões"*; seção com mais votantes que aptos: **nenhuma** | não é hipótese de fraude, é conferência | não se aplica |
+
+**Contagem da série depois da 4c (33 linhas):** 8 desmentidas, **19** não sustentadas, 4 compatíveis com as duas, 2 não testadas (a H36 não cria linha; é conferência de fato). A soma do pior caso **não muda** (383.588; 8,66%), com a ressalva da nota N4.
+
+### H33 · seções abertas depois das 17h contra as que fecharam no horário
+
+O horário vem do encerramento registrado pela urna (hora local), convertido para Brasília (AC +2 h; AM, MT, MS, RO e RR +1 h). 490.922 seções fecharam na hora das 17h, 6.745 na das 19h e 852 na das 18h (a prorrogação da votação decidida no dia).
+
+- Dentro do município (625 têm os dois grupos), o ganho do Lula entre os turnos foi **3,04 pontos** nas seções que fecharam depois das 17h15 e **2,90** nas que fecharam no horário. A diferença, **controlando o município, é de −0,07 ponto** (intervalo de 95%: −0,30 a +0,21).
+- **Espelho no 1º turno:** essas mesmas seções já tinham o Lula 0,94 ponto abaixo do resto do município antes de qualquer prorrogação (lugar de acesso mais difícil); o que mudou entre os turnos é igual ao das demais.
+- **Sensibilidade ao corte:** depois das 17h00 (191 mil seções) +0,04; depois das 17h25, −0,07; depois das 17h50, −0,06; depois das 18h00, −0,04. Nenhum se afasta de zero.
+- **Veredito: não sustentada.** Limite: o encerramento é o que a urna registra; 499.094 das 499.248 seções do 2º turno têm horário na faixa de 15h a 21h de Brasília, e as outras ficam fora.
+
+### H34 · seções que mudaram de local de votação
+
+Das 497.814 seções nos dois turnos, **431 (0,09%)** mudaram de local (Pará e Piauí, 0,28% cada, são os estados com a maior proporção; Minas tem o maior número, 64). O Lula ganhou **2,67 pontos** nelas e **2,91** nas que ficaram; dentro do município a diferença é de **+0,15 ponto** (intervalo −0,10 a +0,36). O comparecimento foi 79,5% nas que mudaram e 81,0% nas que ficaram. **Veredito: não sustentada.** O motivo de cada mudança só o TRE tem.
+
+### H35 · onde o Flávio era mais forte, o Lula cresceu mais?
+
+Por décimo de município (5.571 em 2026; 5.709 em 2022), o ganho do Lula em ponto do comparecimento:
+
+| Força do adversário no 1º turno | 2026 (Flávio) | 2022 (Bolsonaro) |
+|---|---|---|
+| décimo mais fraco | +5,5 | +2,3 |
+| meio (5º) | +6,7 | +1,5 |
+| décimo mais forte | **+4,2** | **+0,7** |
+
+A inclinação é **negativa nos dois anos** (−0,015 em 2026 e −0,032 em 2022): onde o adversário do Lula era mais forte, o Lula cresceu menos. **Veredito: não sustentada.** Um aumento fora do padrão em cidade bolsonarista de verdade precisaria aparecer como ganho acima do resto no último décimo, e o último décimo é o menor.
+
+### H36 · conferências de fato
+
+| Conferência | O que o dado mostra |
+|---|---|
+| **Exterior** (*"os que estão fora votaram todos no Lula"*) | o Lula teve **53,9%** dos votos dos dois candidatos no 2º turno (200.154 contra 171.497 do Flávio) e 52,2% no 1º; em 2022 foi 53,1% e 51,3%. **Observação sem veredito:** em 2026 o Lula **subiu** no exterior entre os turnos e em 2022 **caiu**; o dado público não separa o motivo. ⚠️ 70 das 1.351 seções do exterior não têm boletim de urna no arquivo (só o registro de voto) |
+| **Santa Catarina** (*"aumentou em mais de 3 milhões de votos"*) | o Lula foi de 1.127.168 para 1.418.314 (**+291.146**); o Flávio, de 3.000.020 para 3.220.071 (+220.051); o comparecimento subiu 114.144. O *"3 milhões"* é o **total** do Flávio, não o aumento do Lula |
+| **Seção com mais votantes que eleitores aptos** | **0** em 499.206 seções no 1º turno e **0** em 499.248 no 2º (também 0 nos dois turnos de 2022). A comparação por cidade (H26) é com o Censo, que mede outra coisa |
+
+### Validação por outro caminho (7 de 7)
+
+`ferramentas/validacao_rodada_4c.py`: o horário refeito pelos segundos do log de cada seção (8.955 contra 8.899, a diferença é de 0,6%); os locais refeitos pela tabela de locais de votação (431 contra 431); Santa Catarina refeita somando por município (1.127.168 e 1.418.314, iguais); o exterior refeito com o boletim onde existe (diferença zero com o registro de voto). ⚠️ A primeira versão do teste do exterior comparou as 1.351 seções contra as 1.281 que têm boletim e falhou por isso (445 votos); o teste foi corrigido para comparar só onde os dois existem, e o número das 70 sem boletim virou conferência própria.
+
+### O "voto casado" (presidente contra governador, senador e deputado)
+
+Não é teste novo: o projeto do vídeo 6 (`congresso-e-governos-eleicoes-2026`, `b4_arrasto.csv`) mede a correlação entre o voto na direita e o voto no Flávio. Em 2026 ela é **0,60** para governador, **0,70** para senador e **0,39** para deputado federal; em 2018 foi 0,51, 0,53 e 0,25 e em 2022, 0,55 e 0,31. O voto casado **aumentou** (a eleição ficou mais nacionalizada), o que é o contrário de um voto que se perdeu no caminho. Fica como contexto, sem linha na contagem; a comparação detalhada mora no projeto do vídeo 6.
+
 ## A objeção que o dado público não responde
 
 Os comentários repetem que *"o truque estaria dentro da urna, e nenhum dado público o veria"*. É verdade em parte, e o projeto sempre disse isso (H18). O que a rodada 4 acrescenta é a **separação por tipo de prova**:
@@ -191,7 +245,7 @@ Os comentários repetem que *"o truque estaria dentro da urna, e nenhum dado pú
 | H29 · *"a mobilização do Lula é real"* | por isso o espelho de 2022 e o *dentro do município* |
 | Todas · *"o dado vem do TSE"* | os totais conferem por 3 caminhos independentes (vídeo 16); a assinatura digital dos boletins **não** foi verificada (H11 e H17) |
 
-## Validação por outro caminho: 14 de 14 (rodada 4) e 6 de 6 (rodada 4b)
+## Validação por outro caminho: 14 de 14 (rodada 4), 6 de 6 (rodada 4b) e 7 de 7 (rodada 4c)
 
 `ferramentas/validacao_rodada_4.py`: Campos refeita somando as seções (6 números); o eleitorado e o comparecimento contra a população refeitos pelo detalhe de 999 mil linhas (835 e 120); a H29 refeita com a zona no lugar do município (0,023 contra 0,034, e 0,029 em 2022 com o mesmo método); a H27 refeita somando as horas; o z de 3 escolas feito à mão. ⚠️ A tolerância da H29 foi fixada em 0,02 **depois** de ver a diferença de 0,011; a conclusão (inclinação perto de zero e igual à de 2022) vale com os dois efeitos fixos.
 
