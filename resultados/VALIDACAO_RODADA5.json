@@ -1,0 +1,51 @@
+{
+ "passou": 9,
+ "de": 9,
+ "checagens": [
+  {
+   "teste": "votos do log = comparecimento do boletim",
+   "ok": 41,
+   "de": 41
+  },
+  {
+   "teste": "digital do mesario no log = QT_ELEITORES_BIOMETRIA_NH do boletim",
+   "ok": 41,
+   "de": 41
+  },
+  {
+   "teste": "eventos 'voto computado' contados direto = votos do classificador",
+   "ok": 41,
+   "de": 41
+  },
+  {
+   "teste": "eventos de habilitacao biometrica >= votos biometricos do classificador",
+   "ok": 41,
+   "de": 41
+  },
+  {
+   "teste": "a transcricao tem as 41 secoes do pedido",
+   "ok": 41,
+   "de": 41
+  },
+  {
+   "teste": "zonas que responderam",
+   "ok": 20,
+   "de": 20
+  },
+  {
+   "teste": "H38 secoes casadas (chave numerica)",
+   "ok": 461195,
+   "de": 461195
+  },
+  {
+   "teste": "H38 Lula 2026 = Lula 2022",
+   "ok": 13004,
+   "de": 13004
+  },
+  {
+   "teste": "H38 Flavio 2026 = Bolsonaro 2022",
+   "ok": 12752,
+   "de": 12752
+  }
+ ]
+}

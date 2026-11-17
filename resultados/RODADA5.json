@@ -1,0 +1,1636 @@
+{
+ "H37": {
+  "secoes_no_pedido": 41,
+  "cobertura": {
+   "conteudo": 20,
+   "peticao": 10,
+   "ata": 7,
+   "identificacao": 2,
+   "site_tse": 1,
+   "ata_presencial": 1
+  },
+  "secoes_com_conteudo": 27,
+  "atas_enviadas": 7,
+  "impugnacao_ou_protesto": {
+   "nao": 24,
+   "": 14,
+   "nao_informado": 3
+  },
+  "secoes_com_informacao_de_impugnacao": 24,
+  "fiscais": {
+   "secoes_com_numero": 17,
+   "secoes_sem_fiscal": 5,
+   "secoes_com_fiscal": 12,
+   "secoes_com_fiscal_do_pl": 1,
+   "fiscais_do_pl": 2
+  },
+  "caderno": {
+   "secoes_com_dado_de_caderno": 9,
+   "secoes_com_minimo_sem_assinatura": 5,
+   "soma_minimo_sem_assinatura": 74,
+   "tabela": [
+    {
+     "zona": 121,
+     "secao": 274,
+     "municipio": "Cabo de Santo Agostinho",
+     "log_digital_falhou": 13,
+     "log_sem_digital_cadastrada": 97,
+     "log_deviam_assinar": 110,
+     "tre_assinaturas": NaN,
+     "tre_behb": NaN,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": NaN,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "sim",
+     "secao_citada": "24",
+     "behb_menos_log": NaN,
+     "minimo_sem_assinatura": NaN
+    },
+    {
+     "zona": 105,
+     "secao": 247,
+     "municipio": "Caruaru",
+     "log_digital_falhou": 25,
+     "log_sem_digital_cadastrada": 79,
+     "log_deviam_assinar": 104,
+     "tre_assinaturas": NaN,
+     "tre_behb": 24.0,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": 6.0,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "nao",
+     "secao_citada": "247",
+     "behb_menos_log": -1.0,
+     "minimo_sem_assinatura": 6.0
+    },
+    {
+     "zona": 105,
+     "secao": 318,
+     "municipio": "Caruaru",
+     "log_digital_falhou": 36,
+     "log_sem_digital_cadastrada": 1,
+     "log_deviam_assinar": 37,
+     "tre_assinaturas": NaN,
+     "tre_behb": NaN,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": NaN,
+     "tre_assinaturas_com_biometria_cadastrada": 4.0,
+     "tre_todos_assinaram": "",
+     "secao_citada": "318",
+     "behb_menos_log": NaN,
+     "minimo_sem_assinatura": 32.0
+    },
+    {
+     "zona": 105,
+     "secao": 356,
+     "municipio": "Caruaru",
+     "log_digital_falhou": 5,
+     "log_sem_digital_cadastrada": 142,
+     "log_deviam_assinar": 147,
+     "tre_assinaturas": NaN,
+     "tre_behb": 5.0,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": 0.0,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "sim",
+     "secao_citada": "356",
+     "behb_menos_log": 0.0,
+     "minimo_sem_assinatura": 0.0
+    },
+    {
+     "zona": 106,
+     "secao": 321,
+     "municipio": "Caruaru",
+     "log_digital_falhou": 25,
+     "log_sem_digital_cadastrada": 98,
+     "log_deviam_assinar": 123,
+     "tre_assinaturas": 95.0,
+     "tre_behb": 29.0,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": NaN,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "nao",
+     "secao_citada": "321",
+     "behb_menos_log": 4.0,
+     "minimo_sem_assinatura": 28.0
+    },
+    {
+     "zona": 106,
+     "secao": 325,
+     "municipio": "Caruaru",
+     "log_digital_falhou": 11,
+     "log_sem_digital_cadastrada": 156,
+     "log_deviam_assinar": 167,
+     "tre_assinaturas": 163.0,
+     "tre_behb": 14.0,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": NaN,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "nao",
+     "secao_citada": "325",
+     "behb_menos_log": 3.0,
+     "minimo_sem_assinatura": 4.0
+    },
+    {
+     "zona": 101,
+     "secao": 724,
+     "municipio": "Jaboatao dos Guararapes",
+     "log_digital_falhou": 11,
+     "log_sem_digital_cadastrada": 97,
+     "log_deviam_assinar": 108,
+     "tre_assinaturas": 104.0,
+     "tre_behb": NaN,
+     "tre_sem_biometria_citado": 97.0,
+     "tre_behb_sem_assinatura": NaN,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "nao",
+     "secao_citada": "724",
+     "behb_menos_log": NaN,
+     "minimo_sem_assinatura": 4.0
+    },
+    {
+     "zona": 54,
+     "secao": 185,
+     "municipio": "Jatauba",
+     "log_digital_falhou": 257,
+     "log_sem_digital_cadastrada": 27,
+     "log_deviam_assinar": 284,
+     "tre_assinaturas": NaN,
+     "tre_behb": NaN,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": NaN,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "sim",
+     "secao_citada": "185",
+     "behb_menos_log": NaN,
+     "minimo_sem_assinatura": NaN
+    },
+    {
+     "zona": 88,
+     "secao": 26,
+     "municipio": "Joao Alfredo",
+     "log_digital_falhou": 19,
+     "log_sem_digital_cadastrada": 22,
+     "log_deviam_assinar": 41,
+     "tre_assinaturas": NaN,
+     "tre_behb": NaN,
+     "tre_sem_biometria_citado": NaN,
+     "tre_behb_sem_assinatura": NaN,
+     "tre_assinaturas_com_biometria_cadastrada": NaN,
+     "tre_todos_assinaram": "sim",
+     "secao_citada": "26",
+     "behb_menos_log": NaN,
+     "minimo_sem_assinatura": NaN
+    }
+   ]
+  },
+  "log_bate_com_o_numero_do_cartorio": {
+   "101-724_sem_digital_cadastrada": [
+    97,
+    97
+   ],
+   "105-356_behb": [
+    5,
+    5
+   ],
+   "105-247_behb": [
+    25,
+    24
+   ],
+   "106-321_behb": [
+    25,
+    29
+   ],
+   "106-325_behb": [
+    11,
+    14
+   ]
+  },
+  "jatauba": {
+   "votos": 288,
+   "digital_falhou_mesario": 257,
+   "pct_sem_reconhecimento": 98.6,
+   "biometrica": 4,
+   "primeiro_voto": "08:26",
+   "ultimo_voto": "20:07",
+   "reinicios": [
+    "08:10:49",
+    "08:56:50",
+    "09:18:14"
+   ],
+   "biometricas_antes_9h21": 0,
+   "votos_entre_9h08_e_9h21": 0
+  },
+  "secao_121_24_e_274": {
+   "24": {
+    "votos": 237,
+    "digital_falhou_mesario": 15,
+    "sem_digital_cadastrada_ano": 2
+   },
+   "274": {
+    "votos": 314,
+    "digital_falhou_mesario": 13,
+    "sem_digital_cadastrada_ano": 97
+   }
+  },
+  "pct_sem_digital_nas_41": {
+   "mediana": 38.6,
+   "min": 11.1,
+   "max": 98.6
+  },
+  "por_secao": [
+   {
+    "zona": 61,
+    "secao": 124,
+    "votos": 262,
+    "biometrica": 210,
+    "digital_falhou_mesario": 27,
+    "sem_digital_cadastrada_ano": 25,
+    "outra": 0,
+    "votos_apos_17h": 38,
+    "sem_digital_apos_17h": 5,
+    "primeiro_voto": "08:23",
+    "ultimo_voto": "18:09",
+    "votos_apos_17h10": 33,
+    "habilitacoes_canceladas": 7,
+    "dado_pedido_sem_voto": 3,
+    "atendimentos_4_falhas_digital": 30,
+    "reinicios_no_dia": [
+     "07:18:43",
+     "08:09:54"
+    ],
+    "ja_votou": 2,
+    "ja_votou_horas": [
+     "15:31",
+     "15:31"
+    ],
+    "deviam_assinar": 52,
+    "municipio": "Bom Conselho",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 19.84732824427481
+   },
+   {
+    "zona": 121,
+    "secao": 274,
+    "votos": 314,
+    "biometrica": 204,
+    "digital_falhou_mesario": 13,
+    "sem_digital_cadastrada_ano": 97,
+    "outra": 0,
+    "votos_apos_17h": 57,
+    "sem_digital_apos_17h": 25,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "18:29",
+    "votos_apos_17h10": 51,
+    "habilitacoes_canceladas": 3,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 14,
+    "reinicios_no_dia": [
+     "07:43:02"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 110,
+    "municipio": "Cabo de Santo Agostinho",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 35.031847133757964
+   },
+   {
+    "zona": 105,
+    "secao": 247,
+    "votos": 258,
+    "biometrica": 154,
+    "digital_falhou_mesario": 25,
+    "sem_digital_cadastrada_ano": 79,
+    "outra": 0,
+    "votos_apos_17h": 14,
+    "sem_digital_apos_17h": 9,
+    "primeiro_voto": "08:09",
+    "ultimo_voto": "17:27",
+    "votos_apos_17h10": 9,
+    "habilitacoes_canceladas": 3,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 25,
+    "reinicios_no_dia": [
+     "07:36:58",
+     "13:41:29"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 104,
+    "municipio": "Caruaru",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 40.310077519379846
+   },
+   {
+    "zona": 105,
+    "secao": 318,
+    "votos": 333,
+    "biometrica": 296,
+    "digital_falhou_mesario": 36,
+    "sem_digital_cadastrada_ano": 1,
+    "outra": 0,
+    "votos_apos_17h": 60,
+    "sem_digital_apos_17h": 7,
+    "primeiro_voto": "08:01",
+    "ultimo_voto": "18:40",
+    "votos_apos_17h10": 53,
+    "habilitacoes_canceladas": 13,
+    "dado_pedido_sem_voto": 8,
+    "atendimentos_4_falhas_digital": 44,
+    "reinicios_no_dia": [
+     "07:11:31",
+     "07:45:35"
+    ],
+    "ja_votou": 7,
+    "ja_votou_horas": [
+     "18:43",
+     "18:43",
+     "18:44",
+     "18:45",
+     "18:45",
+     "18:47",
+     "18:47"
+    ],
+    "deviam_assinar": 37,
+    "municipio": "Caruaru",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 11.11111111111111
+   },
+   {
+    "zona": 105,
+    "secao": 356,
+    "votos": 324,
+    "biometrica": 177,
+    "digital_falhou_mesario": 5,
+    "sem_digital_cadastrada_ano": 142,
+    "outra": 0,
+    "votos_apos_17h": 23,
+    "sem_digital_apos_17h": 15,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "17:29",
+    "votos_apos_17h10": 16,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 5,
+    "reinicios_no_dia": [
+     "07:30:42"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 147,
+    "municipio": "Caruaru",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 45.370370370370374
+   },
+   {
+    "zona": 106,
+    "secao": 321,
+    "votos": 310,
+    "biometrica": 187,
+    "digital_falhou_mesario": 25,
+    "sem_digital_cadastrada_ano": 98,
+    "outra": 0,
+    "votos_apos_17h": 59,
+    "sem_digital_apos_17h": 24,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "18:50",
+    "votos_apos_17h10": 54,
+    "habilitacoes_canceladas": 4,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 26,
+    "reinicios_no_dia": [
+     "07:34:47",
+     "07:44:58",
+     "12:10:15",
+     "12:25:20"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 123,
+    "municipio": "Caruaru",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 39.67741935483871
+   },
+   {
+    "zona": 106,
+    "secao": 325,
+    "votos": 314,
+    "biometrica": 147,
+    "digital_falhou_mesario": 11,
+    "sem_digital_cadastrada_ano": 156,
+    "outra": 0,
+    "votos_apos_17h": 31,
+    "sem_digital_apos_17h": 16,
+    "primeiro_voto": "08:05",
+    "ultimo_voto": "17:47",
+    "votos_apos_17h10": 25,
+    "habilitacoes_canceladas": 3,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 13,
+    "reinicios_no_dia": [
+     "07:21:00"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 167,
+    "municipio": "Caruaru",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 53.18471337579618
+   },
+   {
+    "zona": 125,
+    "secao": 22,
+    "votos": 274,
+    "biometrica": 228,
+    "digital_falhou_mesario": 15,
+    "sem_digital_cadastrada_ano": 31,
+    "outra": 0,
+    "votos_apos_17h": 65,
+    "sem_digital_apos_17h": 11,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "19:11",
+    "votos_apos_17h10": 60,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 14,
+    "reinicios_no_dia": [
+     "07:37:35"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 46,
+    "municipio": "Condado",
+    "tipo_resposta": "ata",
+    "pct_sem_digital": 16.78832116788321
+   },
+   {
+    "zona": 85,
+    "secao": 314,
+    "votos": 289,
+    "biometrica": 229,
+    "digital_falhou_mesario": 9,
+    "sem_digital_cadastrada_ano": 51,
+    "outra": 0,
+    "votos_apos_17h": 24,
+    "sem_digital_apos_17h": 6,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:41",
+    "votos_apos_17h10": 18,
+    "habilitacoes_canceladas": 0,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 9,
+    "reinicios_no_dia": [
+     "07:17:53"
+    ],
+    "ja_votou": 1,
+    "ja_votou_horas": [
+     "17:42"
+    ],
+    "deviam_assinar": 60,
+    "municipio": "Igarassu",
+    "tipo_resposta": "ata",
+    "pct_sem_digital": 20.761245674740483
+   },
+   {
+    "zona": 11,
+    "secao": 55,
+    "votos": 294,
+    "biometrica": 173,
+    "digital_falhou_mesario": 39,
+    "sem_digital_cadastrada_ano": 82,
+    "outra": 0,
+    "votos_apos_17h": 45,
+    "sem_digital_apos_17h": 20,
+    "primeiro_voto": "08:10",
+    "ultimo_voto": "18:07",
+    "votos_apos_17h10": 39,
+    "habilitacoes_canceladas": 8,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 38,
+    "reinicios_no_dia": [
+     "07:11:14"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 121,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "ata",
+    "pct_sem_digital": 41.156462585034014
+   },
+   {
+    "zona": 11,
+    "secao": 56,
+    "votos": 314,
+    "biometrica": 195,
+    "digital_falhou_mesario": 18,
+    "sem_digital_cadastrada_ano": 101,
+    "outra": 0,
+    "votos_apos_17h": 22,
+    "sem_digital_apos_17h": 12,
+    "primeiro_voto": "08:07",
+    "ultimo_voto": "17:29",
+    "votos_apos_17h10": 16,
+    "habilitacoes_canceladas": 7,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 15,
+    "reinicios_no_dia": [
+     "06:43:37"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 119,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "ata",
+    "pct_sem_digital": 37.89808917197452
+   },
+   {
+    "zona": 11,
+    "secao": 103,
+    "votos": 260,
+    "biometrica": 160,
+    "digital_falhou_mesario": 15,
+    "sem_digital_cadastrada_ano": 85,
+    "outra": 0,
+    "votos_apos_17h": 55,
+    "sem_digital_apos_17h": 26,
+    "primeiro_voto": "08:04",
+    "ultimo_voto": "18:27",
+    "votos_apos_17h10": 51,
+    "habilitacoes_canceladas": 4,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 11,
+    "reinicios_no_dia": [
+     "06:51:55"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 100,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "ata",
+    "pct_sem_digital": 38.46153846153846
+   },
+   {
+    "zona": 11,
+    "secao": 283,
+    "votos": 304,
+    "biometrica": 193,
+    "digital_falhou_mesario": 16,
+    "sem_digital_cadastrada_ano": 95,
+    "outra": 0,
+    "votos_apos_17h": 59,
+    "sem_digital_apos_17h": 34,
+    "primeiro_voto": "08:06",
+    "ultimo_voto": "18:27",
+    "votos_apos_17h10": 51,
+    "habilitacoes_canceladas": 12,
+    "dado_pedido_sem_voto": 5,
+    "atendimentos_4_falhas_digital": 20,
+    "reinicios_no_dia": [
+     "07:06:04"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 111,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "ata",
+    "pct_sem_digital": 36.51315789473684
+   },
+   {
+    "zona": 101,
+    "secao": 724,
+    "votos": 319,
+    "biometrica": 211,
+    "digital_falhou_mesario": 11,
+    "sem_digital_cadastrada_ano": 97,
+    "outra": 0,
+    "votos_apos_17h": 23,
+    "sem_digital_apos_17h": 11,
+    "primeiro_voto": "08:07",
+    "ultimo_voto": "17:41",
+    "votos_apos_17h10": 20,
+    "habilitacoes_canceladas": 0,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 9,
+    "reinicios_no_dia": [
+     "07:17:20"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 108,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 33.85579937304075
+   },
+   {
+    "zona": 118,
+    "secao": 77,
+    "votos": 285,
+    "biometrica": 180,
+    "digital_falhou_mesario": 7,
+    "sem_digital_cadastrada_ano": 98,
+    "outra": 0,
+    "votos_apos_17h": 31,
+    "sem_digital_apos_17h": 13,
+    "primeiro_voto": "08:06",
+    "ultimo_voto": "17:50",
+    "votos_apos_17h10": 24,
+    "habilitacoes_canceladas": 5,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 8,
+    "reinicios_no_dia": [
+     "07:20:09",
+     "07:47:08"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 105,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 36.8421052631579
+   },
+   {
+    "zona": 118,
+    "secao": 86,
+    "votos": 312,
+    "biometrica": 187,
+    "digital_falhou_mesario": 12,
+    "sem_digital_cadastrada_ano": 113,
+    "outra": 0,
+    "votos_apos_17h": 29,
+    "sem_digital_apos_17h": 16,
+    "primeiro_voto": "08:06",
+    "ultimo_voto": "17:41",
+    "votos_apos_17h10": 23,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 11,
+    "reinicios_no_dia": [
+     "07:11:31"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 125,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 40.06410256410256
+   },
+   {
+    "zona": 118,
+    "secao": 95,
+    "votos": 320,
+    "biometrica": 189,
+    "digital_falhou_mesario": 22,
+    "sem_digital_cadastrada_ano": 109,
+    "outra": 0,
+    "votos_apos_17h": 22,
+    "sem_digital_apos_17h": 15,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:34",
+    "votos_apos_17h10": 14,
+    "habilitacoes_canceladas": 0,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 21,
+    "reinicios_no_dia": [
+     "07:34:58"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 131,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 40.9375
+   },
+   {
+    "zona": 118,
+    "secao": 151,
+    "votos": 315,
+    "biometrica": 190,
+    "digital_falhou_mesario": 16,
+    "sem_digital_cadastrada_ano": 109,
+    "outra": 0,
+    "votos_apos_17h": 65,
+    "sem_digital_apos_17h": 34,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "18:46",
+    "votos_apos_17h10": 59,
+    "habilitacoes_canceladas": 12,
+    "dado_pedido_sem_voto": 2,
+    "atendimentos_4_falhas_digital": 16,
+    "reinicios_no_dia": [
+     "07:06:19"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 125,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 39.682539682539684
+   },
+   {
+    "zona": 118,
+    "secao": 165,
+    "votos": 340,
+    "biometrica": 195,
+    "digital_falhou_mesario": 16,
+    "sem_digital_cadastrada_ano": 129,
+    "outra": 0,
+    "votos_apos_17h": 51,
+    "sem_digital_apos_17h": 20,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "18:13",
+    "votos_apos_17h10": 45,
+    "habilitacoes_canceladas": 6,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 9,
+    "reinicios_no_dia": [
+     "07:29:25"
+    ],
+    "ja_votou": 2,
+    "ja_votou_horas": [
+     "08:04",
+     "08:05"
+    ],
+    "deviam_assinar": 145,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 42.64705882352941
+   },
+   {
+    "zona": 118,
+    "secao": 259,
+    "votos": 325,
+    "biometrica": 222,
+    "digital_falhou_mesario": 17,
+    "sem_digital_cadastrada_ano": 86,
+    "outra": 0,
+    "votos_apos_17h": 46,
+    "sem_digital_apos_17h": 18,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "17:59",
+    "votos_apos_17h10": 39,
+    "habilitacoes_canceladas": 1,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 17,
+    "reinicios_no_dia": [
+     "07:23:34"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 103,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 31.692307692307693
+   },
+   {
+    "zona": 118,
+    "secao": 270,
+    "votos": 312,
+    "biometrica": 177,
+    "digital_falhou_mesario": 3,
+    "sem_digital_cadastrada_ano": 132,
+    "outra": 0,
+    "votos_apos_17h": 19,
+    "sem_digital_apos_17h": 11,
+    "primeiro_voto": "08:01",
+    "ultimo_voto": "17:26",
+    "votos_apos_17h10": 13,
+    "habilitacoes_canceladas": 1,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 3,
+    "reinicios_no_dia": [
+     "06:57:09"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 135,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 43.26923076923077
+   },
+   {
+    "zona": 118,
+    "secao": 281,
+    "votos": 304,
+    "biometrica": 179,
+    "digital_falhou_mesario": 27,
+    "sem_digital_cadastrada_ano": 98,
+    "outra": 0,
+    "votos_apos_17h": 30,
+    "sem_digital_apos_17h": 14,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "17:44",
+    "votos_apos_17h10": 23,
+    "habilitacoes_canceladas": 3,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 26,
+    "reinicios_no_dia": [
+     "07:10:51"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 125,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 41.11842105263158
+   },
+   {
+    "zona": 118,
+    "secao": 320,
+    "votos": 314,
+    "biometrica": 159,
+    "digital_falhou_mesario": 17,
+    "sem_digital_cadastrada_ano": 138,
+    "outra": 0,
+    "votos_apos_17h": 44,
+    "sem_digital_apos_17h": 23,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "18:12",
+    "votos_apos_17h10": 39,
+    "habilitacoes_canceladas": 4,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 17,
+    "reinicios_no_dia": [
+     "07:14:31"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 155,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 49.36305732484077
+   },
+   {
+    "zona": 118,
+    "secao": 342,
+    "votos": 333,
+    "biometrica": 160,
+    "digital_falhou_mesario": 15,
+    "sem_digital_cadastrada_ano": 158,
+    "outra": 0,
+    "votos_apos_17h": 27,
+    "sem_digital_apos_17h": 15,
+    "primeiro_voto": "08:06",
+    "ultimo_voto": "17:33",
+    "votos_apos_17h10": 18,
+    "habilitacoes_canceladas": 3,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 15,
+    "reinicios_no_dia": [
+     "07:00:36"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 173,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "peticao",
+    "pct_sem_digital": 51.951951951951955
+   },
+   {
+    "zona": 147,
+    "secao": 2,
+    "votos": 297,
+    "biometrica": 168,
+    "digital_falhou_mesario": 10,
+    "sem_digital_cadastrada_ano": 119,
+    "outra": 0,
+    "votos_apos_17h": 27,
+    "sem_digital_apos_17h": 18,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:41",
+    "votos_apos_17h10": 21,
+    "habilitacoes_canceladas": 0,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 9,
+    "reinicios_no_dia": [
+     "07:31:46"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 129,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 43.43434343434343
+   },
+   {
+    "zona": 147,
+    "secao": 256,
+    "votos": 318,
+    "biometrica": 160,
+    "digital_falhou_mesario": 14,
+    "sem_digital_cadastrada_ano": 144,
+    "outra": 0,
+    "votos_apos_17h": 33,
+    "sem_digital_apos_17h": 21,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:51",
+    "votos_apos_17h10": 28,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 12,
+    "reinicios_no_dia": [
+     "07:31:40"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 158,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 49.685534591194966
+   },
+   {
+    "zona": 147,
+    "secao": 392,
+    "votos": 321,
+    "biometrica": 197,
+    "digital_falhou_mesario": 13,
+    "sem_digital_cadastrada_ano": 111,
+    "outra": 0,
+    "votos_apos_17h": 41,
+    "sem_digital_apos_17h": 22,
+    "primeiro_voto": "08:04",
+    "ultimo_voto": "18:06",
+    "votos_apos_17h10": 34,
+    "habilitacoes_canceladas": 0,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 13,
+    "reinicios_no_dia": [
+     "07:25:37",
+     "07:40:20"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 124,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 38.62928348909657
+   },
+   {
+    "zona": 147,
+    "secao": 436,
+    "votos": 310,
+    "biometrica": 203,
+    "digital_falhou_mesario": 18,
+    "sem_digital_cadastrada_ano": 89,
+    "outra": 0,
+    "votos_apos_17h": 23,
+    "sem_digital_apos_17h": 11,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:34",
+    "votos_apos_17h10": 17,
+    "habilitacoes_canceladas": 15,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 18,
+    "reinicios_no_dia": [
+     "07:15:14"
+    ],
+    "ja_votou": 4,
+    "ja_votou_horas": [
+     "16:15",
+     "16:15",
+     "16:23",
+     "16:24"
+    ],
+    "deviam_assinar": 107,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 34.516129032258064
+   },
+   {
+    "zona": 147,
+    "secao": 438,
+    "votos": 293,
+    "biometrica": 188,
+    "digital_falhou_mesario": 11,
+    "sem_digital_cadastrada_ano": 94,
+    "outra": 0,
+    "votos_apos_17h": 32,
+    "sem_digital_apos_17h": 17,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "17:56",
+    "votos_apos_17h10": 26,
+    "habilitacoes_canceladas": 3,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 11,
+    "reinicios_no_dia": [
+     "07:18:46"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 105,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 35.83617747440273
+   },
+   {
+    "zona": 147,
+    "secao": 459,
+    "votos": 314,
+    "biometrica": 199,
+    "digital_falhou_mesario": 11,
+    "sem_digital_cadastrada_ano": 104,
+    "outra": 0,
+    "votos_apos_17h": 56,
+    "sem_digital_apos_17h": 28,
+    "primeiro_voto": "08:06",
+    "ultimo_voto": "18:27",
+    "votos_apos_17h10": 50,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 11,
+    "reinicios_no_dia": [
+     "07:29:51"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 115,
+    "municipio": "Jaboatao dos Guararapes",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 36.62420382165605
+   },
+   {
+    "zona": 54,
+    "secao": 185,
+    "votos": 288,
+    "biometrica": 4,
+    "digital_falhou_mesario": 257,
+    "sem_digital_cadastrada_ano": 27,
+    "outra": 0,
+    "votos_apos_17h": 95,
+    "sem_digital_apos_17h": 94,
+    "primeiro_voto": "08:26",
+    "ultimo_voto": "20:07",
+    "votos_apos_17h10": 89,
+    "habilitacoes_canceladas": 6,
+    "dado_pedido_sem_voto": 2,
+    "atendimentos_4_falhas_digital": 258,
+    "reinicios_no_dia": [
+     "08:10:49",
+     "08:56:50",
+     "09:18:14"
+    ],
+    "ja_votou": 1,
+    "ja_votou_horas": [
+     "10:57"
+    ],
+    "deviam_assinar": 284,
+    "municipio": "Jatauba",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 98.61111111111111
+   },
+   {
+    "zona": 88,
+    "secao": 26,
+    "votos": 252,
+    "biometrica": 211,
+    "digital_falhou_mesario": 19,
+    "sem_digital_cadastrada_ano": 22,
+    "outra": 0,
+    "votos_apos_17h": 53,
+    "sem_digital_apos_17h": 9,
+    "primeiro_voto": "08:04",
+    "ultimo_voto": "18:54",
+    "votos_apos_17h10": 48,
+    "habilitacoes_canceladas": 7,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 17,
+    "reinicios_no_dia": [
+     "07:24:00",
+     "12:37:50"
+    ],
+    "ja_votou": 2,
+    "ja_votou_horas": [
+     "18:35",
+     "18:36"
+    ],
+    "deviam_assinar": 41,
+    "municipio": "Joao Alfredo",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 16.26984126984127
+   },
+   {
+    "zona": 78,
+    "secao": 23,
+    "votos": 265,
+    "biometrica": 183,
+    "digital_falhou_mesario": 42,
+    "sem_digital_cadastrada_ano": 40,
+    "outra": 0,
+    "votos_apos_17h": 94,
+    "sem_digital_apos_17h": 28,
+    "primeiro_voto": "08:04",
+    "ultimo_voto": "20:16",
+    "votos_apos_17h10": 89,
+    "habilitacoes_canceladas": 13,
+    "dado_pedido_sem_voto": 3,
+    "atendimentos_4_falhas_digital": 43,
+    "reinicios_no_dia": [
+     "07:07:45"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 82,
+    "municipio": "Parnamirim",
+    "tipo_resposta": "ata",
+    "pct_sem_digital": 30.943396226415093
+   },
+   {
+    "zona": 55,
+    "secao": 50,
+    "votos": 298,
+    "biometrica": 215,
+    "digital_falhou_mesario": 30,
+    "sem_digital_cadastrada_ano": 53,
+    "outra": 0,
+    "votos_apos_17h": 53,
+    "sem_digital_apos_17h": 20,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "18:24",
+    "votos_apos_17h10": 48,
+    "habilitacoes_canceladas": 4,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 30,
+    "reinicios_no_dia": [
+     "07:12:07"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 83,
+    "municipio": "Pesqueira",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 27.85234899328859
+   },
+   {
+    "zona": 55,
+    "secao": 209,
+    "votos": 309,
+    "biometrica": 200,
+    "digital_falhou_mesario": 27,
+    "sem_digital_cadastrada_ano": 82,
+    "outra": 0,
+    "votos_apos_17h": 50,
+    "sem_digital_apos_17h": 22,
+    "primeiro_voto": "08:04",
+    "ultimo_voto": "18:21",
+    "votos_apos_17h10": 45,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 27,
+    "reinicios_no_dia": [
+     "07:35:14"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 109,
+    "municipio": "Pesqueira",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 35.275080906148865
+   },
+   {
+    "zona": 3,
+    "secao": 808,
+    "votos": 309,
+    "biometrica": 157,
+    "digital_falhou_mesario": 14,
+    "sem_digital_cadastrada_ano": 138,
+    "outra": 0,
+    "votos_apos_17h": 39,
+    "sem_digital_apos_17h": 23,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:59",
+    "votos_apos_17h10": 33,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 1,
+    "atendimentos_4_falhas_digital": 14,
+    "reinicios_no_dia": [
+     "07:23:32"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 152,
+    "municipio": "Recife",
+    "tipo_resposta": "site_tse",
+    "pct_sem_digital": 49.19093851132686
+   },
+   {
+    "zona": 7,
+    "secao": 460,
+    "votos": 347,
+    "biometrica": 159,
+    "digital_falhou_mesario": 10,
+    "sem_digital_cadastrada_ano": 178,
+    "outra": 0,
+    "votos_apos_17h": 26,
+    "sem_digital_apos_17h": 15,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:41",
+    "votos_apos_17h10": 20,
+    "habilitacoes_canceladas": 0,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 10,
+    "reinicios_no_dia": [
+     "07:05:00"
+    ],
+    "ja_votou": 1,
+    "ja_votou_horas": [
+     "13:52"
+    ],
+    "deviam_assinar": 188,
+    "municipio": "Recife",
+    "tipo_resposta": "identificacao",
+    "pct_sem_digital": 54.178674351585016
+   },
+   {
+    "zona": 9,
+    "secao": 530,
+    "votos": 333,
+    "biometrica": 112,
+    "digital_falhou_mesario": 9,
+    "sem_digital_cadastrada_ano": 212,
+    "outra": 0,
+    "votos_apos_17h": 51,
+    "sem_digital_apos_17h": 34,
+    "primeiro_voto": "08:03",
+    "ultimo_voto": "18:10",
+    "votos_apos_17h10": 44,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 9,
+    "reinicios_no_dia": [
+     "07:25:23"
+    ],
+    "ja_votou": 1,
+    "ja_votou_horas": [
+     "17:33"
+    ],
+    "deviam_assinar": 221,
+    "municipio": "Recife",
+    "tipo_resposta": "identificacao",
+    "pct_sem_digital": 66.36636636636636
+   },
+   {
+    "zona": 81,
+    "secao": 15,
+    "votos": 292,
+    "biometrica": 240,
+    "digital_falhou_mesario": 23,
+    "sem_digital_cadastrada_ano": 29,
+    "outra": 0,
+    "votos_apos_17h": 58,
+    "sem_digital_apos_17h": 12,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "19:00",
+    "votos_apos_17h10": 54,
+    "habilitacoes_canceladas": 3,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 22,
+    "reinicios_no_dia": [
+     "07:41:51"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 52,
+    "municipio": "Santa Maria da Boa Vista",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 17.80821917808219
+   },
+   {
+    "zona": 71,
+    "secao": 244,
+    "votos": 321,
+    "biometrica": 166,
+    "digital_falhou_mesario": 4,
+    "sem_digital_cadastrada_ano": 151,
+    "outra": 0,
+    "votos_apos_17h": 37,
+    "sem_digital_apos_17h": 22,
+    "primeiro_voto": "08:02",
+    "ultimo_voto": "17:49",
+    "votos_apos_17h10": 29,
+    "habilitacoes_canceladas": 2,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 4,
+    "reinicios_no_dia": [
+     "07:23:50"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 155,
+    "municipio": "Serra Talhada",
+    "tipo_resposta": "conteudo",
+    "pct_sem_digital": 48.28660436137071
+   },
+   {
+    "zona": 18,
+    "secao": 87,
+    "votos": 315,
+    "biometrica": 265,
+    "digital_falhou_mesario": 22,
+    "sem_digital_cadastrada_ano": 28,
+    "outra": 0,
+    "votos_apos_17h": 46,
+    "sem_digital_apos_17h": 10,
+    "primeiro_voto": "08:04",
+    "ultimo_voto": "18:13",
+    "votos_apos_17h10": 40,
+    "habilitacoes_canceladas": 1,
+    "dado_pedido_sem_voto": 0,
+    "atendimentos_4_falhas_digital": 20,
+    "reinicios_no_dia": [
+     "07:35:39"
+    ],
+    "ja_votou": 0,
+    "ja_votou_horas": [],
+    "deviam_assinar": 50,
+    "municipio": "Vitoria de Santo Antao",
+    "tipo_resposta": "ata_presencial",
+    "pct_sem_digital": 15.873015873015873
+   }
+  ],
+  "segundo_caminho": {
+   "61-124": {
+    "ev_mesario_habilitou": 3,
+    "ev_ano_igual": 25,
+    "ev_biometrica": 210,
+    "ev_voto": 262
+   },
+   "121-274": {
+    "ev_mesario_habilitou": 13,
+    "ev_ano_igual": 97,
+    "ev_biometrica": 204,
+    "ev_voto": 314
+   },
+   "105-247": {
+    "ev_mesario_habilitou": 1,
+    "ev_ano_igual": 79,
+    "ev_biometrica": 154,
+    "ev_voto": 258
+   },
+   "105-318": {
+    "ev_mesario_habilitou": 26,
+    "ev_ano_igual": 1,
+    "ev_biometrica": 296,
+    "ev_voto": 333
+   },
+   "105-356": {
+    "ev_mesario_habilitou": 5,
+    "ev_ano_igual": 142,
+    "ev_biometrica": 177,
+    "ev_voto": 324
+   },
+   "106-321": {
+    "ev_mesario_habilitou": 26,
+    "ev_ano_igual": 98,
+    "ev_biometrica": 187,
+    "ev_voto": 310
+   },
+   "106-325": {
+    "ev_mesario_habilitou": 10,
+    "ev_ano_igual": 156,
+    "ev_biometrica": 147,
+    "ev_voto": 314
+   },
+   "125-22": {
+    "ev_mesario_habilitou": 15,
+    "ev_ano_igual": 31,
+    "ev_biometrica": 228,
+    "ev_voto": 274
+   },
+   "85-314": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 51,
+    "ev_biometrica": 229,
+    "ev_voto": 289
+   },
+   "11-55": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 82,
+    "ev_biometrica": 173,
+    "ev_voto": 294
+   },
+   "11-56": {
+    "ev_mesario_habilitou": 15,
+    "ev_ano_igual": 101,
+    "ev_biometrica": 195,
+    "ev_voto": 314
+   },
+   "11-103": {
+    "ev_mesario_habilitou": 13,
+    "ev_ano_igual": 85,
+    "ev_biometrica": 160,
+    "ev_voto": 260
+   },
+   "11-283": {
+    "ev_mesario_habilitou": 16,
+    "ev_ano_igual": 95,
+    "ev_biometrica": 193,
+    "ev_voto": 304
+   },
+   "101-724": {
+    "ev_mesario_habilitou": 10,
+    "ev_ano_igual": 97,
+    "ev_biometrica": 211,
+    "ev_voto": 319
+   },
+   "118-77": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 98,
+    "ev_biometrica": 180,
+    "ev_voto": 285
+   },
+   "118-86": {
+    "ev_mesario_habilitou": 3,
+    "ev_ano_igual": 113,
+    "ev_biometrica": 187,
+    "ev_voto": 312
+   },
+   "118-95": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 109,
+    "ev_biometrica": 189,
+    "ev_voto": 320
+   },
+   "118-151": {
+    "ev_mesario_habilitou": 13,
+    "ev_ano_igual": 109,
+    "ev_biometrica": 190,
+    "ev_voto": 315
+   },
+   "118-165": {
+    "ev_mesario_habilitou": 15,
+    "ev_ano_igual": 129,
+    "ev_biometrica": 195,
+    "ev_voto": 340
+   },
+   "118-259": {
+    "ev_mesario_habilitou": 15,
+    "ev_ano_igual": 86,
+    "ev_biometrica": 222,
+    "ev_voto": 325
+   },
+   "118-270": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 132,
+    "ev_biometrica": 177,
+    "ev_voto": 312
+   },
+   "118-281": {
+    "ev_mesario_habilitou": 27,
+    "ev_ano_igual": 98,
+    "ev_biometrica": 179,
+    "ev_voto": 304
+   },
+   "118-320": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 138,
+    "ev_biometrica": 159,
+    "ev_voto": 314
+   },
+   "118-342": {
+    "ev_mesario_habilitou": 11,
+    "ev_ano_igual": 158,
+    "ev_biometrica": 160,
+    "ev_voto": 333
+   },
+   "147-2": {
+    "ev_mesario_habilitou": 10,
+    "ev_ano_igual": 119,
+    "ev_biometrica": 168,
+    "ev_voto": 297
+   },
+   "147-256": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 144,
+    "ev_biometrica": 160,
+    "ev_voto": 318
+   },
+   "147-392": {
+    "ev_mesario_habilitou": 11,
+    "ev_ano_igual": 111,
+    "ev_biometrica": 197,
+    "ev_voto": 321
+   },
+   "147-436": {
+    "ev_mesario_habilitou": 1,
+    "ev_ano_igual": 89,
+    "ev_biometrica": 203,
+    "ev_voto": 310
+   },
+   "147-438": {
+    "ev_mesario_habilitou": 8,
+    "ev_ano_igual": 94,
+    "ev_biometrica": 188,
+    "ev_voto": 293
+   },
+   "147-459": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 104,
+    "ev_biometrica": 199,
+    "ev_voto": 314
+   },
+   "54-185": {
+    "ev_mesario_habilitou": 228,
+    "ev_ano_igual": 27,
+    "ev_biometrica": 4,
+    "ev_voto": 288
+   },
+   "88-26": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 22,
+    "ev_biometrica": 211,
+    "ev_voto": 252
+   },
+   "78-23": {
+    "ev_mesario_habilitou": 6,
+    "ev_ano_igual": 40,
+    "ev_biometrica": 183,
+    "ev_voto": 265
+   },
+   "55-50": {
+    "ev_mesario_habilitou": 22,
+    "ev_ano_igual": 53,
+    "ev_biometrica": 215,
+    "ev_voto": 298
+   },
+   "55-209": {
+    "ev_mesario_habilitou": 1,
+    "ev_ano_igual": 82,
+    "ev_biometrica": 200,
+    "ev_voto": 309
+   },
+   "3-808": {
+    "ev_mesario_habilitou": 12,
+    "ev_ano_igual": 138,
+    "ev_biometrica": 157,
+    "ev_voto": 309
+   },
+   "7-460": {
+    "ev_mesario_habilitou": 3,
+    "ev_ano_igual": 178,
+    "ev_biometrica": 159,
+    "ev_voto": 347
+   },
+   "9-530": {
+    "ev_mesario_habilitou": 0,
+    "ev_ano_igual": 212,
+    "ev_biometrica": 112,
+    "ev_voto": 333
+   },
+   "81-15": {
+    "ev_mesario_habilitou": 23,
+    "ev_ano_igual": 29,
+    "ev_biometrica": 241,
+    "ev_voto": 292
+   },
+   "71-244": {
+    "ev_mesario_habilitou": 1,
+    "ev_ano_igual": 151,
+    "ev_biometrica": 166,
+    "ev_voto": 321
+   },
+   "18-87": {
+    "ev_mesario_habilitou": 22,
+    "ev_ano_igual": 28,
+    "ev_biometrica": 265,
+    "ev_voto": 315
+   }
+  }
+ },
+ "H38": {
+  "pico_lula": {
+   "no_zero": 13004,
+   "media_vizinhos_-2_a_2": 12778.8,
+   "razao": 1.018,
+   "contagem_-3_a_3": {
+    "-3": 12129,
+    "-2": 12220,
+    "-1": 12798,
+    "0": 13004,
+    "1": 13109,
+    "2": 12988,
+    "3": 13034
+   }
+  },
+  "pico_flavio": {
+   "no_zero": 12752,
+   "media_vizinhos_-2_a_2": 12514.8,
+   "razao": 1.019,
+   "contagem_-3_a_3": {
+    "-3": 12312,
+    "-2": 12429,
+    "-1": 12570,
+    "0": 12752,
+    "1": 12666,
+    "2": 12394,
+    "3": 12482
+   }
+  },
+  "secoes_casadas_2022_2026": 461195,
+  "lula_2026_igual_lula_2022": 13004,
+  "pct": 2.82,
+  "flavio_2026_igual_bolsonaro_2022": 12752,
+  "pct_espelho": 2.76,
+  "os_dois_iguais": 371,
+  "boletim_inteiro_igual": 9
+ }
+}

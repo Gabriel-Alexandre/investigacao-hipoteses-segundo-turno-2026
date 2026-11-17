@@ -1,0 +1,10 @@
+zona,secao,municipio,log_digital_falhou,log_sem_digital_cadastrada,log_deviam_assinar,tre_assinaturas,tre_behb,tre_sem_biometria_citado,tre_behb_sem_assinatura,tre_assinaturas_com_biometria_cadastrada,tre_todos_assinaram,secao_citada,behb_menos_log,minimo_sem_assinatura
+121,274,Cabo de Santo Agostinho,13,97,110,,,,,,sim,24,,
+105,247,Caruaru,25,79,104,,24.0,,6.0,,nao,247,-1.0,6.0
+105,318,Caruaru,36,1,37,,,,,4.0,,318,,32.0
+105,356,Caruaru,5,142,147,,5.0,,0.0,,sim,356,0.0,0.0
+106,321,Caruaru,25,98,123,95.0,29.0,,,,nao,321,4.0,28.0
+106,325,Caruaru,11,156,167,163.0,14.0,,,,nao,325,3.0,4.0
+101,724,Jaboatao dos Guararapes,11,97,108,104.0,,97.0,,,nao,724,,4.0
+54,185,Jatauba,257,27,284,,,,,,sim,185,,
+88,26,Joao Alfredo,19,22,41,,,,,,sim,26,,

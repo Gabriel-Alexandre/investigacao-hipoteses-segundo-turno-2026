@@ -58,3 +58,11 @@
 - **Pedido:** aprofundar tudo o que os 908 comentários dos dias 31/10 a 10/11 pediam e que o dado já salvo responde. **Feito:** H33 (seções abertas depois das 17h), H34 (mudança de local), H35 (cidades bolsonaristas, com 2022 de espelho) e H36 (conferências de fato: exterior, Santa Catarina, seção com mais votantes que aptos); validação 7 de 7.
 - **Contagem:** 8 desmentidas, 19 não sustentadas, 4 compatíveis com as duas, 2 não testadas (33 linhas). Soma do pior caso: 383.588 (8,66%), igual (com a ressalva da nota N4).
 - **Fora:** o "voto casado" é só contexto (o número vem do projeto do vídeo 6); o conteúdo dos relatórios do TCU e dos TREs ainda não foi lido.
+
+## Rodada 5 · 17/11/2026 · a resposta do TRE-PE e os comentários depois do vídeo 26
+
+- **Pedido:** o episódio seguinte do Investigação Aberta, com a resposta do TRE-PE ao pedido por LAI (13/11) e as hipóteses novas dos comentários.
+- **Dados:** a resposta transcrita sem dado pessoal (`docs/lai/`, `dados/lai/`) e o log do 1º turno das 41 seções do pedido, baixado de novo do TSE (`dados/MANIFESTO_RODADA5.json`).
+- **H37, nova:** compatível com as duas, a conferir. 27 de 41 seções responderam, 12 pediram pedido novo; 0 impugnação em 24; 5 de 17 seções sem fiscal; o log bate com o que os cartórios contaram quando os dois contam a mesma coisa; pelo menos 74 liberações sem digital sem assinatura no caderno, em 5 seções; Jataúba explicada pela falha do leitor, com juiz e promotor.
+- **H38, nova:** desmentida (o número de 2022 não se repete em 2026 mais que o de 1 voto a mais ou a menos).
+- **Validação:** 9 de 9. **Contagem:** 9 desmentidas, 19 não sustentadas, 5 compatíveis com as duas, 2 não testadas (35 linhas). A soma do 2º turno não muda (a H37 é do 1º turno). Detalhe em `docs/RODADA_5.md`.

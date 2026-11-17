@@ -1,0 +1,42 @@
+zona,secao,municipio,tipo_resposta,secao_citada_na_resposta,ata_enviada,impugnacao_ou_protesto,fiscais_documentados,fiscais_partidos,assinaturas_caderno,sem_biometria_citado_pelo_cartorio,behb,behb_assinaram,behb_sem_assinatura,assinaturas_de_eleitores_com_biometria_cadastrada,todos_sem_biometria_assinaram,fonte,observacao
+61,124,Bom Conselho,conteudo,124,nao,nao,4,sem partido informado;PSD;PL;PL,,,,,,,,email,a ata registra 4 fiscais; o cartorio diz que nao ha equivalencia de 1 para 1 entre caderno e log
+121,274,Cabo de Santo Agostinho,conteudo,24,nao,nao,2,,,,,,,,sim,email,a resposta fala da secao 24 da 121a zona; o pedido era da secao 274
+105,247,Caruaru,conteudo,247,nao,nao_informado,2,,,,24,18,6,,nao,email,6 eleitores do BEHB sem assinatura; o cartorio atribui a falha dos mesarios com filas longas; nao afirma nada sobre impugnacao
+105,318,Caruaru,conteudo,318,nao,nao_informado,3,,,,,,,4,,email,pelo menos 3 fiscais; 4 assinaturas de eleitores com biometria cadastrada indicativas de habilitacao sem reconhecimento; o cartorio diz que isso isoladamente nao confirma a correspondencia
+105,356,Caruaru,conteudo,356,nao,nao_informado,3,,,,5,5,0,,sim,email,os 5 do BEHB assinaram
+106,321,Caruaru,conteudo,321,nao,nao,2,,95,,29,,,,nao,email,alguns do BEHB sem assinatura e assinaturas de quem votou com biometria; provavel equivoco dos mesarios
+106,325,Caruaru,conteudo,325,nao,nao,3,,163,,14,,,,nao,email,a grande maioria dos 14 do BEHB sem assinatura; 163 assinaturas em sua maioria de quem votou com biometria segundo o cartorio
+125,22,Condado,ata,22,sim,nao,1,PSD,,,,,,,,ata,ata anonimizada pelo cartorio; falta a pagina das linhas 28 a 52; lista eleitores com biometria nao reconhecida; urna com bateria fraca as 12h15 resolvida
+85,314,Igarassu,ata,314,sim,nao,1,PSD,,,,,,,,ata,troca de mesario as 7h33; 6 eleitores com acompanhante
+11,55,Jaboatao dos Guararapes,ata,55,sim,nao,0,,,,,,,,,ata,nao houve ocorrencia significativa; termino 18h27
+11,56,Jaboatao dos Guararapes,ata,56,sim,nao,0,,,,,,,,,ata,muitos idosos e acompanhantes; tumulto com a administradora do predio; 7 senhas as 17h10; termino 17h30
+11,103,Jaboatao dos Guararapes,ata,103,sim,nao,0,,,,,,,,,ata,eleitor suspenso nao votou; eleitora que a urna nao habilitava resolvida com o cartorio; termino 18h30
+11,283,Jaboatao dos Guararapes,ata,283,sim,nao,0,,,,,,,,,ata,a presidente escreveu que nao houve fiscal; trabalhou com 3 mesarios; botao confirma duro; atraso por eleitores com acompanhante
+101,724,Jaboatao dos Guararapes,conteudo,724,nao,nao,,,104,97,,,,,nao,email,o cartorio compara 104 assinaturas com 97 habilitacoes sem biometria
+118,77,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,86,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,95,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,151,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,165,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,259,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,270,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,281,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,320,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+118,342,Jaboatao dos Guararapes,peticao,,nao,,,,,,,,,,,email,a zona pede peticao no cartorio
+147,2,Jaboatao dos Guararapes,conteudo,2,nao,nao,,,,,,,,,,email,resposta conjunta das 6 secoes da 147a zona
+147,256,Jaboatao dos Guararapes,conteudo,256,nao,nao,,,,,,,,,,email,resposta conjunta das 6 secoes da 147a zona
+147,392,Jaboatao dos Guararapes,conteudo,392,nao,nao,,,,,,,,,,email,resposta conjunta das 6 secoes da 147a zona
+147,436,Jaboatao dos Guararapes,conteudo,436,nao,nao,,,,,,,,,,email,resposta conjunta das 6 secoes da 147a zona
+147,438,Jaboatao dos Guararapes,conteudo,438,nao,nao,,,,,,,,,,email,resposta conjunta das 6 secoes da 147a zona
+147,459,Jaboatao dos Guararapes,conteudo,459,nao,nao,,,,,,,,,,email,resposta conjunta das 6 secoes da 147a zona
+54,185,Jatauba,conteudo,185,nao,nao,2,PSD;PSD,,,,,,,sim,email,leitor biometrico do terminal do mesario sem funcionar desde o 1o eleitor; urna trocada antes da votacao; pausa das 9h08 as 9h21; juiz e promotor presentes; votacao seguiu pelo ano de nascimento
+88,26,Joao Alfredo,conteudo,26,nao,nao,1,,,,,,,,sim,email,todos os habilitados sem biometria assinaram
+78,23,Parnamirim,ata,23,sim,nao,0,,,,,,,,,ata,ata sem nenhuma ocorrencia escrita; termino 20h20
+55,50,Pesqueira,conteudo,50,nao,nao,,,,,,,,,,email,nenhuma das duas atas lista os eleitores sem biometria reconhecida
+55,209,Pesqueira,conteudo,209,nao,nao,,,,,,,,,,email,nenhuma das duas atas lista os eleitores sem biometria reconhecida
+3,808,Recife,site_tse,,nao,,,,,,,,,,,email,a zona responde que as informacoes estao no site do TSE
+7,460,Recife,identificacao,,nao,,,,,,,,,,,email,a zona pede o pedido pelo e-mail do cartorio ou presencial
+9,530,Recife,identificacao,,nao,,,,,,,,,,,email,a zona pede o pedido pelo e-mail do cartorio ou presencial
+81,15,Santa Maria da Boa Vista,conteudo,15,nao,nao,2,Uniao Progressista;Uniao Progressista,,,,,,,,email,a ata registra 2 fiscais
+71,244,Serra Talhada,conteudo,244,nao,nao,,,,,,,,,,email,caderno e ata disponiveis para consulta no cartorio; o cartorio nao tem registro de fiscais
+18,87,Vitoria de Santo Antao,ata_presencial,,nao,,,,,,,,,,,email,copia da ata anonimizada a disposicao no cartorio

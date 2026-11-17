@@ -31,3 +31,11 @@ Os pedidos do vídeo 8 (TSE, TRE-BA e TRE-PE, 21/10) seguem com o andamento regi
 | TRE-PE · 82034721135306 | 21/10 13h53 | 21/10 14h01 e 22/10 13h30: encaminhado à unidade responsável. **10/11 15h25: prorrogação do prazo por 10 dias (Lei 12.527, art. 11, §2º)** |
 
 O prazo legal de resposta é de 20 dias (Lei 12.527/2011, art. 11, §1º), até 10/11/2026, e **pode ser prorrogado por mais 10 dias, mediante justificativa expressa** (§2º). **Em 10/11, às 15h25, o TRE-PE avisou a prorrogação do pedido dele por 10 dias** (assunto *"Prorrogação de prazo para resposta (LAI)"*), o que leva o prazo a 20/11/2026. Nenhum aviso de prorrogação chegou do TSE nem do TRE-BA. A resposta do TSE de 23/10 **não responde** às 3 perguntas do pedido. Em caso de negativa, o recurso é de 10 dias (art. 15), dirigido à autoridade superior, que decide em 5.
+
+## Atualização de 17/11/2026
+
+| Protocolo | O que chegou depois de 10/11 |
+|---|---|
+| TRE-PE · 82034721135306 | **13/11 13h39: resposta**, com as respostas de 20 zonas sobre as 41 seções e 4 PDFs de ata. Transcrição sem dado pessoal: `docs/lai/TRE_PE_RESPOSTA_2026-11-13.md`; leitura: `docs/RODADA_5.md` |
+| TSE · 82032521133805 | nada novo depois do processo administrativo de 23/10; prazo com prorrogação até 20/11 |
+| TRE-BA · 82034321135124 | nada novo; prazo com prorrogação até 20/11 |
