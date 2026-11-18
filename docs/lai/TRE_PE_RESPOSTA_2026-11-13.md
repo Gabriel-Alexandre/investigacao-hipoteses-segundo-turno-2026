@@ -2,7 +2,7 @@
 
 Transcrição do e-mail, sem dado pessoal (nomes de pessoas trocados por `[nome]`; o requerente por `[requerente]`). Gerada por `ferramentas/transcrever_resposta_lai.py` a partir da impressão do e-mail (PDF, sha256 `c46e87810a5d7697543ac0ca490055e0db84845afd87f2268e730a297a11e298`). A tabela seção a seção está em `dados/lai/tre_pe_resposta_2026-11-13.csv` e a leitura em `docs/RODADA_5.md`.
 
-Os 4 anexos (atas das zonas 11, 78, 85 e 125) não estão neste repositório: a anonimização feita pelo cartório deixou primeiros nomes e, em uma página, um número de título inteiro. O conteúdo de cada ata, sem nomes, está em `docs/RODADA_5.md` (§ As seções que as atas explicam). Qualquer pessoa pode pedir as mesmas atas ao TRE-PE pela Ouvidoria. O travessão do original aparece como `--`.
+O e-mail e os 4 anexos (atas das zonas 11, 78, 85 e 125) estão em PDF, com tarja preta em todo nome, assinatura, rubrica, título e documento, em `dados/lai/tre-pe-2026-11-13/` (feitos por `ferramentas/mascarar_resposta_lai.py`; a anonimização do cartório tinha deixado primeiros nomes e, em uma página, um número de título inteiro). O conteúdo de cada ata está resumido em `docs/RODADA_5.md` (§ As seções que as atas explicam). Qualquer pessoa pode pedir as mesmas atas ao TRE-PE pela Ouvidoria. O travessão do original aparece como `--`.
 
 ```text
 [requerente] [e-mail do requerente]

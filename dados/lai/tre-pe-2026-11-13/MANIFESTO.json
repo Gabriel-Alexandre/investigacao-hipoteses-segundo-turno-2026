@@ -1,0 +1,37 @@
+{
+ "email": {
+  "arquivo": "resposta-do-tre-pe_2026-11-13_mascarada.pdf",
+  "paginas": 13,
+  "tarjas": 60,
+  "texto_que_sobrou": []
+ },
+ "atas": [
+  {
+   "arquivo": "Atas_ZE_11_mascarado.pdf",
+   "paginas": 11,
+   "caixas": 39
+  },
+  {
+   "arquivo": "Atas_ZE_78_mascarado.pdf",
+   "paginas": 4,
+   "caixas": 4
+  },
+  {
+   "arquivo": "Atas_ZE_85_mascarado.pdf",
+   "paginas": 3,
+   "caixas": 8
+  },
+  {
+   "arquivo": "Atas_ZE_125_mascarado.pdf",
+   "paginas": 3,
+   "caixas": 22
+  }
+ ],
+ "sha256": {
+  "Atas_ZE_11_mascarado.pdf": "25f536e734e0de8b3f5d5502835821b870b06bcdbfe12a65e9afc139a1583a20",
+  "Atas_ZE_125_mascarado.pdf": "965876c965a777963b0ed65a6fac90ed44d783a08e4b89cfd197418586265d67",
+  "Atas_ZE_78_mascarado.pdf": "6488a068a79040e5624b3294bb940b8c64d2e93c33b57c22f31556aebd8e38ab",
+  "Atas_ZE_85_mascarado.pdf": "bd29793b0bf931348fa1a42b9bf91c9422f1a6e5bd61ed926a9e9dff5597938e",
+  "resposta-do-tre-pe_2026-11-13_mascarada.pdf": "4c20f6ba8b530112bdcf898ae0add3ff6836e7f5320ff365cc8e0cb450ed9505"
+ }
+}

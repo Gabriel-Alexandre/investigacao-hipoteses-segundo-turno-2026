@@ -25,7 +25,7 @@
 | a ata está disponível só no cartório | 1 | 18 |
 | responderam que a informação está no site do TSE | 1 | 3 |
 
-O caderno de votação e a ata não estão no site do TSE. Os 4 anexos são atas de 7 seções: zona 11 (seções 55, 56, 103 e 283), 78 (23), 85 (314) e 125 (22).
+O caderno de votação e a ata não estão no site do TSE. Os 4 anexos são atas de 7 seções: zona 11 (seções 55, 56, 103 e 283), 78 (23), 85 (314) e 125 (22). O e-mail e as atas, com tarja em todo dado pessoal, estão em [`dados/lai/tre-pe-2026-11-13/`](../dados/lai/tre-pe-2026-11-13/LEIA-ME.md).
 
 ⚠️ A 121ª zona respondeu sobre a **seção 24**; o pedido era da **274**. A resposta (*"todos os eleitores habilitados sem biometria assinaram"*) vale para a 24, que teve 17 eleitores liberados sem a digital; a 274 teve 110 e ficou sem resposta.
 
