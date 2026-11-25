@@ -39,3 +39,11 @@ O prazo legal de resposta é de 20 dias (Lei 12.527/2011, art. 11, §1º), até 
 | TRE-PE · 82034721135306 | **13/11 13h39: resposta**, com as respostas de 20 zonas sobre as 41 seções e 4 PDFs de ata. Transcrição sem dado pessoal: `docs/lai/TRE_PE_RESPOSTA_2026-11-13.md`; leitura: `docs/RODADA_5.md` |
 | TSE · 82032521133805 | nada novo depois do processo administrativo de 23/10; prazo com prorrogação até 20/11 |
 | TRE-BA · 82034321135124 | nada novo; prazo com prorrogação até 20/11 |
+
+## Atualização de 24/11/2026 (rodada 6)
+
+| Protocolo | O que chegou |
+|---|---|
+| TSE · 82032521133805 | **19/11 17h14: resposta**, com o anexo *"Resposta Institucional"*. Transcrição sem dado pessoal: `docs/lai/TSE_RESPOSTA_2026-11-19.md`; e-mail com tarja e o anexo em `dados/lai/tse-2026-11-19/`; leitura contra o arquivo público: `docs/RODADA_6.md` (H39). O item 2 do pedido (o que o campo de hora registra) ficou sem resposta |
+| TRE-BA · 82034321135124 | **24/11 13h11: indeferido** na forma de conferência; as cópias das atas *"em avaliação"*; recurso em 10 dias (até 04/12/2026). Transcrição: `docs/lai/TRE_BA_RESPOSTA_2026-11-24.md`; e-mail com tarja em `dados/lai/tre-ba-2026-11-24/` |
+| TRE-PE · 82034721135306 | respondido em 13/11 (rodada 5) |

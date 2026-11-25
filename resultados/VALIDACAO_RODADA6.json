@@ -1,0 +1,41 @@
+{
+ "conferidos": 7,
+ "ok": 7,
+ "testes": [
+  {
+   "teste": "buraco também no campo recebido do aux.json",
+   "ok": true,
+   "detalhe": "0 boletins entre 19:31:50 e 19:59:22 em 389857 seções com esse campo"
+  },
+  {
+   "teste": "2º turno: válidos somados seção a seção = oficial",
+   "ok": true,
+   "detalhe": "seções 124082273; oficial 124082273"
+  },
+  {
+   "teste": "2º turno: o que falta nos boletins eletrônicos é o voto das seções sem boletim eletrônico",
+   "ok": true,
+   "detalhe": "faltam 798 votos; as 70 seções sem boletim eletrônico somam 798"
+  },
+  {
+   "teste": "1º turno: Lula na soma das seções = oficial, com 2 casas",
+   "ok": true,
+   "detalhe": "seções 45.16%; oficial 45.16%"
+  },
+  {
+   "teste": "H40 pelo oficial: a diferença entre os grupos fica abaixo de 0,5 ponto",
+   "ok": true,
+   "detalhe": "mediana com 2º turno para governador 5.83, sem 5.75 (análise: 5.83 e 5.75)"
+  },
+  {
+   "teste": "H41: números em 2+ municípios, contados direto no texto",
+   "ok": true,
+   "detalhe": "texto 8; análise 8"
+  },
+  {
+   "teste": "H41: liberou eleitor nas 2 pontas",
+   "ok": true,
+   "detalhe": "texto 0; análise 0"
+  }
+ ]
+}

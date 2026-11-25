@@ -1,0 +1,9 @@
+turno,codigo,municipios,municipios_em_que_atuou,lugares
+1,183947de7f7c,2,0,DIADEMA hab=0 bio=0 reg_fim=False; GUARACI hab=0 bio=0 reg_fim=False
+1,3bd5f2994950,2,1,MOGI MIRIM hab=7 bio=7 reg_fim=False; PETROPOLIS hab=0 bio=0 reg_fim=False
+1,5a782e972ad2,2,1,BRAGANCA hab=2 bio=2 reg_fim=False; RIO MARIA hab=0 bio=0 reg_fim=True
+1,6dcfa945b5cf,2,0,JOSE BONIFACIO hab=0 bio=0 reg_fim=False; SAO VICENTE hab=0 bio=0 reg_fim=False
+1,9cf70dc9436f,2,0,ATALEIA hab=0 bio=0 reg_fim=False; GOIANESIA hab=0 bio=0 reg_fim=False
+2,37c85cf097e5,2,0,CAMACAN hab=0 bio=0 reg_fim=False; JUAZEIRO hab=0 bio=0 reg_fim=False
+2,73e0bd945c90,2,0,ALAGOINHAS hab=0 bio=0 reg_fim=False; PORTO SEGURO hab=0 bio=0 reg_fim=False
+2,f459ee5b6c27,2,0,CASA NOVA hab=0 bio=0 reg_fim=True; PORTO SEGURO hab=0 bio=0 reg_fim=False

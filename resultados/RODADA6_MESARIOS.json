@@ -1,0 +1,487 @@
+{
+ "secoes_lidas": 5310,
+ "eventos_lidos": 546418,
+ "eventos_fora_do_dia": 135346,
+ "por_tipo_de_evento": {
+  "mesario_registro": {
+   "codigos": 21384,
+   "em_2_ou_mais_municipios": 8
+  },
+  "mesario_habilita": {
+   "codigos": 8279,
+   "em_2_ou_mais_municipios": 2
+  },
+  "mesario_biometria": {
+   "codigos": 8279,
+   "em_2_ou_mais_municipios": 2
+  },
+  "mesario_secao": {
+   "codigos": 21384,
+   "em_2_ou_mais_municipios": 8
+  },
+  "mesario_pedido": {
+   "codigos": 21437,
+   "em_2_ou_mais_municipios": 8
+  },
+  "encerramento": {
+   "codigos": 5588,
+   "em_2_ou_mais_municipios": 1
+  },
+  "midia": {
+   "codigos": 38,
+   "em_2_ou_mais_municipios": 0
+  }
+ },
+ "pares_dos_reels": [
+  {
+   "a": "BRAGANCA",
+   "b": "RIO MARIA",
+   "turno": "1",
+   "o_reel_diz": "2 s",
+   "secoes_baixadas_a": 341,
+   "secoes_baixadas_b": 50,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 2,
+   "detalhe": [
+    {
+     "codigo": "5a782e972ad2",
+     "menor_intervalo_s": 2,
+     "eventos_a": [
+      "mesario_biometria",
+      "mesario_habilita",
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  },
+  {
+   "a": "DIADEMA",
+   "b": "GUARACI",
+   "turno": "1",
+   "o_reel_diz": "6 min",
+   "secoes_baixadas_a": 937,
+   "secoes_baixadas_b": 27,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 47,
+   "detalhe": [
+    {
+     "codigo": "183947de7f7c",
+     "menor_intervalo_s": 47,
+     "eventos_a": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  },
+  {
+   "a": "ATALEIA",
+   "b": "GOIANESIA",
+   "turno": "1",
+   "o_reel_diz": "7 min",
+   "secoes_baixadas_a": 38,
+   "secoes_baixadas_b": 172,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 3,
+   "detalhe": [
+    {
+     "codigo": "9cf70dc9436f",
+     "menor_intervalo_s": 3,
+     "eventos_a": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  },
+  {
+   "a": "MOGI MIRIM",
+   "b": "PETROPOLIS",
+   "turno": "1",
+   "o_reel_diz": "16 min",
+   "secoes_baixadas_a": 215,
+   "secoes_baixadas_b": 804,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 5,
+   "detalhe": [
+    {
+     "codigo": "3bd5f2994950",
+     "menor_intervalo_s": 5,
+     "eventos_a": [
+      "mesario_biometria",
+      "mesario_habilita",
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  },
+  {
+   "a": "JOSE BONIFACIO",
+   "b": "SAO VICENTE",
+   "turno": "1",
+   "o_reel_diz": "17 min",
+   "secoes_baixadas_a": 83,
+   "secoes_baixadas_b": 766,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 1033,
+   "detalhe": [
+    {
+     "codigo": "6dcfa945b5cf",
+     "menor_intervalo_s": 1033,
+     "eventos_a": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "mesario_pedido"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  },
+  {
+   "a": "PORTO SEGURO",
+   "b": "CASA NOVA",
+   "turno": "2",
+   "o_reel_diz": "22 s",
+   "secoes_baixadas_a": 323,
+   "secoes_baixadas_b": 185,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 14,
+   "detalhe": [
+    {
+     "codigo": "f459ee5b6c27",
+     "menor_intervalo_s": 14,
+     "eventos_a": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  },
+  {
+   "a": "CAMACAN",
+   "b": "JUAZEIRO",
+   "turno": "2",
+   "o_reel_diz": "32 s",
+   "secoes_baixadas_a": 66,
+   "secoes_baixadas_b": 495,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 26,
+   "detalhe": [
+    {
+     "codigo": "37c85cf097e5",
+     "menor_intervalo_s": 26,
+     "eventos_a": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "mesario_pedido"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  },
+  {
+   "a": "ALAGOINHAS",
+   "b": "PORTO SEGURO",
+   "turno": "2",
+   "o_reel_diz": "37 s",
+   "secoes_baixadas_a": 366,
+   "secoes_baixadas_b": 323,
+   "codigos_de_mesario_em_comum": 1,
+   "menor_intervalo_s": 37,
+   "detalhe": [
+    {
+     "codigo": "73e0bd945c90",
+     "menor_intervalo_s": 37,
+     "eventos_a": [
+      "mesario_pedido",
+      "mesario_registro",
+      "mesario_secao"
+     ],
+     "eventos_b": [
+      "encerramento"
+     ],
+     "secoes_a": 1,
+     "secoes_b": 1
+    }
+   ]
+  }
+ ],
+ "mesario_em_2_ou_mais_municipios": {
+  "codigos": 8,
+  "atuou_em_2_ou_mais_municipios": 0,
+  "atuou_em_1_e_so_foi_digitado_no_outro": 2,
+  "nao_atuou_em_nenhum": 6
+ },
+ "casos": [
+  {
+   "turno": "1",
+   "codigo": "183947de7f7c",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "DIADEMA",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 1,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:23:23",
+     "ultimo": "15:08:17"
+    },
+    {
+     "municipio": "GUARACI",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 2,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:30:10",
+     "ultimo": "17:04:07"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 0,
+   "so_digitado_no_registro_em_algum_lugar": true
+  },
+  {
+   "turno": "1",
+   "codigo": "3bd5f2994950",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "MOGI MIRIM",
+     "habilitou_eleitores": 7,
+     "biometria_encontrada": 7,
+     "registros": 1,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:25:32",
+     "ultimo": "14:11:51"
+    },
+    {
+     "municipio": "PETROPOLIS",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 1,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:42:52",
+     "ultimo": "09:43:07"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 1,
+   "so_digitado_no_registro_em_algum_lugar": true
+  },
+  {
+   "turno": "1",
+   "codigo": "5a782e972ad2",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "BRAGANCA",
+     "habilitou_eleitores": 2,
+     "biometria_encontrada": 2,
+     "registros": 2,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "08:02:24",
+     "ultimo": "17:07:57"
+    },
+    {
+     "municipio": "RIO MARIA",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 1,
+     "registro_so_no_fim_do_dia": true,
+     "primeiro": "17:07:53",
+     "ultimo": "17:08:00"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 1,
+   "so_digitado_no_registro_em_algum_lugar": true
+  },
+  {
+   "turno": "1",
+   "codigo": "6dcfa945b5cf",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "JOSE BONIFACIO",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 1,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:15:09",
+     "ultimo": "16:52:10"
+    },
+    {
+     "municipio": "SAO VICENTE",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 0,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:32:37",
+     "ultimo": "07:32:37"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 0,
+   "so_digitado_no_registro_em_algum_lugar": true
+  },
+  {
+   "turno": "1",
+   "codigo": "9cf70dc9436f",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "ATALEIA",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 2,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:22:09",
+     "ultimo": "17:03:30"
+    },
+    {
+     "municipio": "GOIANESIA",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 2,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:51:21",
+     "ultimo": "17:11:13"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 0,
+   "so_digitado_no_registro_em_algum_lugar": true
+  },
+  {
+   "turno": "2",
+   "codigo": "37c85cf097e5",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "CAMACAN",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 4,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:09:06",
+     "ultimo": "17:17:36"
+    },
+    {
+     "municipio": "JUAZEIRO",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 0,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "17:03:39",
+     "ultimo": "17:03:39"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 0,
+   "so_digitado_no_registro_em_algum_lugar": true
+  },
+  {
+   "turno": "2",
+   "codigo": "73e0bd945c90",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "ALAGOINHAS",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 4,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:31:04",
+     "ultimo": "17:02:17"
+    },
+    {
+     "municipio": "PORTO SEGURO",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 0,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "17:00:58",
+     "ultimo": "17:00:58"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 0,
+   "so_digitado_no_registro_em_algum_lugar": true
+  },
+  {
+   "turno": "2",
+   "codigo": "f459ee5b6c27",
+   "municipios": 2,
+   "lugares": [
+    {
+     "municipio": "CASA NOVA",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 1,
+     "registro_so_no_fim_do_dia": true,
+     "primeiro": "17:03:08",
+     "ultimo": "17:03:15"
+    },
+    {
+     "municipio": "PORTO SEGURO",
+     "habilitou_eleitores": 0,
+     "biometria_encontrada": 0,
+     "registros": 4,
+     "registro_so_no_fim_do_dia": false,
+     "primeiro": "07:13:01",
+     "ultimo": "17:19:31"
+    }
+   ],
+   "municipios_em_que_liberou_eleitor_ou_teve_biometria": 0,
+   "so_digitado_no_registro_em_algum_lugar": true
+  }
+ ],
+ "regua_mesmo_municipio": {
+  "codigos_em_2_ou_mais_secoes_do_mesmo_municipio": 140
+ },
+ "codigos_de_mesario_no_total": 21602
+}

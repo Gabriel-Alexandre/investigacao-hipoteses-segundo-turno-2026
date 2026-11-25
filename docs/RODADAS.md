@@ -66,3 +66,14 @@
 - **H37, nova:** compatível com as duas, a conferir. 27 de 41 seções responderam, 12 pediram pedido novo; 0 impugnação em 24; 5 de 17 seções sem fiscal; o log bate com o que os cartórios contaram quando os dois contam a mesma coisa; pelo menos 74 liberações sem digital sem assinatura no caderno, em 5 seções; Jataúba explicada pela falha do leitor, com juiz e promotor.
 - **H38, nova:** desmentida (o número de 2022 não se repete em 2026 mais que o de 1 voto a mais ou a menos).
 - **Validação:** 9 de 9. **Contagem:** 9 desmentidas, 19 não sustentadas, 5 compatíveis com as duas, 2 não testadas (35 linhas). A soma do 2º turno não muda (a H37 é do 1º turno). Detalhe em `docs/RODADA_5.md`.
+
+## Rodada 6 · 24/11/2026 · as respostas do TSE e do TRE-BA, e o "mesmo mesário em 2 cidades"
+
+- **Pedido:** o episódio seguinte do Investigação Aberta, com a resposta do TSE (19/11) e a do TRE-BA (24/11) ao pedido por LAI e as hipóteses dos comentários do YouTube, do Instagram, do LinkedIn e do X (17 a 24/11).
+- **Dados:** as respostas transcritas sem dado pessoal (`docs/lai/`, `dados/lai/`) e o diário e o `aux.json` das urnas das cidades citadas nos reels, nos 2 turnos (`dados/MANIFESTO_RODADA6.json`; os corpos fora do git).
+- **H39, nova:** a pausa do 1º turno contra a resposta do TSE. O arquivo público não tem boletim das 19h31m50 às 19h59m22; os números da tela são a soma dos boletins até a casa decimal; o pulo vem da composição da janela. Sem explicação: 2 paradas menores e o item 2 do pedido. **Desmentida.**
+- **H40, nova:** o 2º turno para governador: o Lula cresceu o mesmo tanto com e sem (+5,83 × +5,75; 2022 igual). **Não sustentada.**
+- **H41, nova:** o mesmo mesário em 2 cidades: 5.310 urnas lidas; 8 pares dos reels com as 2 cidades baixadas, 8 com o número em comum; 8 números de mesário em 2 ou mais cidades, **0** liberando eleitor nas 2 (2 atuaram numa cidade e na outra só foram digitados no registro ou no encerramento; 6 não liberaram ninguém em nenhuma). **Desmentida nos casos conferidos.**
+- **H42, nova:** o "DE-PARA": a soma dos boletins dá o total oficial. **Desmentida.**
+- **TRE-BA:** indeferiu a conferência; as atas em avaliação; recurso até 04/12.
+- **Validação:** 7 de 7. **Contagem:** 12 desmentidas, 20 não sustentadas, 5 compatíveis com as duas, 2 não testadas (39 linhas). A soma do pior caso do 2º turno não muda. Detalhe em `docs/RODADA_6.md`.

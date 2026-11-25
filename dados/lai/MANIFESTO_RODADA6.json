@@ -1,0 +1,19 @@
+[
+ {
+  "arquivo": "dados/lai/tse-2026-11-19/2026-11-19_1714_tse_email_82032521133805_mascarado.pdf",
+  "tarjas": 6,
+  "texto_no_pdf": 0,
+  "sha256": "8f29bb7cf83489f62590dde363463e44fa006d38f26336d40483da3c1dd93b5e"
+ },
+ {
+  "arquivo": "dados/lai/tre-ba-2026-11-24/2026-11-24_1311_tre-ba_email_82034321135124_mascarado.pdf",
+  "tarjas": 6,
+  "texto_no_pdf": 0,
+  "sha256": "fd6b99f02ad88eb4652c596303b1b7eaacf61b5b146d67a91d52cda7977b3ca3"
+ },
+ {
+  "arquivo": "dados/lai/tse-2026-11-19/resposta-institucional-do-tse_2026-11-19.docx",
+  "sha256": "8360a4792f0cda2110006721c5836e3cad76d03ae8b991aee6fc35f579e64edf",
+  "observacao": "o anexo como chegou: sem dado pessoal e sem autor nos metadados"
+ }
+]

@@ -1,0 +1,416 @@
+{
+ "H39": {
+  "secoes_1t": 499248,
+  "secoes_sem_voto_casado": 51,
+  "ate": [
+   {
+    "hora": "19:14:00",
+    "secoes": 371939,
+    "pct": 74.5
+   },
+   {
+    "hora": "19:31:50",
+    "secoes": 425110,
+    "pct": 85.15
+   },
+   {
+    "hora": "19:59:22",
+    "secoes": 425177,
+    "pct": 85.16
+   },
+   {
+    "hora": "20:04:00",
+    "secoes": 444847,
+    "pct": 89.1
+   }
+  ],
+  "buraco_no_arquivo": {
+   "de": "19:31:50",
+   "ate": "19:59:22",
+   "minutos": 27.5
+  },
+  "todos_os_buracos_de_mais_de_2_min": [
+   {
+    "de": "18:01:00",
+    "ate": "18:08:47",
+    "minutos": 7.8,
+    "pct_antes": 15.62
+   },
+   {
+    "de": "18:49:47",
+    "ate": "18:53:59",
+    "minutos": 4.2,
+    "pct_antes": 54.69
+   },
+   {
+    "de": "19:31:50",
+    "ate": "19:59:22",
+    "minutos": 27.5,
+    "pct_antes": 85.15
+   }
+  ],
+  "o_que_a_resposta_nao_explica": [
+   "os 2 buracos menores (18h01 a 18h09 e 18h50 a 18h54)",
+   "o item 2 do pedido: o que o campo de hora do arquivo público registra (a resposta não diz; o dado mostra que ele para quando a totalização para)"
+  ],
+  "boletins_nos_4_min_depois_do_buraco": 19235,
+  "ritmo_por_minuto_antes_19h25_19h31": 1658,
+  "ritmo_por_minuto_20h04_20h10": 504,
+  "pontos_da_tela": [
+   {
+    "ponto": "P04",
+    "hora_na_tela": "19:06",
+    "pct_secoes": 64.81,
+    "corresponde_ao_totalizado_ate": "19:03:56",
+    "flavio_dado": 49.56,
+    "flavio_tela": 49.58,
+    "lula_dado": 42.27,
+    "lula_tela": 42.25
+   },
+   {
+    "ponto": "P05",
+    "hora_na_tela": "20:08",
+    "pct_secoes": 84.96,
+    "corresponde_ao_totalizado_ate": "19:31:11",
+    "flavio_dado": 48.46,
+    "flavio_tela": 48.47,
+    "lula_dado": 43.49,
+    "lula_tela": 43.49
+   },
+   {
+    "ponto": "P07",
+    "hora_na_tela": "20:31",
+    "pct_secoes": 90.56,
+    "corresponde_ao_totalizado_ate": "20:18:56",
+    "flavio_dado": 48.02,
+    "flavio_tela": 48.02,
+    "lula_dado": 44.0,
+    "lula_tela": 44.0
+   },
+   {
+    "ponto": "P13",
+    "hora_na_tela": "s/h",
+    "pct_secoes": 99.63,
+    "corresponde_ao_totalizado_ate": "21:48:19",
+    "flavio_dado": 47.11,
+    "flavio_tela": 47.11,
+    "lula_dado": 45.07,
+    "lula_tela": 45.07
+   },
+   {
+    "ponto": "P14",
+    "hora_na_tela": "22:56",
+    "pct_secoes": 99.95,
+    "corresponde_ao_totalizado_ate": "22:48:32",
+    "flavio_dado": 47.04,
+    "flavio_tela": 47.0,
+    "lula_dado": 45.14,
+    "lula_tela": 45.2
+   }
+  ],
+  "salto_64_81_a_84_96": {
+   "secoes": 100598,
+   "das": "19:03:56",
+   "ate": "19:31:11",
+   "lula_pct_no_salto": 47.22,
+   "flavio_pct_no_salto": 45.1,
+   "regiao_no_salto_pct": {
+    "Sudeste": 49.5,
+    "Nordeste": 31.6,
+    "Sul": 8.4,
+    "Norte": 6.5,
+    "Centro-Oeste": 4.1,
+    "Exterior": 0.1
+   },
+   "regiao_antes_pct": {
+    "Sudeste": 38.1,
+    "Nordeste": 22.7,
+    "Sul": 19.0,
+    "Centro-Oeste": 9.9,
+    "Norte": 9.9,
+    "Exterior": 0.3
+   }
+  },
+  "afirmacoes_do_tse": {
+   "falha_arquivo_nacional": "~19h14, com 64,81%",
+   "totalizacao_suspensa": "19h32 a 19h59",
+   "volta_do_arquivo_nacional": "20h04, com 84,96%"
+  }
+ },
+ "TRE_BA": {
+  "protocolo": "82034321135124",
+  "resposta": "2026-11-24 13:11",
+  "secoes_pedidas": 26,
+  "itens_negados": "1 a 5 na forma de conferência (caderno contra o log, ocorrências, fiscais)",
+  "base_da_negativa": "Lei 12.527/2011 e Res. CNJ 215/2015, art. 12, III (trabalho adicional de análise, interpretação ou consolidação)",
+  "pedido_alternativo": "cópia das atas: 'será avaliada a viabilidade de atendimento pelas unidades competentes'",
+  "recurso": "10 dias a contar de 24/11/2026 (até 04/12/2026), pela opção de recurso do próprio e-mail",
+  "comparacao_tre_pe": "o TRE-PE respondeu 27 de 41 seções e mandou 4 PDFs de ata (rodada 5)"
+ },
+ "H40": {
+  "2026": {
+   "sem_2t_governador": {
+    "estados": [
+     "al",
+     "ap",
+     "ba",
+     "ce",
+     "go",
+     "ma",
+     "mg",
+     "ms",
+     "mt",
+     "pa",
+     "pb",
+     "pe",
+     "pi",
+     "pr",
+     "rj",
+     "ro",
+     "rr",
+     "rs",
+     "sc",
+     "se",
+     "sp"
+    ],
+    "comparecimento_mudou_pontos": 1.96,
+    "lula_mudou_pontos_mediana_dos_estados": 5.75,
+    "lula_mudou_pontos_somado": 6.66
+   },
+   "com_2t_governador": {
+    "estados": [
+     "ac",
+     "am",
+     "df",
+     "es",
+     "rn",
+     "to"
+    ],
+    "comparecimento_mudou_pontos": 0.54,
+    "lula_mudou_pontos_mediana_dos_estados": 5.83,
+    "lula_mudou_pontos_somado": 6.2
+   },
+   "dentro_da_regiao": [
+    {
+     "regiao": "Centro-Oeste",
+     "com": [
+      "df"
+     ],
+     "sem": [
+      "go",
+      "ms",
+      "mt"
+     ],
+     "dcomp_com": 1.61,
+     "dcomp_sem": 1.49,
+     "dlula_com": 7.62,
+     "dlula_sem": 5.72
+    },
+    {
+     "regiao": "Nordeste",
+     "com": [
+      "rn"
+     ],
+     "sem": [
+      "al",
+      "ba",
+      "ce",
+      "ma",
+      "pb",
+      "pe",
+      "pi",
+      "se"
+     ],
+     "dcomp_com": 2.32,
+     "dcomp_sem": 1.61,
+     "dlula_com": 5.97,
+     "dlula_sem": 5.7
+    },
+    {
+     "regiao": "Norte",
+     "com": [
+      "ac",
+      "am",
+      "to"
+     ],
+     "sem": [
+      "ap",
+      "pa",
+      "ro",
+      "rr"
+     ],
+     "dcomp_com": -1.52,
+     "dcomp_sem": -3.62,
+     "dlula_com": 5.21,
+     "dlula_sem": 4.9
+    },
+    {
+     "regiao": "Sudeste",
+     "com": [
+      "es"
+     ],
+     "sem": [
+      "mg",
+      "rj",
+      "sp"
+     ],
+     "dcomp_com": 1.91,
+     "dcomp_sem": 2.49,
+     "dlula_com": 5.87,
+     "dlula_sem": 7.49
+    }
+   ]
+  },
+  "2022": {
+   "sem_2t_governador": {
+    "estados": [
+     "ac",
+     "ap",
+     "ce",
+     "df",
+     "go",
+     "ma",
+     "mg",
+     "mt",
+     "pa",
+     "pi",
+     "pr",
+     "rj",
+     "rn",
+     "rr",
+     "to"
+    ],
+    "comparecimento_mudou_pontos": 0.24,
+    "lula_mudou_pontos_mediana_dos_estados": 2.12,
+    "lula_mudou_pontos_somado": 2.29
+   },
+   "com_2t_governador": {
+    "estados": [
+     "al",
+     "am",
+     "ba",
+     "es",
+     "ms",
+     "pb",
+     "pe",
+     "ro",
+     "rs",
+     "sc",
+     "se",
+     "sp"
+    ],
+    "comparecimento_mudou_pontos": 0.47,
+    "lula_mudou_pontos_mediana_dos_estados": 1.61,
+    "lula_mudou_pontos_somado": 2.62
+   },
+   "dentro_da_regiao": [
+    {
+     "regiao": "Centro-Oeste",
+     "com": [
+      "ms"
+     ],
+     "sem": [
+      "df",
+      "go",
+      "mt"
+     ],
+     "dcomp_com": -0.27,
+     "dcomp_sem": 0.85,
+     "dlula_com": 1.47,
+     "dlula_sem": 1.77
+    },
+    {
+     "regiao": "Nordeste",
+     "com": [
+      "al",
+      "ba",
+      "pb",
+      "pe",
+      "se"
+     ],
+     "sem": [
+      "ce",
+      "ma",
+      "pi",
+      "rn"
+     ],
+     "dcomp_com": 0.55,
+     "dcomp_sem": -0.37,
+     "dlula_com": 2.4,
+     "dlula_sem": 2.45
+    },
+    {
+     "regiao": "Norte",
+     "com": [
+      "am",
+      "ro"
+     ],
+     "sem": [
+      "ac",
+      "ap",
+      "pa",
+      "rr",
+      "to"
+     ],
+     "dcomp_com": -0.89,
+     "dcomp_sem": -5.22,
+     "dlula_com": 0.94,
+     "dlula_sem": 0.96
+    },
+    {
+     "regiao": "Sudeste",
+     "com": [
+      "es",
+      "sp"
+     ],
+     "sem": [
+      "mg",
+      "rj"
+     ],
+     "dcomp_com": 0.39,
+     "dcomp_sem": 0.89,
+     "dlula_com": 2.71,
+     "dlula_sem": 2.35
+    },
+    {
+     "regiao": "Sul",
+     "com": [
+      "rs",
+      "sc"
+     ],
+     "sem": [
+      "pr"
+     ],
+     "dcomp_com": 0.74,
+     "dcomp_sem": 0.85,
+     "dlula_com": 1.28,
+     "dlula_sem": 1.61
+    }
+   ]
+  },
+  "fonte_2t_governador_2026": "pesquisas-e-resultado-segundo-turno-2026, dados/derivados/governador.csv (TSE)",
+  "fonte_2t_governador_2022": "TSE, eleições 2022: AL, AM, BA, ES, MS, PB, PE, RO, RS, SC, SE e SP"
+ },
+ "H42": {
+  "secoes": 499248,
+  "validos_soma_de_todas_as_secoes": 124082273,
+  "validos_oficial": 124082273,
+  "soma_igual_ao_oficial": true,
+  "boletins_eletronicos_lula": 64255787,
+  "boletins_eletronicos_flavio": 59825688,
+  "oficial_lula": 64256232,
+  "oficial_flavio": 59826041,
+  "secoes_sem_boletim_eletronico": {
+   "total": 70,
+   "por_origem": {
+    "Totalização": 41,
+    "Sistema de apuração": 29
+   },
+   "votos_validos": 798
+  },
+  "diferenca_lula_mais_flavio": 798,
+  "lula_pct_boletins": 51.79,
+  "rdv_igual_ao_boletim_secoes": 499177,
+  "secoes_com_rdv": 499177
+ }
+}
